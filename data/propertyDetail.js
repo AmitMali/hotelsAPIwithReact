@@ -1,8953 +1,5475 @@
-{
-  "data": {
-    "propertySearch": {
-      "__typename": "PropertySearchResults",
-      "filterMetadata": {
-        "__typename": "PropertyFilterMetadata",
-        "amenities": [
-          {
-            "__typename": "PropertyAmenityValue",
-            "id": 7
-          },
-          {
-            "__typename": "PropertyAmenityValue",
-            "id": 83
-          },
-          {
-            "__typename": "PropertyAmenityValue",
-            "id": 14
-          },
-          {
-            "__typename": "PropertyAmenityValue",
-            "id": 82
-          },
-          {
-            "__typename": "PropertyAmenityValue",
-            "id": 16
-          },
-          {
-            "__typename": "PropertyAmenityValue",
-            "id": 19
-          },
-          {
-            "__typename": "PropertyAmenityValue",
-            "id": 27
-          },
-          {
-            "__typename": "PropertyAmenityValue",
-            "id": 71
-          },
-          {
-            "__typename": "PropertyAmenityValue",
-            "id": 73
-          },
-          {
-            "__typename": "PropertyAmenityValue",
-            "id": 80
-          },
-          {
-            "__typename": "PropertyAmenityValue",
-            "id": 81
-          },
-          {
-            "__typename": "PropertyAmenityValue",
-            "id": 84
-          },
-          {
-            "__typename": "PropertyAmenityValue",
-            "id": 85
-          }
-        ],
-        "neighborhoods": [
-          {
-            "__typename": "Neighborhood",
-            "name": "Nha Trang",
-            "regionId": "6054439"
-          },
-          {
-            "__typename": "Neighborhood",
-            "name": "Tran Phu Beach",
-            "regionId": "553248633981709361"
-          },
-          {
-            "__typename": "Neighborhood",
-            "name": "Cam Lam",
-            "regionId": "6182839"
-          },
-          {
-            "__typename": "Neighborhood",
-            "name": "Cam Ranh",
-            "regionId": "6062879"
-          },
-          {
-            "__typename": "Neighborhood",
-            "name": "Ninh Hoa",
-            "regionId": "6130860"
-          },
-          {
-            "__typename": "Neighborhood",
-            "name": "Ninh Van",
-            "regionId": "6054315"
-          },
-          {
-            "__typename": "Neighborhood",
-            "name": "Dien Khanh",
-            "regionId": "553248622945335509"
-          },
-          {
-            "__typename": "Neighborhood",
-            "name": "Dam Mon",
-            "regionId": "6182815"
-          },
-          {
-            "__typename": "Neighborhood",
-            "name": "Đại Lãnh",
-            "regionId": "3000002419"
-          },
-          {
-            "__typename": "Neighborhood",
-            "name": "Vĩnh Hải",
-            "regionId": "3000002330"
-          },
-          {
-            "__typename": "Neighborhood",
-            "name": "Loc Tho",
-            "regionId": "553248635950844810"
-          },
-          {
-            "__typename": "Neighborhood",
-            "name": "Vinh Phuoc",
-            "regionId": "553248635934140183"
-          },
-          {
-            "__typename": "Neighborhood",
-            "name": "Van Ninh",
-            "regionId": "6165559"
-          },
-          {
-            "__typename": "Neighborhood",
-            "name": "Phước Lộc",
-            "regionId": "553248635976399837"
-          },
-          {
-            "__typename": "Neighborhood",
-            "name": "Ninh Phuoc",
-            "regionId": "6141623"
-          },
-          {
-            "__typename": "Neighborhood",
-            "name": "Tân Lập",
-            "regionId": "553248635976384387"
-          },
-          {
-            "__typename": "Neighborhood",
-            "name": "Phước Long",
-            "regionId": "553248635976396533"
-          },
-          {
-            "__typename": "Neighborhood",
-            "name": "Khanh Son",
-            "regionId": "553248635924014319"
-          },
-          {
-            "__typename": "Neighborhood",
-            "name": "Nha Trang (CXR-Cam Ranh)",
-            "regionId": "6062877"
-          },
-          {
-            "__typename": "Neighborhood",
-            "name": "Nha Trang Station",
-            "regionId": "6273492"
-          }
-        ],
-        "priceRange": {
-          "__typename": "PriceRange",
-          "max": 148.83,
-          "min": 100.69
-        }
-      },
-      "universalSortAndFilter": {
-        "__typename": "ShoppingSortAndFilters",
-        "toolbar": {
-          "__typename": "UIToolbar",
-          "primary": "Sort & Filter",
-          "actions": {
-            "__typename": "UIToolbarActions",
-            "primary": {
-              "__typename": "UITertiaryButton",
-              "primary": null,
-              "action": {
-                "__typename": "ShoppingSortAndFilterAction",
-                "actionType": "CLOSE_AND_DO_NOT_APPLY",
-                "accessibility": null,
-                "analytics": {
-                  "__typename": "ClientSideAnalytics",
-                  "linkName": "close search filters dialog",
-                  "referrerId": "HOT.SR.CloseFilterDialog.Close"
-                }
-              }
-            },
-            "secondaries": [
-              {
-                "__typename": "UITertiaryButton",
-                "primary": "Clear",
-                "disabled": false,
-                "action": {
-                  "__typename": "ShoppingSortAndFilterAction",
-                  "actionType": "CLEAR_DATA",
-                  "accessibility": "All selections now cleared",
-                  "analytics": {
-                    "__typename": "ClientSideAnalytics",
-                    "linkName": "clear all selections",
-                    "referrerId": "HOT.SR.ClearFilters"
-                  }
-                }
-              }
-            ]
-          }
-        },
-        "revealAction": {
-          "__typename": "UISecondaryFloatingActionButton",
-          "primary": "Sort & Filter",
-          "action": {
-            "__typename": "ShoppingSortAndFilterAction",
-            "actionType": "OPEN_MODAL",
-            "accessibility": null,
-            "analytics": {
-              "__typename": "ClientSideAnalytics",
-              "linkName": "Launch filters takeover",
-              "referrerId": "HOT.SR:FilterControl"
-            }
-          },
-          "accessibility": "2 filters applied. Change sort or apply more filters.",
-          "badge": 2,
-          "disabled": false,
-          "icon": {
-            "__typename": "Icon",
-            "id": "tune",
-            "description": "reveals sort and filter window",
-            "size": null,
-            "token": "icon__tune",
-            "theme": null
-          }
-        },
-        "applyAction": {
-          "__typename": "UIPrimaryFloatingActionButton",
-          "primary": "Done",
-          "action": {
-            "__typename": "ShoppingSortAndFilterAction",
-            "actionType": "CLOSE_AND_APPLY",
-            "accessibility": null,
-            "analytics": {
-              "__typename": "ClientSideAnalytics",
-              "linkName": "done search filters dialog",
-              "referrerId": "HOT.SR.FilterControlDone"
-            }
-          },
-          "accessibility": "Apply and close Sort and Filter",
-          "badge": null,
-          "disabled": false,
-          "icon": null
-        },
-        "filterSections": [
-          {
-            "__typename": "ShoppingSortAndFilterSection",
-            "title": "Search by property name",
-            "fields": [
-              {
-                "__typename": "ShoppingTextInputField",
-                "primary": null,
-                "secondary": null,
-                "action": {
-                  "__typename": "ShoppingSortAndFilterAction",
-                  "actionType": "OPEN_MODAL",
-                  "accessibility": null,
-                  "analytics": {
-                    "__typename": "ClientSideAnalytics",
-                    "linkName": "",
-                    "referrerId": ""
-                  }
-                },
-                "id": "hotelName",
-                "label": null,
-                "placeholder": "e.g. Marriott",
-                "selected": null,
-                "typeaheadInfo": {
-                  "__typename": "TypeaheadInfo",
-                  "client": "Hotels.Search",
-                  "isDestination": true,
-                  "lineOfBusiness": "hotels",
-                  "maxNumberOfResults": 10,
-                  "packageType": null,
-                  "personalize": false,
-                  "regionType": 128,
-                  "typeaheadFeatures": "ta_hierarchy|postal_code|contextual_ta|consistent_display"
-                },
-                "icon": {
-                  "__typename": "Icon",
-                  "id": "search",
-                  "description": "magnifying glass",
-                  "size": null,
-                  "token": "icon__search",
-                  "theme": null
-                },
-                "analytics": {
-                  "__typename": "ClientSideAnalytics",
-                  "linkName": "hotelName.",
-                  "referrerId": "HOT.SR.hotelName."
-                }
-              }
-            ]
-          },
-          {
-            "__typename": "ShoppingSortAndFilterSection",
-            "title": "Filter by",
-            "fields": [
-              {
-                "__typename": "ShoppingMultiSelectionField",
-                "primary": "Popular filters",
-                "secondary": null,
-                "expando": {
-                  "__typename": "ShoppingSelectionExpando",
-                  "threshold": 5,
-                  "collapseLabel": "See less",
-                  "expandLabel": "See more",
-                  "collapseAnalytics": {
-                    "__typename": "ClientSideAnalytics",
-                    "linkName": "",
-                    "referrerId": ""
-                  },
-                  "expandAnalytics": {
-                    "__typename": "ClientSideAnalytics",
-                    "linkName": "",
-                    "referrerId": ""
-                  }
-                },
-                "multiSelectionOptions": [
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "amenities",
-                    "primary": "Pool",
-                    "secondary": "",
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "POOL",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.POOL",
-                      "referrerId": "HOT.SR.popularFilter.amenities.POOL.true:1"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.POOL",
-                      "referrerId": "HOT.SR.popularFilter.amenities.POOL.false:1"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "amenities",
-                    "primary": "Ocean view",
-                    "secondary": "",
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "OCEAN_VIEW",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.OCEAN_VIEW",
-                      "referrerId": "HOT.SR.popularFilter.amenities.OCEAN_VIEW.true:2"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.OCEAN_VIEW",
-                      "referrerId": "HOT.SR.popularFilter.amenities.OCEAN_VIEW.false:2"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "mealPlan",
-                    "primary": "Breakfast included",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "FREE_BREAKFAST",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "mealPlan.FREE_BREAKFAST",
-                      "referrerId": "HOT.SR.popularFilter.mealPlan.FREE_BREAKFAST.true:3"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "mealPlan.FREE_BREAKFAST",
-                      "referrerId": "HOT.SR.popularFilter.mealPlan.FREE_BREAKFAST.false:3"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "lodging",
-                    "primary": "Hotel resort",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "HOTEL_RESORT",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "lodging.HOTEL_RESORT",
-                      "referrerId": "HOT.SR.popularFilter.lodging.HOTEL_RESORT.true:4"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "lodging.HOTEL_RESORT",
-                      "referrerId": "HOT.SR.popularFilter.lodging.HOTEL_RESORT.false:4"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "poi",
-                    "primary": "Nha Trang Night Market",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "12.239558,109.195917:6172088",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.239558,109.195917:6172088",
-                      "referrerId": "HOT.SR.popularFilter.poi.12.239558,109.195917:6172088.true:5"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.239558,109.195917:6172088",
-                      "referrerId": "HOT.SR.popularFilter.poi.12.239558,109.195917:6172088.false:5"
-                    }
-                  }
-                ]
-              },
-              {
-                "__typename": "ShoppingRangeField",
-                "primary": "Your budget",
-                "secondary": null,
-                "range": {
-                  "__typename": "ShoppingRangeFilterOption",
-                  "id": "price",
-                  "primary": "",
-                  "secondary": null,
-                  "icon": null,
-                  "analytics": {
-                    "__typename": "ClientSideAnalytics",
-                    "linkName": "price.",
-                    "referrerId": "HOT.SR.price."
-                  },
-                  "selected": {
-                    "__typename": "RangeValue",
-                    "id": "price",
-                    "min": 100,
-                    "max": 150
-                  },
-                  "characteristics": {
-                    "__typename": "ShoppingRangeCharacteristics",
-                    "min": 0,
-                    "max": 300,
-                    "step": 30,
-                    "labels": [
-                      {
-                        "__typename": "ShoppingRangeLabel",
-                        "label": "$0",
-                        "value": 0
-                      },
-                      {
-                        "__typename": "ShoppingRangeLabel",
-                        "label": "$30",
-                        "value": 30
-                      },
-                      {
-                        "__typename": "ShoppingRangeLabel",
-                        "label": "$60",
-                        "value": 60
-                      },
-                      {
-                        "__typename": "ShoppingRangeLabel",
-                        "label": "$90",
-                        "value": 90
-                      },
-                      {
-                        "__typename": "ShoppingRangeLabel",
-                        "label": "$120",
-                        "value": 120
-                      },
-                      {
-                        "__typename": "ShoppingRangeLabel",
-                        "label": "$150",
-                        "value": 150
-                      },
-                      {
-                        "__typename": "ShoppingRangeLabel",
-                        "label": "$180",
-                        "value": 180
-                      },
-                      {
-                        "__typename": "ShoppingRangeLabel",
-                        "label": "$210",
-                        "value": 210
-                      },
-                      {
-                        "__typename": "ShoppingRangeLabel",
-                        "label": "$240",
-                        "value": 240
-                      },
-                      {
-                        "__typename": "ShoppingRangeLabel",
-                        "label": "$270",
-                        "value": 270
-                      },
-                      {
-                        "__typename": "ShoppingRangeLabel",
-                        "label": "$300+",
-                        "value": 300
-                      }
-                    ]
-                  }
-                }
-              },
-              {
-                "__typename": "ShoppingSelectionField",
-                "primary": "Guest rating",
-                "secondary": null,
-                "expando": {
-                  "__typename": "ShoppingSelectionExpando",
-                  "threshold": 5,
-                  "collapseLabel": "See less",
-                  "expandLabel": "See more",
-                  "collapseAnalytics": {
-                    "__typename": "ClientSideAnalytics",
-                    "linkName": "",
-                    "referrerId": ""
-                  },
-                  "expandAnalytics": {
-                    "__typename": "ClientSideAnalytics",
-                    "linkName": "",
-                    "referrerId": ""
-                  }
-                },
-                "options": [
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "guestRating",
-                    "primary": "Any",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "",
-                    "description": null,
-                    "selected": true,
-                    "disabled": false,
-                    "default": true,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "guestRating.ANY",
-                      "referrerId": "HOT.SR.guestRating.ANY.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "guestRating.ANY",
-                      "referrerId": "HOT.SR.guestRating.ANY.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "guestRating",
-                    "primary": "Wonderful 9+",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "45",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "guestRating.45",
-                      "referrerId": "HOT.SR.guestRating.45.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "guestRating.45",
-                      "referrerId": "HOT.SR.guestRating.45.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "guestRating",
-                    "primary": "Very good 8+",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "40",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "guestRating.40",
-                      "referrerId": "HOT.SR.guestRating.40.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "guestRating.40",
-                      "referrerId": "HOT.SR.guestRating.40.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "guestRating",
-                    "primary": "Good 7+",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "35",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "guestRating.35",
-                      "referrerId": "HOT.SR.guestRating.35.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "guestRating.35",
-                      "referrerId": "HOT.SR.guestRating.35.false"
-                    }
-                  }
-                ]
-              },
-              {
-                "__typename": "ShoppingMultiSelectionStackedTileField",
-                "primary": "Star rating",
-                "secondary": null,
-                "tileMultiSelectionOptions": [
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "star",
-                    "primary": "1",
-                    "secondary": "",
-                    "icon": {
-                      "__typename": "Icon",
-                      "id": "star",
-                      "description": "star",
-                      "size": null,
-                      "token": "icon__star",
-                      "theme": null
-                    },
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "10",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "star.10",
-                      "referrerId": "HOT.SR.star.10.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "star.10",
-                      "referrerId": "HOT.SR.star.10.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "star",
-                    "primary": "2",
-                    "secondary": "",
-                    "icon": {
-                      "__typename": "Icon",
-                      "id": "star",
-                      "description": "star",
-                      "size": null,
-                      "token": "icon__star",
-                      "theme": null
-                    },
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "20",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "star.20",
-                      "referrerId": "HOT.SR.star.20.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "star.20",
-                      "referrerId": "HOT.SR.star.20.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "star",
-                    "primary": "3",
-                    "secondary": "",
-                    "icon": {
-                      "__typename": "Icon",
-                      "id": "star",
-                      "description": "star",
-                      "size": null,
-                      "token": "icon__star",
-                      "theme": null
-                    },
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "30",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "star.30",
-                      "referrerId": "HOT.SR.star.30.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "star.30",
-                      "referrerId": "HOT.SR.star.30.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "star",
-                    "primary": "4",
-                    "secondary": "",
-                    "icon": {
-                      "__typename": "Icon",
-                      "id": "star",
-                      "description": "star",
-                      "size": null,
-                      "token": "icon__star",
-                      "theme": null
-                    },
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "40",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "star.40",
-                      "referrerId": "HOT.SR.star.40.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "star.40",
-                      "referrerId": "HOT.SR.star.40.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "star",
-                    "primary": "5",
-                    "secondary": "",
-                    "icon": {
-                      "__typename": "Icon",
-                      "id": "star",
-                      "description": "star",
-                      "size": null,
-                      "token": "icon__star",
-                      "theme": null
-                    },
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "50",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "star.50",
-                      "referrerId": "HOT.SR.star.50.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "star.50",
-                      "referrerId": "HOT.SR.star.50.false"
-                    }
-                  }
-                ]
-              },
-              {
-                "__typename": "ShoppingMultiSelectionField",
-                "primary": "Payment type",
-                "secondary": null,
-                "expando": {
-                  "__typename": "ShoppingSelectionExpando",
-                  "threshold": 3,
-                  "collapseLabel": "See less",
-                  "expandLabel": "See more",
-                  "collapseAnalytics": {
-                    "__typename": "ClientSideAnalytics",
-                    "linkName": "",
-                    "referrerId": ""
-                  },
-                  "expandAnalytics": {
-                    "__typename": "ClientSideAnalytics",
-                    "linkName": "",
-                    "referrerId": ""
-                  }
-                },
-                "multiSelectionOptions": [
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "paymentType",
-                    "primary": "Fully refundable",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "FREE_CANCELLATION",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "paymentType.FREE_CANCELLATION",
-                      "referrerId": "HOT.SR.paymentType.FREE_CANCELLATION.true:1"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "paymentType.FREE_CANCELLATION",
-                      "referrerId": "HOT.SR.paymentType.FREE_CANCELLATION.false:1"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "paymentType",
-                    "primary": "Reserve now, pay later",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "PAY_LATER",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "paymentType.PAY_LATER",
-                      "referrerId": "HOT.SR.paymentType.PAY_LATER.true:2"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "paymentType.PAY_LATER",
-                      "referrerId": "HOT.SR.paymentType.PAY_LATER.false:2"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "paymentType",
-                    "primary": "Pay with Hotels.com gift card",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "GIFT_CARD",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "paymentType.GIFT_CARD",
-                      "referrerId": "HOT.SR.paymentType.GIFT_CARD.true:3"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "paymentType.GIFT_CARD",
-                      "referrerId": "HOT.SR.paymentType.GIFT_CARD.false:3"
-                    }
-                  }
-                ]
-              },
-              {
-                "__typename": "ShoppingMultiSelectionField",
-                "primary": "Property type",
-                "secondary": null,
-                "expando": {
-                  "__typename": "ShoppingSelectionExpando",
-                  "threshold": 3,
-                  "collapseLabel": "See less",
-                  "expandLabel": "See more",
-                  "collapseAnalytics": {
-                    "__typename": "ClientSideAnalytics",
-                    "linkName": "",
-                    "referrerId": ""
-                  },
-                  "expandAnalytics": {
-                    "__typename": "ClientSideAnalytics",
-                    "linkName": "",
-                    "referrerId": ""
-                  }
-                },
-                "multiSelectionOptions": [
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "lodging",
-                    "primary": "Hotel resort",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "HOTEL_RESORT",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "lodging.HOTEL_RESORT",
-                      "referrerId": "HOT.SR.lodging.HOTEL_RESORT.true:1"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "lodging.HOTEL_RESORT",
-                      "referrerId": "HOT.SR.lodging.HOTEL_RESORT.false:1"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "lodging",
-                    "primary": "Hotel",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "HOTEL",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "lodging.HOTEL",
-                      "referrerId": "HOT.SR.lodging.HOTEL.true:2"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "lodging.HOTEL",
-                      "referrerId": "HOT.SR.lodging.HOTEL.false:2"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "lodging",
-                    "primary": "Villa",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "VILLA",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "lodging.VILLA",
-                      "referrerId": "HOT.SR.lodging.VILLA.true:3"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "lodging.VILLA",
-                      "referrerId": "HOT.SR.lodging.VILLA.false:3"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "lodging",
-                    "primary": "Apartment",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "APARTMENT",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "lodging.APARTMENT",
-                      "referrerId": "HOT.SR.lodging.APARTMENT.true:4"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "lodging.APARTMENT",
-                      "referrerId": "HOT.SR.lodging.APARTMENT.false:4"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "lodging",
-                    "primary": "Condo",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "CONDO",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "lodging.CONDO",
-                      "referrerId": "HOT.SR.lodging.CONDO.true:5"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "lodging.CONDO",
-                      "referrerId": "HOT.SR.lodging.CONDO.false:5"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "lodging",
-                    "primary": "Apart-hotel",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "APART_HOTEL",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "lodging.APART_HOTEL",
-                      "referrerId": "HOT.SR.lodging.APART_HOTEL.true:6"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "lodging.APART_HOTEL",
-                      "referrerId": "HOT.SR.lodging.APART_HOTEL.false:6"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "lodging",
-                    "primary": "House",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "VACATION_HOME",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "lodging.VACATION_HOME",
-                      "referrerId": "HOT.SR.lodging.VACATION_HOME.true:7"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "lodging.VACATION_HOME",
-                      "referrerId": "HOT.SR.lodging.VACATION_HOME.false:7"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "lodging",
-                    "primary": "Ryokan",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "RYOKAN",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "lodging.RYOKAN",
-                      "referrerId": "HOT.SR.lodging.RYOKAN.true:8"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "lodging.RYOKAN",
-                      "referrerId": "HOT.SR.lodging.RYOKAN.false:8"
-                    }
-                  }
-                ]
-              },
-              {
-                "__typename": "ShoppingMultiSelectionStackedTileField",
-                "primary": "Vacation rental bedrooms",
-                "secondary": null,
-                "tileMultiSelectionOptions": [
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "bedroomFilter",
-                    "primary": "Studio",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "0",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "bedroomFilter.0",
-                      "referrerId": "HOT.SR.bedroomFilter.0.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "bedroomFilter.0",
-                      "referrerId": "HOT.SR.bedroomFilter.0.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "bedroomFilter",
-                    "primary": "1",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "1",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "bedroomFilter.1",
-                      "referrerId": "HOT.SR.bedroomFilter.1.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "bedroomFilter.1",
-                      "referrerId": "HOT.SR.bedroomFilter.1.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "bedroomFilter",
-                    "primary": "2",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "2",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "bedroomFilter.2",
-                      "referrerId": "HOT.SR.bedroomFilter.2.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "bedroomFilter.2",
-                      "referrerId": "HOT.SR.bedroomFilter.2.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "bedroomFilter",
-                    "primary": "3",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "3",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "bedroomFilter.3",
-                      "referrerId": "HOT.SR.bedroomFilter.3.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "bedroomFilter.3",
-                      "referrerId": "HOT.SR.bedroomFilter.3.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "bedroomFilter",
-                    "primary": "4+",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "4",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "bedroomFilter.4",
-                      "referrerId": "HOT.SR.bedroomFilter.4.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "bedroomFilter.4",
-                      "referrerId": "HOT.SR.bedroomFilter.4.false"
-                    }
-                  }
-                ]
-              },
-              {
-                "__typename": "ShoppingSelectionField",
-                "primary": "Neighborhood",
-                "secondary": null,
-                "expando": {
-                  "__typename": "ShoppingSelectionExpando",
-                  "threshold": 3,
-                  "collapseLabel": "See less",
-                  "expandLabel": "See more",
-                  "collapseAnalytics": {
-                    "__typename": "ClientSideAnalytics",
-                    "linkName": "",
-                    "referrerId": ""
-                  },
-                  "expandAnalytics": {
-                    "__typename": "ClientSideAnalytics",
-                    "linkName": "",
-                    "referrerId": ""
-                  }
-                },
-                "options": [
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "regionId",
-                    "primary": "Nha Trang",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "6054439",
-                    "description": null,
-                    "selected": true,
-                    "disabled": false,
-                    "default": true,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.6054439",
-                      "referrerId": "HOT.SR.regionId.6054439.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.6054439",
-                      "referrerId": "HOT.SR.regionId.6054439.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "regionId",
-                    "primary": "Loc Tho",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "553248635950844810",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.553248635950844810",
-                      "referrerId": "HOT.SR.regionId.553248635950844810.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.553248635950844810",
-                      "referrerId": "HOT.SR.regionId.553248635950844810.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "regionId",
-                    "primary": "Tran Phu Beach",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "553248633981709361",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.553248633981709361",
-                      "referrerId": "HOT.SR.regionId.553248633981709361.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.553248633981709361",
-                      "referrerId": "HOT.SR.regionId.553248633981709361.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "regionId",
-                    "primary": "Cam Ranh",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "6062879",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.6062879",
-                      "referrerId": "HOT.SR.regionId.6062879.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.6062879",
-                      "referrerId": "HOT.SR.regionId.6062879.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "regionId",
-                    "primary": "Phước Lộc",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "553248635976399837",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.553248635976399837",
-                      "referrerId": "HOT.SR.regionId.553248635976399837.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.553248635976399837",
-                      "referrerId": "HOT.SR.regionId.553248635976399837.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "regionId",
-                    "primary": "Dien Khanh",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "553248622945335509",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.553248622945335509",
-                      "referrerId": "HOT.SR.regionId.553248622945335509.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.553248622945335509",
-                      "referrerId": "HOT.SR.regionId.553248622945335509.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "regionId",
-                    "primary": "Vĩnh Hải",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "3000002330",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.3000002330",
-                      "referrerId": "HOT.SR.regionId.3000002330.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.3000002330",
-                      "referrerId": "HOT.SR.regionId.3000002330.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "regionId",
-                    "primary": "Phước Long",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "553248635976396533",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.553248635976396533",
-                      "referrerId": "HOT.SR.regionId.553248635976396533.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.553248635976396533",
-                      "referrerId": "HOT.SR.regionId.553248635976396533.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "regionId",
-                    "primary": "Khanh Son",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "553248635924014319",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.553248635924014319",
-                      "referrerId": "HOT.SR.regionId.553248635924014319.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.553248635924014319",
-                      "referrerId": "HOT.SR.regionId.553248635924014319.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "regionId",
-                    "primary": "Nha Trang Station",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "6273492",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.6273492",
-                      "referrerId": "HOT.SR.regionId.6273492.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.6273492",
-                      "referrerId": "HOT.SR.regionId.6273492.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "regionId",
-                    "primary": "Ninh Van",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "6054315",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.6054315",
-                      "referrerId": "HOT.SR.regionId.6054315.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.6054315",
-                      "referrerId": "HOT.SR.regionId.6054315.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "regionId",
-                    "primary": "Đại Lãnh",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "3000002419",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.3000002419",
-                      "referrerId": "HOT.SR.regionId.3000002419.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.3000002419",
-                      "referrerId": "HOT.SR.regionId.3000002419.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "regionId",
-                    "primary": "Ninh Phuoc",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "6141623",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.6141623",
-                      "referrerId": "HOT.SR.regionId.6141623.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.6141623",
-                      "referrerId": "HOT.SR.regionId.6141623.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "regionId",
-                    "primary": "Tân Lập",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "553248635976384387",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.553248635976384387",
-                      "referrerId": "HOT.SR.regionId.553248635976384387.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.553248635976384387",
-                      "referrerId": "HOT.SR.regionId.553248635976384387.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "regionId",
-                    "primary": "Vinh Phuoc",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "553248635934140183",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.553248635934140183",
-                      "referrerId": "HOT.SR.regionId.553248635934140183.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.553248635934140183",
-                      "referrerId": "HOT.SR.regionId.553248635934140183.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "regionId",
-                    "primary": "Dam Mon",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "6182815",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.6182815",
-                      "referrerId": "HOT.SR.regionId.6182815.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.6182815",
-                      "referrerId": "HOT.SR.regionId.6182815.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "regionId",
-                    "primary": "Nha Trang (CXR-Cam Ranh)",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "6062877",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.6062877",
-                      "referrerId": "HOT.SR.regionId.6062877.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.6062877",
-                      "referrerId": "HOT.SR.regionId.6062877.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "regionId",
-                    "primary": "Van Ninh",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "6165559",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.6165559",
-                      "referrerId": "HOT.SR.regionId.6165559.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.6165559",
-                      "referrerId": "HOT.SR.regionId.6165559.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "regionId",
-                    "primary": "Cam Lam",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "6182839",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.6182839",
-                      "referrerId": "HOT.SR.regionId.6182839.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.6182839",
-                      "referrerId": "HOT.SR.regionId.6182839.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "regionId",
-                    "primary": "Ninh Hoa",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "6130860",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.6130860",
-                      "referrerId": "HOT.SR.regionId.6130860.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "regionId.6130860",
-                      "referrerId": "HOT.SR.regionId.6130860.false"
-                    }
-                  }
-                ]
-              },
-              {
-                "__typename": "ShoppingSelectionField",
-                "primary": "Popular locations",
-                "secondary": null,
-                "expando": {
-                  "__typename": "ShoppingSelectionExpando",
-                  "threshold": 3,
-                  "collapseLabel": "See less",
-                  "expandLabel": "See more",
-                  "collapseAnalytics": {
-                    "__typename": "ClientSideAnalytics",
-                    "linkName": "",
-                    "referrerId": ""
-                  },
-                  "expandAnalytics": {
-                    "__typename": "ClientSideAnalytics",
-                    "linkName": "",
-                    "referrerId": ""
-                  }
-                },
-                "options": [
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "poi",
-                    "primary": "Any",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "",
-                    "description": null,
-                    "selected": true,
-                    "disabled": false,
-                    "default": true,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.ANY",
-                      "referrerId": "HOT.SR.poi.ANY.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.ANY",
-                      "referrerId": "HOT.SR.poi.ANY.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "poi",
-                    "primary": "Nha Trang Night Market",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "12.239558,109.195917:6172088",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.239558,109.195917:6172088",
-                      "referrerId": "HOT.SR.poi.12.239558,109.195917:6172088.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.239558,109.195917:6172088",
-                      "referrerId": "HOT.SR.poi.12.239558,109.195917:6172088.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "poi",
-                    "primary": "Nha Trang Port",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "12.205889,109.216543:6147624",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.205889,109.216543:6147624",
-                      "referrerId": "HOT.SR.poi.12.205889,109.216543:6147624.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.205889,109.216543:6147624",
-                      "referrerId": "HOT.SR.poi.12.205889,109.216543:6147624.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "poi",
-                    "primary": "Vinpearl Cable Car",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "12.201821,109.214857:6182837",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.201821,109.214857:6182837",
-                      "referrerId": "HOT.SR.poi.12.201821,109.214857:6182837.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.201821,109.214857:6182837",
-                      "referrerId": "HOT.SR.poi.12.201821,109.214857:6182837.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "poi",
-                    "primary": "Dam Market",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "12.25441,109.19221:6158140",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.25441,109.19221:6158140",
-                      "referrerId": "HOT.SR.poi.12.25441,109.19221:6158140.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.25441,109.19221:6158140",
-                      "referrerId": "HOT.SR.poi.12.25441,109.19221:6158140.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "poi",
-                    "primary": "Vinpearl Beach",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "12.222606,109.247973:6115844",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.222606,109.247973:6115844",
-                      "referrerId": "HOT.SR.poi.12.222606,109.247973:6115844.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.222606,109.247973:6115844",
-                      "referrerId": "HOT.SR.poi.12.222606,109.247973:6115844.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "poi",
-                    "primary": "Bai Duong Beach",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "12.276442,109.202541:6183082",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.276442,109.202541:6183082",
-                      "referrerId": "HOT.SR.poi.12.276442,109.202541:6183082.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.276442,109.202541:6183082",
-                      "referrerId": "HOT.SR.poi.12.276442,109.202541:6183082.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "poi",
-                    "primary": "Louisiane Brewhouse",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "12.231339,109.198611:6182835",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.231339,109.198611:6182835",
-                      "referrerId": "HOT.SR.poi.12.231339,109.198611:6182835.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.231339,109.198611:6182835",
-                      "referrerId": "HOT.SR.poi.12.231339,109.198611:6182835.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "poi",
-                    "primary": "Long Son Pagoda",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "12.252036,109.180901:6115840",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.252036,109.180901:6115840",
-                      "referrerId": "HOT.SR.poi.12.252036,109.180901:6115840.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.252036,109.180901:6115840",
-                      "referrerId": "HOT.SR.poi.12.252036,109.180901:6115840.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "poi",
-                    "primary": "I-Resort Nha Trang",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "12.271415,109.174843:553248635962295342",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.271415,109.174843:553248635962295342",
-                      "referrerId": "HOT.SR.poi.12.271415,109.174843:553248635962295342.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.271415,109.174843:553248635962295342",
-                      "referrerId": "HOT.SR.poi.12.271415,109.174843:553248635962295342.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "poi",
-                    "primary": "Po Nagar Cham Towers",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "12.265329,109.195286:6115842",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.265329,109.195286:6115842",
-                      "referrerId": "HOT.SR.poi.12.265329,109.195286:6115842.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.265329,109.195286:6115842",
-                      "referrerId": "HOT.SR.poi.12.265329,109.195286:6115842.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "poi",
-                    "primary": "Husband Rock",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "12.272061,109.205716:6170015",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.272061,109.205716:6170015",
-                      "referrerId": "HOT.SR.poi.12.272061,109.205716:6170015.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.272061,109.205716:6170015",
-                      "referrerId": "HOT.SR.poi.12.272061,109.205716:6170015.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "poi",
-                    "primary": "Thap Ba Hot Spring Center",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "12.270071,109.177797:6172074",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.270071,109.177797:6172074",
-                      "referrerId": "HOT.SR.poi.12.270071,109.177797:6172074.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.270071,109.177797:6172074",
-                      "referrerId": "HOT.SR.poi.12.270071,109.177797:6172074.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "poi",
-                    "primary": "Tram Huong Tower",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "12.240558,109.19687:6182825",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.240558,109.19687:6182825",
-                      "referrerId": "HOT.SR.poi.12.240558,109.19687:6182825.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.240558,109.19687:6182825",
-                      "referrerId": "HOT.SR.poi.12.240558,109.19687:6182825.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "poi",
-                    "primary": "Vincom Plaza Le Thanh Ton",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "12.243301,109.193525:553248634766219589",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.243301,109.193525:553248634766219589",
-                      "referrerId": "HOT.SR.poi.12.243301,109.193525:553248634766219589.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.243301,109.193525:553248634766219589",
-                      "referrerId": "HOT.SR.poi.12.243301,109.193525:553248634766219589.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "poi",
-                    "primary": "Hon Mun Island",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "12.166145,109.30248:553248621562620074",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.166145,109.30248:553248621562620074",
-                      "referrerId": "HOT.SR.poi.12.166145,109.30248:553248621562620074.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.166145,109.30248:553248621562620074",
-                      "referrerId": "HOT.SR.poi.12.166145,109.30248:553248621562620074.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "poi",
-                    "primary": "Hon Chong Promontory",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "12.27291,109.206474:553248621526918229",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.27291,109.206474:553248621526918229",
-                      "referrerId": "HOT.SR.poi.12.27291,109.206474:553248621526918229.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.27291,109.206474:553248621526918229",
-                      "referrerId": "HOT.SR.poi.12.27291,109.206474:553248621526918229.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "poi",
-                    "primary": "Hon Mieu Island",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "12.190829,109.22517:553248621562620071",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.190829,109.22517:553248621562620071",
-                      "referrerId": "HOT.SR.poi.12.190829,109.22517:553248621562620071.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.190829,109.22517:553248621562620071",
-                      "referrerId": "HOT.SR.poi.12.190829,109.22517:553248621562620071.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "poi",
-                    "primary": "Diamond Bay Golf Course",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "12.172952,109.191278:6182821",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.172952,109.191278:6182821",
-                      "referrerId": "HOT.SR.poi.12.172952,109.191278:6182821.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.172952,109.191278:6182821",
-                      "referrerId": "HOT.SR.poi.12.172952,109.191278:6182821.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "poi",
-                    "primary": "Nha Trang Cathedral",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "12.246804,109.188086:6182823",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.246804,109.188086:6182823",
-                      "referrerId": "HOT.SR.poi.12.246804,109.188086:6182823.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.246804,109.188086:6182823",
-                      "referrerId": "HOT.SR.poi.12.246804,109.188086:6182823.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "poi",
-                    "primary": "Khanh Hoa Museum",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "12.249748,109.196111:6182829",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.249748,109.196111:6182829",
-                      "referrerId": "HOT.SR.poi.12.249748,109.196111:6182829.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "poi.12.249748,109.196111:6182829",
-                      "referrerId": "HOT.SR.poi.12.249748,109.196111:6182829.false"
-                    }
-                  }
-                ]
-              },
-              {
-                "__typename": "ShoppingMultiSelectionField",
-                "primary": "Meal plans available",
-                "secondary": null,
-                "expando": {
-                  "__typename": "ShoppingSelectionExpando",
-                  "threshold": 3,
-                  "collapseLabel": "See less",
-                  "expandLabel": "See more",
-                  "collapseAnalytics": {
-                    "__typename": "ClientSideAnalytics",
-                    "linkName": "",
-                    "referrerId": ""
-                  },
-                  "expandAnalytics": {
-                    "__typename": "ClientSideAnalytics",
-                    "linkName": "",
-                    "referrerId": ""
-                  }
-                },
-                "multiSelectionOptions": [
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "mealPlan",
-                    "primary": "Breakfast included",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "FREE_BREAKFAST",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "mealPlan.FREE_BREAKFAST",
-                      "referrerId": "HOT.SR.mealPlan.FREE_BREAKFAST.true:1"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "mealPlan.FREE_BREAKFAST",
-                      "referrerId": "HOT.SR.mealPlan.FREE_BREAKFAST.false:1"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "mealPlan",
-                    "primary": "Lunch included",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "HALF_BOARD",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "mealPlan.HALF_BOARD",
-                      "referrerId": "HOT.SR.mealPlan.HALF_BOARD.true:2"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "mealPlan.HALF_BOARD",
-                      "referrerId": "HOT.SR.mealPlan.HALF_BOARD.false:2"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "mealPlan",
-                    "primary": "Dinner included",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "FULL_BOARD",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "mealPlan.FULL_BOARD",
-                      "referrerId": "HOT.SR.mealPlan.FULL_BOARD.true:3"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "mealPlan.FULL_BOARD",
-                      "referrerId": "HOT.SR.mealPlan.FULL_BOARD.false:3"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "mealPlan",
-                    "primary": "All inclusive",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "ALL_INCLUSIVE",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "mealPlan.ALL_INCLUSIVE",
-                      "referrerId": "HOT.SR.mealPlan.ALL_INCLUSIVE.true:4"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "mealPlan.ALL_INCLUSIVE",
-                      "referrerId": "HOT.SR.mealPlan.ALL_INCLUSIVE.false:4"
-                    }
-                  }
-                ]
-              },
-              {
-                "__typename": "ShoppingMultiSelectionTileField",
-                "primary": "Amenities",
-                "secondary": null,
-                "tileMultiSelectionOptions": [
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "amenities",
-                    "primary": "Pool",
-                    "secondary": "",
-                    "icon": {
-                      "__typename": "Icon",
-                      "id": "pool",
-                      "description": "",
-                      "size": null,
-                      "token": "pool",
-                      "theme": null
-                    },
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "POOL",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.POOL",
-                      "referrerId": "HOT.SR.amenities.POOL.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.POOL",
-                      "referrerId": "HOT.SR.amenities.POOL.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "amenities",
-                    "primary": "Ocean view",
-                    "secondary": "",
-                    "icon": {
-                      "__typename": "Icon",
-                      "id": "water",
-                      "description": "",
-                      "size": null,
-                      "token": "water",
-                      "theme": null
-                    },
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "OCEAN_VIEW",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.OCEAN_VIEW",
-                      "referrerId": "HOT.SR.amenities.OCEAN_VIEW.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.OCEAN_VIEW",
-                      "referrerId": "HOT.SR.amenities.OCEAN_VIEW.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "amenities",
-                    "primary": "Kitchen",
-                    "secondary": "",
-                    "icon": {
-                      "__typename": "Icon",
-                      "id": "kitchen",
-                      "description": "",
-                      "size": null,
-                      "token": "kitchen",
-                      "theme": null
-                    },
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "KITCHEN_KITCHENETTE",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.KITCHEN_KITCHENETTE",
-                      "referrerId": "HOT.SR.amenities.KITCHEN_KITCHENETTE.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.KITCHEN_KITCHENETTE",
-                      "referrerId": "HOT.SR.amenities.KITCHEN_KITCHENETTE.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "amenities",
-                    "primary": "WiFi included",
-                    "secondary": "",
-                    "icon": {
-                      "__typename": "Icon",
-                      "id": "wifi",
-                      "description": "",
-                      "size": null,
-                      "token": "wifi",
-                      "theme": null
-                    },
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "WIFI",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.WIFI",
-                      "referrerId": "HOT.SR.amenities.WIFI.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.WIFI",
-                      "referrerId": "HOT.SR.amenities.WIFI.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "amenities",
-                    "primary": "Pet friendly",
-                    "secondary": "",
-                    "icon": {
-                      "__typename": "Icon",
-                      "id": "pets",
-                      "description": "",
-                      "size": null,
-                      "token": "pets",
-                      "theme": null
-                    },
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "PETS",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.PETS",
-                      "referrerId": "HOT.SR.amenities.PETS.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.PETS",
-                      "referrerId": "HOT.SR.amenities.PETS.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "amenities",
-                    "primary": "Air conditioned",
-                    "secondary": "",
-                    "icon": {
-                      "__typename": "Icon",
-                      "id": "ac_unit",
-                      "description": "",
-                      "size": null,
-                      "token": "ac_unit",
-                      "theme": null
-                    },
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "AIR_CONDITIONING",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.AIR_CONDITIONING",
-                      "referrerId": "HOT.SR.amenities.AIR_CONDITIONING.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.AIR_CONDITIONING",
-                      "referrerId": "HOT.SR.amenities.AIR_CONDITIONING.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "amenities",
-                    "primary": "Spa",
-                    "secondary": "",
-                    "icon": {
-                      "__typename": "Icon",
-                      "id": "spa",
-                      "description": "",
-                      "size": null,
-                      "token": "spa",
-                      "theme": null
-                    },
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "SPA_ON_SITE",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.SPA_ON_SITE",
-                      "referrerId": "HOT.SR.amenities.SPA_ON_SITE.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.SPA_ON_SITE",
-                      "referrerId": "HOT.SR.amenities.SPA_ON_SITE.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "amenities",
-                    "primary": "Parking",
-                    "secondary": "",
-                    "icon": {
-                      "__typename": "Icon",
-                      "id": "local_parking",
-                      "description": "",
-                      "size": null,
-                      "token": "local_parking",
-                      "theme": null
-                    },
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "PARKING",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.PARKING",
-                      "referrerId": "HOT.SR.amenities.PARKING.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.PARKING",
-                      "referrerId": "HOT.SR.amenities.PARKING.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "amenities",
-                    "primary": "Gym",
-                    "secondary": "",
-                    "icon": {
-                      "__typename": "Icon",
-                      "id": "fitness_center",
-                      "description": "",
-                      "size": null,
-                      "token": "fitness_center",
-                      "theme": null
-                    },
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "GYM",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.GYM",
-                      "referrerId": "HOT.SR.amenities.GYM.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.GYM",
-                      "referrerId": "HOT.SR.amenities.GYM.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "amenities",
-                    "primary": "Outdoor space",
-                    "secondary": "",
-                    "icon": {
-                      "__typename": "Icon",
-                      "id": "balcony",
-                      "description": "",
-                      "size": null,
-                      "token": "balcony",
-                      "theme": null
-                    },
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "BALCONY_OR_TERRACE",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.BALCONY_OR_TERRACE",
-                      "referrerId": "HOT.SR.amenities.BALCONY_OR_TERRACE.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.BALCONY_OR_TERRACE",
-                      "referrerId": "HOT.SR.amenities.BALCONY_OR_TERRACE.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "amenities",
-                    "primary": "Casino",
-                    "secondary": "",
-                    "icon": {
-                      "__typename": "Icon",
-                      "id": "casino",
-                      "description": "",
-                      "size": null,
-                      "token": "casino",
-                      "theme": null
-                    },
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "CASINO",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.CASINO",
-                      "referrerId": "HOT.SR.amenities.CASINO.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.CASINO",
-                      "referrerId": "HOT.SR.amenities.CASINO.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "amenities",
-                    "primary": "Restaurant",
-                    "secondary": "",
-                    "icon": {
-                      "__typename": "Icon",
-                      "id": "local_dining",
-                      "description": "",
-                      "size": null,
-                      "token": "local_dining",
-                      "theme": null
-                    },
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "RESTAURANT_IN_HOTEL",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.RESTAURANT_IN_HOTEL",
-                      "referrerId": "HOT.SR.amenities.RESTAURANT_IN_HOTEL.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.RESTAURANT_IN_HOTEL",
-                      "referrerId": "HOT.SR.amenities.RESTAURANT_IN_HOTEL.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "amenities",
-                    "primary": "Electric car charging station",
-                    "secondary": "",
-                    "icon": {
-                      "__typename": "Icon",
-                      "id": "check",
-                      "description": "",
-                      "size": null,
-                      "token": "check",
-                      "theme": null
-                    },
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "ELECTRIC_CAR",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.ELECTRIC_CAR",
-                      "referrerId": "HOT.SR.amenities.ELECTRIC_CAR.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.ELECTRIC_CAR",
-                      "referrerId": "HOT.SR.amenities.ELECTRIC_CAR.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "amenities",
-                    "primary": "Hot tub",
-                    "secondary": "",
-                    "icon": {
-                      "__typename": "Icon",
-                      "id": "hot_tub",
-                      "description": "",
-                      "size": null,
-                      "token": "hot_tub",
-                      "theme": null
-                    },
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "HOT_TUB",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.HOT_TUB",
-                      "referrerId": "HOT.SR.amenities.HOT_TUB.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.HOT_TUB",
-                      "referrerId": "HOT.SR.amenities.HOT_TUB.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "amenities",
-                    "primary": "Cribs",
-                    "secondary": "",
-                    "icon": {
-                      "__typename": "Icon",
-                      "id": "bedding__crib",
-                      "description": "",
-                      "size": null,
-                      "token": "bedding__crib",
-                      "theme": null
-                    },
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "CRIB",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.CRIB",
-                      "referrerId": "HOT.SR.amenities.CRIB.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.CRIB",
-                      "referrerId": "HOT.SR.amenities.CRIB.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "amenities",
-                    "primary": "Water park",
-                    "secondary": "",
-                    "icon": {
-                      "__typename": "Icon",
-                      "id": "check",
-                      "description": "",
-                      "size": null,
-                      "token": "check",
-                      "theme": null
-                    },
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "WATER_PARK",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.WATER_PARK",
-                      "referrerId": "HOT.SR.amenities.WATER_PARK.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.WATER_PARK",
-                      "referrerId": "HOT.SR.amenities.WATER_PARK.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "amenities",
-                    "primary": "Airport shuttle included",
-                    "secondary": "",
-                    "icon": {
-                      "__typename": "Icon",
-                      "id": "airport_shuttle",
-                      "description": "",
-                      "size": null,
-                      "token": "airport_shuttle",
-                      "theme": null
-                    },
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "FREE_AIRPORT_TRANSPORTATION",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.FREE_AIRPORT_TRANSPORTATION",
-                      "referrerId": "HOT.SR.amenities.FREE_AIRPORT_TRANSPORTATION.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.FREE_AIRPORT_TRANSPORTATION",
-                      "referrerId": "HOT.SR.amenities.FREE_AIRPORT_TRANSPORTATION.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "amenities",
-                    "primary": "Washer and dryer",
-                    "secondary": "",
-                    "icon": {
-                      "__typename": "Icon",
-                      "id": "local_laundry_service",
-                      "description": "",
-                      "size": null,
-                      "token": "local_laundry_service",
-                      "theme": null
-                    },
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "WASHER_DRYER",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.WASHER_DRYER",
-                      "referrerId": "HOT.SR.amenities.WASHER_DRYER.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "amenities.WASHER_DRYER",
-                      "referrerId": "HOT.SR.amenities.WASHER_DRYER.false"
-                    }
-                  }
-                ]
-              },
-              {
-                "__typename": "ShoppingMultiSelectionField",
-                "primary": "Hotels.com® Rewards",
-                "secondary": null,
-                "expando": {
-                  "__typename": "ShoppingSelectionExpando",
-                  "threshold": 3,
-                  "collapseLabel": "See less",
-                  "expandLabel": "See more",
-                  "collapseAnalytics": {
-                    "__typename": "ClientSideAnalytics",
-                    "linkName": "",
-                    "referrerId": ""
-                  },
-                  "expandAnalytics": {
-                    "__typename": "ClientSideAnalytics",
-                    "linkName": "",
-                    "referrerId": ""
-                  }
-                },
-                "multiSelectionOptions": [
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "rewards",
-                    "primary": "Redeem reward nights",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "REDEEM_REWARD_NIGHTS",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "rewards.REDEEM_REWARD_NIGHTS",
-                      "referrerId": "HOT.SR.rewards.REDEEM_REWARD_NIGHTS.true:1"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "rewards.REDEEM_REWARD_NIGHTS",
-                      "referrerId": "HOT.SR.rewards.REDEEM_REWARD_NIGHTS.false:1"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "rewards",
-                    "primary": "VIP Access properties for superior stays",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "VIP",
-                    "description": "Plus extra benefits for Silver and Gold members",
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "rewards.VIP",
-                      "referrerId": "HOT.SR.rewards.VIP.true:2"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "rewards.VIP",
-                      "referrerId": "HOT.SR.rewards.VIP.false:2"
-                    }
-                  }
-                ]
-              },
-              {
-                "__typename": "ShoppingMultiSelectionField",
-                "primary": "Accessibility",
-                "secondary": null,
-                "expando": {
-                  "__typename": "ShoppingSelectionExpando",
-                  "threshold": 3,
-                  "collapseLabel": "See less",
-                  "expandLabel": "See more",
-                  "collapseAnalytics": {
-                    "__typename": "ClientSideAnalytics",
-                    "linkName": "",
-                    "referrerId": ""
-                  },
-                  "expandAnalytics": {
-                    "__typename": "ClientSideAnalytics",
-                    "linkName": "",
-                    "referrerId": ""
-                  }
-                },
-                "multiSelectionOptions": [
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "accessibility",
-                    "primary": "Sign language-capable staff",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "SIGN_LANGUAGE_INTERPRETER",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "accessibility.SIGN_LANGUAGE_INTERPRETER",
-                      "referrerId": "HOT.SR.accessibility.SIGN_LANGUAGE_INTERPRETER.true:1"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "accessibility.SIGN_LANGUAGE_INTERPRETER",
-                      "referrerId": "HOT.SR.accessibility.SIGN_LANGUAGE_INTERPRETER.false:1"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "accessibility",
-                    "primary": "Wheelchair-accessible parking",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "ACCESSIBLE_PARKING",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "accessibility.ACCESSIBLE_PARKING",
-                      "referrerId": "HOT.SR.accessibility.ACCESSIBLE_PARKING.true:2"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "accessibility.ACCESSIBLE_PARKING",
-                      "referrerId": "HOT.SR.accessibility.ACCESSIBLE_PARKING.false:2"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "accessibility",
-                    "primary": "In-room accessibility",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "IN_ROOM_ACCESSIBLE",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "accessibility.IN_ROOM_ACCESSIBLE",
-                      "referrerId": "HOT.SR.accessibility.IN_ROOM_ACCESSIBLE.true:3"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "accessibility.IN_ROOM_ACCESSIBLE",
-                      "referrerId": "HOT.SR.accessibility.IN_ROOM_ACCESSIBLE.false:3"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "accessibility",
-                    "primary": "Elevator",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "ELEVATOR",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "accessibility.ELEVATOR",
-                      "referrerId": "HOT.SR.accessibility.ELEVATOR.true:4"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "accessibility.ELEVATOR",
-                      "referrerId": "HOT.SR.accessibility.ELEVATOR.false:4"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "accessibility",
-                    "primary": "Accessible bathroom",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "ACCESSIBLE_BATHROOM",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "accessibility.ACCESSIBLE_BATHROOM",
-                      "referrerId": "HOT.SR.accessibility.ACCESSIBLE_BATHROOM.true:5"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "accessibility.ACCESSIBLE_BATHROOM",
-                      "referrerId": "HOT.SR.accessibility.ACCESSIBLE_BATHROOM.false:5"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "accessibility",
-                    "primary": "Stair-free path to entrance",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "STAIR_FREE_PATH",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "accessibility.STAIR_FREE_PATH",
-                      "referrerId": "HOT.SR.accessibility.STAIR_FREE_PATH.true:6"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "accessibility.STAIR_FREE_PATH",
-                      "referrerId": "HOT.SR.accessibility.STAIR_FREE_PATH.false:6"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "accessibility",
-                    "primary": "Service animals allowed",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "SERVICE_ANIMAL",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "accessibility.SERVICE_ANIMAL",
-                      "referrerId": "HOT.SR.accessibility.SERVICE_ANIMAL.true:7"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "accessibility.SERVICE_ANIMAL",
-                      "referrerId": "HOT.SR.accessibility.SERVICE_ANIMAL.false:7"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "accessibility",
-                    "primary": "Roll-in shower",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "ROLL_IN_SHOWER",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "accessibility.ROLL_IN_SHOWER",
-                      "referrerId": "HOT.SR.accessibility.ROLL_IN_SHOWER.true:8"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "accessibility.ROLL_IN_SHOWER",
-                      "referrerId": "HOT.SR.accessibility.ROLL_IN_SHOWER.false:8"
-                    }
-                  }
-                ]
-              },
-              {
-                "__typename": "ShoppingMultiSelectionField",
-                "primary": "Traveler experience",
-                "secondary": null,
-                "expando": {
-                  "__typename": "ShoppingSelectionExpando",
-                  "threshold": 3,
-                  "collapseLabel": "See less",
-                  "expandLabel": "See more",
-                  "collapseAnalytics": {
-                    "__typename": "ClientSideAnalytics",
-                    "linkName": "",
-                    "referrerId": ""
-                  },
-                  "expandAnalytics": {
-                    "__typename": "ClientSideAnalytics",
-                    "linkName": "",
-                    "referrerId": ""
-                  }
-                },
-                "multiSelectionOptions": [
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "travelerType",
-                    "primary": "LGBTQ welcoming",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "LGBT",
-                    "description": "See properties that pledge to make all guests feel safe, welcome, and respected.",
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "travelerType.LGBT",
-                      "referrerId": "HOT.SR.travelerType.LGBT.true:1"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "travelerType.LGBT",
-                      "referrerId": "HOT.SR.travelerType.LGBT.false:1"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "travelerType",
-                    "primary": "Business friendly",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "BUSINESS",
-                    "description": "See properties with amenities to help you work comfortably, like WiFi and breakfast.",
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "travelerType.BUSINESS",
-                      "referrerId": "HOT.SR.travelerType.BUSINESS.true:2"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "travelerType.BUSINESS",
-                      "referrerId": "HOT.SR.travelerType.BUSINESS.false:2"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "travelerType",
-                    "primary": "Family friendly",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "FAMILY",
-                    "description": "See properties that include family essentials like in-room conveniences and activities for the kids.",
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "travelerType.FAMILY",
-                      "referrerId": "HOT.SR.travelerType.FAMILY.true:3"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "travelerType.FAMILY",
-                      "referrerId": "HOT.SR.travelerType.FAMILY.false:3"
-                    }
-                  }
-                ]
-              },
-              {
-                "__typename": "ShoppingMultiSelectionField",
-                "primary": "Availability",
-                "secondary": null,
-                "expando": null,
-                "multiSelectionOptions": [
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "availableFilter",
-                    "primary": "Only show available properties",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "SHOW_AVAILABLE_ONLY",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "availableFilter.SHOW_AVAILABLE_ONLY",
-                      "referrerId": "HOT.SR.availableFilter.SHOW_AVAILABLE_ONLY.true:1"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "availableFilter.SHOW_AVAILABLE_ONLY",
-                      "referrerId": "HOT.SR.availableFilter.SHOW_AVAILABLE_ONLY.false:1"
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "sortSections": [
-          {
-            "__typename": "ShoppingSortAndFilterSection",
-            "title": null,
-            "fields": [
-              {
-                "__typename": "ShoppingDropdownField",
-                "primary": "Sort by",
-                "secondary": null,
-                "dropdownFilterOptions": [
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "sort",
-                    "primary": "Recommended",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "RECOMMENDED",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": true,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "sort.RECOMMENDED",
-                      "referrerId": "HOT.SR.sort.RECOMMENDED.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "sort.RECOMMENDED",
-                      "referrerId": "HOT.SR.sort.RECOMMENDED.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "sort",
-                    "primary": "Price",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "PRICE_LOW_TO_HIGH",
-                    "description": null,
-                    "selected": true,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "sort.PRICE_LOW_TO_HIGH",
-                      "referrerId": "HOT.SR.sort.PRICE_LOW_TO_HIGH.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "sort.PRICE_LOW_TO_HIGH",
-                      "referrerId": "HOT.SR.sort.PRICE_LOW_TO_HIGH.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "sort",
-                    "primary": "Distance from downtown",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "DISTANCE",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "sort.DISTANCE",
-                      "referrerId": "HOT.SR.sort.DISTANCE.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "sort.DISTANCE",
-                      "referrerId": "HOT.SR.sort.DISTANCE.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "sort",
-                    "primary": "Guest rating",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "REVIEW",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "sort.REVIEW",
-                      "referrerId": "HOT.SR.sort.REVIEW.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "sort.REVIEW",
-                      "referrerId": "HOT.SR.sort.REVIEW.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "sort",
-                    "primary": "Price + our picks",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "PRICE_RELEVANT",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "sort.PRICE_RELEVANT",
-                      "referrerId": "HOT.SR.sort.PRICE_RELEVANT.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "sort.PRICE_RELEVANT",
-                      "referrerId": "HOT.SR.sort.PRICE_RELEVANT.false"
-                    }
-                  },
-                  {
-                    "__typename": "ShoppingSelectableFilterOption",
-                    "id": "sort",
-                    "primary": "Star rating",
-                    "secondary": null,
-                    "icon": null,
-                    "analytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "",
-                      "referrerId": ""
-                    },
-                    "value": "PROPERTY_CLASS",
-                    "description": null,
-                    "selected": false,
-                    "disabled": false,
-                    "default": false,
-                    "selectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "sort.PROPERTY_CLASS",
-                      "referrerId": "HOT.SR.sort.PROPERTY_CLASS.true"
-                    },
-                    "deselectAnalytics": {
-                      "__typename": "ClientSideAnalytics",
-                      "linkName": "sort.PROPERTY_CLASS",
-                      "referrerId": "HOT.SR.sort.PROPERTY_CLASS.false"
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "properties": [
+const property = {
+  __typename: "PropertyInfo",
+  summary: {
+    __typename: "PropertySummary",
+    fees: null,
+    id: "2540761",
+    name: "MerPerle Hon Tam Resort",
+    map: {
+      __typename: "PropertyInfoMap",
+      markers: [
         {
-          "__typename": "Property",
-          "id": "44128751",
-          "featuredMessages": [],
-          "name": "Selectum Noa Resort Cam Ranh",
-          "availability": {
-            "__typename": "PropertyAvailability",
-            "available": true,
-            "minRoomsLeft": null
-          },
-          "propertyImage": {
-            "__typename": "PropertyImage",
-            "alt": "",
-            "fallbackImage": null,
-            "image": {
-              "__typename": "Image",
-              "description": "Primary image",
-              "url": "https://images.trvl-media.com/lodging/45000000/44130000/44128800/44128751/98ca719d.jpg?impolicy=resizecrop&rw=455&ra=fit"
+          __typename: "PointOfInterest",
+          mapMarker: {
+            __typename: "MapMarker",
+            icon: "AIRPORT",
+            latLong: {
+              __typename: "Coordinates",
+              latitude: 12.012793,
+              longitude: 109.219379,
             },
-            "subjectId": 3
+            type: "POI",
           },
-          "destinationInfo": {
-            "__typename": "PropertyDestinationInfo",
-            "distanceFromDestination": {
-              "__typename": "Distance",
-              "unit": "MILE",
-              "value": 11.35
-            },
-            "distanceFromMessaging": null,
-            "regionId": "6182839"
-          },
-          "legalDisclaimer": null,
-          "listingFooter": null,
-          "mapMarker": {
-            "__typename": "MapMarker",
-            "label": "$101",
-            "latLong": {
-              "__typename": "Coordinates",
-              "latitude": 12.085271,
-              "longitude": 109.190839
-            }
-          },
-          "neighborhood": {
-            "__typename": "Region",
-            "name": "Cam Lam"
-          },
-          "offerBadge": {
-            "__typename": "OfferBadge",
-            "primary": {
-              "__typename": "Badge",
-              "text": "Member Price",
-              "theme_temp": "DEAL_MEMBER",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "mod",
-                "description": "mod"
-              },
-              "mark": null
-            },
-            "secondary": {
-              "__typename": "Badge",
-              "text": "29% off",
-              "theme_temp": "DEAL_MEMBER",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "mod",
-                "description": "mod"
-              },
-              "mark": null
-            }
-          },
-          "offerSummary": {
-            "__typename": "OfferSummary",
-            "messages": [
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Collect stamps",
-                "theme": null,
-                "type": "LOYALTY_EARN",
-                "mark": {
-                  "__typename": "Mark",
-                  "id": "loyalty",
-                  "token": "mark__loyalty",
-                  "description": "loyalty logo"
-                }
-              }
-            ],
-            "attributes": []
-          },
-          "pinnedDetails": null,
-          "price": {
-            "__typename": "PropertyPrice",
-            "options": [
-              {
-                "__typename": "PropertyPriceOption",
-                "strikeOut": {
-                  "__typename": "Money",
-                  "amount": 141.82,
-                  "formatted": "$142"
-                },
-                "disclaimer": {
-                  "__typename": "LodgingPlainMessage",
-                  "value": "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                },
-                "formattedDisplayPrice": "$101"
-              }
-            ],
-            "priceMessaging": null,
-            "lead": {
-              "__typename": "Money",
-              "amount": 100.69,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$101"
-            },
-            "strikeOut": {
-              "__typename": "Money",
-              "amount": 141.82,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$142"
-            },
-            "displayMessages": [
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": {
-                      "__typename": "LodgingPlainDialog",
-                      "content": [
-                        "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                      ],
-                      "title": null
-                    },
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$142",
-                      "accessibilityLabel": "The price was $142"
-                    },
-                    "role": "STRIKEOUT"
-                  },
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": null,
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$101",
-                      "accessibilityLabel": "The price is $101"
-                    },
-                    "role": "LEAD"
-                  }
-                ]
-              },
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "LodgingEnrichedMessage",
-                    "accessibilityLabel": null,
-                    "mark": null,
-                    "state": null,
-                    "value": "$812 total",
-                    "badge": null
-                  }
-                ]
-              }
-            ],
-            "strikeOutType": "STANDALONE",
-            "priceMessages": [
-              {
-                "__typename": "LodgingPlainMessage",
-                "value": "per night"
-              }
-            ]
-          },
-          "priceAfterLoyaltyPointsApplied": {
-            "__typename": "PropertyPrice",
-            "options": [],
-            "lead": null
-          },
-          "propertyFees": [],
-          "reviews": {
-            "__typename": "PropertyReviewsSummary",
-            "score": 8,
-            "total": 1
-          },
-          "sponsoredListing": null,
-          "star": null,
-          "supportingMessages": null,
-          "regionId": "6182839",
-          "priceMetadata": {
-            "__typename": "PropertyPriceMetadata",
-            "discountType": "MEMBER_DEAL",
-            "rateDiscount": {
-              "__typename": "RateDiscount",
-              "description": "Member’s price: 23%"
-            },
-            "totalDiscountPercentage": 29
-          },
-          "saveTripItem": null
+          poiContent: null,
+          subtitle: "40 min drive",
+          title: "Nha Trang (CXR-Cam Ranh)",
         },
         {
-          "__typename": "Property",
-          "id": "27514918",
-          "featuredMessages": [],
-          "name": "Ta'or Seaview Homestay",
-          "availability": {
-            "__typename": "PropertyAvailability",
-            "available": true,
-            "minRoomsLeft": 1
-          },
-          "propertyImage": {
-            "__typename": "PropertyImage",
-            "alt": "",
-            "fallbackImage": null,
-            "image": {
-              "__typename": "Image",
-              "description": "Primary image",
-              "url": "https://images.trvl-media.com/lodging/28000000/27520000/27515000/27514918/87cc6cf2.jpg?impolicy=resizecrop&rw=455&ra=fit"
+          __typename: "PointOfInterest",
+          mapMarker: {
+            __typename: "MapMarker",
+            icon: "AIRPORT",
+            latLong: {
+              __typename: "Coordinates",
+              latitude: 12.227286,
+              longitude: 109.196892,
             },
-            "subjectId": 3
+            type: "POI",
           },
-          "destinationInfo": {
-            "__typename": "PropertyDestinationInfo",
-            "distanceFromDestination": {
-              "__typename": "Distance",
-              "unit": "MILE",
-              "value": 1.79
-            },
-            "distanceFromMessaging": null,
-            "regionId": "553248635934140183"
-          },
-          "legalDisclaimer": null,
-          "listingFooter": null,
-          "mapMarker": {
-            "__typename": "MapMarker",
-            "label": "$105",
-            "latLong": {
-              "__typename": "Coordinates",
-              "latitude": 12.271866,
-              "longitude": 109.20411
-            }
-          },
-          "neighborhood": {
-            "__typename": "Region",
-            "name": "Vinh Phuoc"
-          },
-          "offerBadge": null,
-          "offerSummary": {
-            "__typename": "OfferSummary",
-            "messages": [
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Collect stamps",
-                "theme": null,
-                "type": "LOYALTY_EARN",
-                "mark": {
-                  "__typename": "Mark",
-                  "id": "loyalty",
-                  "token": "mark__loyalty",
-                  "description": "loyalty logo"
-                }
-              }
-            ],
-            "attributes": []
-          },
-          "pinnedDetails": null,
-          "price": {
-            "__typename": "PropertyPrice",
-            "options": [
-              {
-                "__typename": "PropertyPriceOption",
-                "strikeOut": null,
-                "disclaimer": null,
-                "formattedDisplayPrice": "$105"
-              }
-            ],
-            "priceMessaging": null,
-            "lead": {
-              "__typename": "Money",
-              "amount": 105.45,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$105"
-            },
-            "strikeOut": null,
-            "displayMessages": [
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": null,
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$105",
-                      "accessibilityLabel": "The price is $105"
-                    },
-                    "role": "LEAD"
-                  }
-                ]
-              },
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "LodgingEnrichedMessage",
-                    "accessibilityLabel": null,
-                    "mark": null,
-                    "state": null,
-                    "value": "$609 total",
-                    "badge": null
-                  }
-                ]
-              }
-            ],
-            "strikeOutType": "STANDALONE",
-            "priceMessages": [
-              {
-                "__typename": "LodgingPlainMessage",
-                "value": "per night"
-              }
-            ]
-          },
-          "priceAfterLoyaltyPointsApplied": {
-            "__typename": "PropertyPrice",
-            "options": [],
-            "lead": null
-          },
-          "propertyFees": [],
-          "reviews": {
-            "__typename": "PropertyReviewsSummary",
-            "score": 0,
-            "total": 0
-          },
-          "sponsoredListing": null,
-          "star": null,
-          "supportingMessages": null,
-          "regionId": "553248635934140183",
-          "priceMetadata": {
-            "__typename": "PropertyPriceMetadata",
-            "discountType": null,
-            "rateDiscount": {
-              "__typename": "RateDiscount",
-              "description": null
-            },
-            "totalDiscountPercentage": 0
-          },
-          "saveTripItem": null
+          poiContent: null,
+          subtitle: "11 min drive",
+          title: "Nha Trang (NHA)",
         },
         {
-          "__typename": "Property",
-          "id": "2540761",
-          "featuredMessages": [],
-          "name": "MerPerle Hon Tam Resort",
-          "availability": {
-            "__typename": "PropertyAvailability",
-            "available": true,
-            "minRoomsLeft": 1
-          },
-          "propertyImage": {
-            "__typename": "PropertyImage",
-            "alt": "",
-            "fallbackImage": null,
-            "image": {
-              "__typename": "Image",
-              "description": "Primary image",
-              "url": "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/7481b1b9.jpg?impolicy=resizecrop&rw=455&ra=fit"
+          __typename: "PointOfInterest",
+          mapMarker: {
+            __typename: "MapMarker",
+            icon: "HOTEL",
+            latLong: {
+              __typename: "Coordinates",
+              latitude: 12.178097,
+              longitude: 109.237653,
             },
-            "subjectId": 3
+            type: "HOTEL",
           },
-          "destinationInfo": {
-            "__typename": "PropertyDestinationInfo",
-            "distanceFromDestination": {
-              "__typename": "Distance",
-              "unit": "MILE",
-              "value": 5.87
-            },
-            "distanceFromMessaging": null,
-            "regionId": "6054439"
+          poiContent: {
+            __typename: "PoiContent",
+            description: null,
+            id: "2540761",
+            image: null,
           },
-          "legalDisclaimer": null,
-          "listingFooter": null,
-          "mapMarker": {
-            "__typename": "MapMarker",
-            "label": "$113",
-            "latLong": {
-              "__typename": "Coordinates",
-              "latitude": 12.178097,
-              "longitude": 109.237653
-            }
-          },
-          "neighborhood": {
-            "__typename": "Region",
-            "name": "Nha Trang"
-          },
-          "offerBadge": {
-            "__typename": "OfferBadge",
-            "primary": {
-              "__typename": "Badge",
-              "text": "Member Price",
-              "theme_temp": "DEAL_MEMBER",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "mod",
-                "description": "mod"
-              },
-              "mark": null
-            },
-            "secondary": {
-              "__typename": "Badge",
-              "text": "68% off",
-              "theme_temp": "DEAL_MEMBER",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "mod",
-                "description": "mod"
-              },
-              "mark": null
-            }
-          },
-          "offerSummary": {
-            "__typename": "OfferSummary",
-            "messages": [
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Collect stamps",
-                "theme": null,
-                "type": "LOYALTY_EARN",
-                "mark": {
-                  "__typename": "Mark",
-                  "id": "loyalty",
-                  "token": "mark__loyalty",
-                  "description": "loyalty logo"
-                }
-              }
-            ],
-            "attributes": []
-          },
-          "pinnedDetails": null,
-          "price": {
-            "__typename": "PropertyPrice",
-            "options": [
-              {
-                "__typename": "PropertyPriceOption",
-                "strikeOut": {
-                  "__typename": "Money",
-                  "amount": 352.69,
-                  "formatted": "$353"
-                },
-                "disclaimer": {
-                  "__typename": "LodgingPlainMessage",
-                  "value": "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                },
-                "formattedDisplayPrice": "$113"
-              }
-            ],
-            "priceMessaging": null,
-            "lead": {
-              "__typename": "Money",
-              "amount": 112.86,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$113"
-            },
-            "strikeOut": {
-              "__typename": "Money",
-              "amount": 352.69,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$353"
-            },
-            "displayMessages": [
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": {
-                      "__typename": "LodgingPlainDialog",
-                      "content": [
-                        "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                      ],
-                      "title": null
-                    },
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$353",
-                      "accessibilityLabel": "The price was $353"
-                    },
-                    "role": "STRIKEOUT"
-                  },
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": null,
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$113",
-                      "accessibilityLabel": "The price is $113"
-                    },
-                    "role": "LEAD"
-                  }
-                ]
-              },
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "LodgingEnrichedMessage",
-                    "accessibilityLabel": null,
-                    "mark": null,
-                    "state": null,
-                    "value": "$652 total",
-                    "badge": null
-                  }
-                ]
-              }
-            ],
-            "strikeOutType": "STANDALONE",
-            "priceMessages": [
-              {
-                "__typename": "LodgingPlainMessage",
-                "value": "per night"
-              }
-            ]
-          },
-          "priceAfterLoyaltyPointsApplied": {
-            "__typename": "PropertyPrice",
-            "options": [],
-            "lead": null
-          },
-          "propertyFees": [],
-          "reviews": {
-            "__typename": "PropertyReviewsSummary",
-            "score": 8.2,
-            "total": 168
-          },
-          "sponsoredListing": null,
-          "star": null,
-          "supportingMessages": null,
-          "regionId": "6054439",
-          "priceMetadata": {
-            "__typename": "PropertyPriceMetadata",
-            "discountType": "MEMBER_DEAL",
-            "rateDiscount": {
-              "__typename": "RateDiscount",
-              "description": "Member’s price: 68%"
-            },
-            "totalDiscountPercentage": 68
-          },
-          "saveTripItem": null
+          subtitle: null,
+          title: "MerPerle Hon Tam Resort",
         },
-        {
-          "__typename": "Property",
-          "id": "33331379",
-          "featuredMessages": [],
-          "name": "Vesna Hotel",
-          "availability": {
-            "__typename": "PropertyAvailability",
-            "available": true,
-            "minRoomsLeft": 1
-          },
-          "propertyImage": {
-            "__typename": "PropertyImage",
-            "alt": "",
-            "fallbackImage": null,
-            "image": {
-              "__typename": "Image",
-              "description": "Lobby",
-              "url": "https://images.trvl-media.com/lodging/34000000/33340000/33331400/33331379/1f9a2925.jpg?impolicy=resizecrop&rw=455&ra=fit"
-            },
-            "subjectId": 10001
-          },
-          "destinationInfo": {
-            "__typename": "PropertyDestinationInfo",
-            "distanceFromDestination": {
-              "__typename": "Distance",
-              "unit": "MILE",
-              "value": 1.75
-            },
-            "distanceFromMessaging": null,
-            "regionId": "6054439"
-          },
-          "legalDisclaimer": null,
-          "listingFooter": null,
-          "mapMarker": {
-            "__typename": "MapMarker",
-            "label": "$118",
-            "latLong": {
-              "__typename": "Coordinates",
-              "latitude": 12.226066,
-              "longitude": 109.20044
-            }
-          },
-          "neighborhood": {
-            "__typename": "Region",
-            "name": "Tran Phu Beach"
-          },
-          "offerBadge": {
-            "__typename": "OfferBadge",
-            "primary": {
-              "__typename": "Badge",
-              "text": "Member Price",
-              "theme_temp": "DEAL_MEMBER",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "mod",
-                "description": "mod"
-              },
-              "mark": null
-            },
-            "secondary": {
-              "__typename": "Badge",
-              "text": "50% off",
-              "theme_temp": "DEAL_MEMBER",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "mod",
-                "description": "mod"
-              },
-              "mark": null
-            }
-          },
-          "offerSummary": {
-            "__typename": "OfferSummary",
-            "messages": [
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Collect stamps",
-                "theme": null,
-                "type": "LOYALTY_EARN",
-                "mark": {
-                  "__typename": "Mark",
-                  "id": "loyalty",
-                  "token": "mark__loyalty",
-                  "description": "loyalty logo"
-                }
-              }
-            ],
-            "attributes": []
-          },
-          "pinnedDetails": null,
-          "price": {
-            "__typename": "PropertyPrice",
-            "options": [
-              {
-                "__typename": "PropertyPriceOption",
-                "strikeOut": {
-                  "__typename": "Money",
-                  "amount": 236.36,
-                  "formatted": "$236"
-                },
-                "disclaimer": {
-                  "__typename": "LodgingPlainMessage",
-                  "value": "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                },
-                "formattedDisplayPrice": "$118"
-              }
-            ],
-            "priceMessaging": null,
-            "lead": {
-              "__typename": "Money",
-              "amount": 118.18,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$118"
-            },
-            "strikeOut": {
-              "__typename": "Money",
-              "amount": 236.36,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$236"
-            },
-            "displayMessages": [
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": {
-                      "__typename": "LodgingPlainDialog",
-                      "content": [
-                        "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                      ],
-                      "title": null
-                    },
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$236",
-                      "accessibilityLabel": "The price was $236"
-                    },
-                    "role": "STRIKEOUT"
-                  },
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": null,
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$118",
-                      "accessibilityLabel": "The price is $118"
-                    },
-                    "role": "LEAD"
-                  }
-                ]
-              },
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "LodgingEnrichedMessage",
-                    "accessibilityLabel": null,
-                    "mark": null,
-                    "state": null,
-                    "value": "$683 total",
-                    "badge": null
-                  }
-                ]
-              }
-            ],
-            "strikeOutType": "STANDALONE",
-            "priceMessages": [
-              {
-                "__typename": "LodgingPlainMessage",
-                "value": "per night"
-              }
-            ]
-          },
-          "priceAfterLoyaltyPointsApplied": {
-            "__typename": "PropertyPrice",
-            "options": [],
-            "lead": null
-          },
-          "propertyFees": [],
-          "reviews": {
-            "__typename": "PropertyReviewsSummary",
-            "score": 6.8,
-            "total": 5
-          },
-          "sponsoredListing": null,
-          "star": null,
-          "supportingMessages": null,
-          "regionId": "6054439",
-          "priceMetadata": {
-            "__typename": "PropertyPriceMetadata",
-            "discountType": "MEMBER_DEAL",
-            "rateDiscount": {
-              "__typename": "RateDiscount",
-              "description": "Member’s price: 50%"
-            },
-            "totalDiscountPercentage": 50
-          },
-          "saveTripItem": null
-        },
-        {
-          "__typename": "Property",
-          "id": "22991728",
-          "featuredMessages": [],
-          "name": "Boton Blue Hotel & Spa",
-          "availability": {
-            "__typename": "PropertyAvailability",
-            "available": true,
-            "minRoomsLeft": 1
-          },
-          "propertyImage": {
-            "__typename": "PropertyImage",
-            "alt": "",
-            "fallbackImage": null,
-            "image": {
-              "__typename": "Image",
-              "description": "Lobby",
-              "url": "https://images.trvl-media.com/lodging/23000000/23000000/22991800/22991728/3d623bd1.jpg?impolicy=resizecrop&rw=455&ra=fit"
-            },
-            "subjectId": 10001
-          },
-          "destinationInfo": {
-            "__typename": "PropertyDestinationInfo",
-            "distanceFromDestination": {
-              "__typename": "Distance",
-              "unit": "MILE",
-              "value": 2.56
-            },
-            "distanceFromMessaging": null,
-            "regionId": "6054439"
-          },
-          "legalDisclaimer": null,
-          "listingFooter": null,
-          "mapMarker": {
-            "__typename": "MapMarker",
-            "label": "$120",
-            "latLong": {
-              "__typename": "Coordinates",
-              "latitude": 12.2844,
-              "longitude": 109.20371
-            }
-          },
-          "neighborhood": {
-            "__typename": "Region",
-            "name": "Nha Trang"
-          },
-          "offerBadge": {
-            "__typename": "OfferBadge",
-            "primary": {
-              "__typename": "Badge",
-              "text": "VIP Access",
-              "theme_temp": "VIP",
-              "icon_temp": null,
-              "mark": null
-            },
-            "secondary": {
-              "__typename": "Badge",
-              "text": "70% off",
-              "theme_temp": "DEAL_MEMBER",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "mod",
-                "description": "mod"
-              },
-              "mark": null
-            }
-          },
-          "offerSummary": {
-            "__typename": "OfferSummary",
-            "messages": [
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Reserve without credit card",
-                "theme": "SUCCESS",
-                "type": "NO_CREDIT_CARD",
-                "mark": null
-              },
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Collect stamps",
-                "theme": null,
-                "type": "LOYALTY_EARN",
-                "mark": {
-                  "__typename": "Mark",
-                  "id": "loyalty",
-                  "token": "mark__loyalty",
-                  "description": "loyalty logo"
-                }
-              }
-            ],
-            "attributes": [
-              {
-                "__typename": "OfferAttribute",
-                "type": "NO_CC_REQUIRED"
-              },
-              {
-                "__typename": "OfferAttribute",
-                "type": "VIP"
-              },
-              {
-                "__typename": "OfferAttribute",
-                "type": "PAYMENT_CHOICE"
-              }
-            ]
-          },
-          "pinnedDetails": null,
-          "price": {
-            "__typename": "PropertyPrice",
-            "options": [
-              {
-                "__typename": "PropertyPriceOption",
-                "strikeOut": {
-                  "__typename": "Money",
-                  "amount": 400.00002,
-                  "formatted": "$400"
-                },
-                "disclaimer": {
-                  "__typename": "LodgingPlainMessage",
-                  "value": "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                },
-                "formattedDisplayPrice": "$120"
-              }
-            ],
-            "priceMessaging": null,
-            "lead": {
-              "__typename": "Money",
-              "amount": 120.000006,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$120"
-            },
-            "strikeOut": {
-              "__typename": "Money",
-              "amount": 400.00002,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$400"
-            },
-            "displayMessages": [
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": {
-                      "__typename": "LodgingPlainDialog",
-                      "content": [
-                        "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                      ],
-                      "title": null
-                    },
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$400",
-                      "accessibilityLabel": "The price was $400"
-                    },
-                    "role": "STRIKEOUT"
-                  },
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": null,
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$120",
-                      "accessibilityLabel": "The price is $120"
-                    },
-                    "role": "LEAD"
-                  }
-                ]
-              },
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "LodgingEnrichedMessage",
-                    "accessibilityLabel": null,
-                    "mark": null,
-                    "state": null,
-                    "value": "$693 total",
-                    "badge": null
-                  }
-                ]
-              }
-            ],
-            "strikeOutType": "STANDALONE",
-            "priceMessages": [
-              {
-                "__typename": "LodgingPlainMessage",
-                "value": "per night"
-              }
-            ]
-          },
-          "priceAfterLoyaltyPointsApplied": {
-            "__typename": "PropertyPrice",
-            "options": [],
-            "lead": null
-          },
-          "propertyFees": [],
-          "reviews": {
-            "__typename": "PropertyReviewsSummary",
-            "score": 8.6,
-            "total": 235
-          },
-          "sponsoredListing": null,
-          "star": null,
-          "supportingMessages": null,
-          "regionId": "6054439",
-          "priceMetadata": {
-            "__typename": "PropertyPriceMetadata",
-            "discountType": "MEMBER_DEAL",
-            "rateDiscount": {
-              "__typename": "RateDiscount",
-              "description": "Member’s price: 70%"
-            },
-            "totalDiscountPercentage": 70
-          },
-          "saveTripItem": null
-        },
-        {
-          "__typename": "Property",
-          "id": "33833196",
-          "featuredMessages": [],
-          "name": "Truong Hotel",
-          "availability": {
-            "__typename": "PropertyAvailability",
-            "available": true,
-            "minRoomsLeft": 1
-          },
-          "propertyImage": {
-            "__typename": "PropertyImage",
-            "alt": "",
-            "fallbackImage": null,
-            "image": {
-              "__typename": "Image",
-              "description": "Primary image",
-              "url": "https://images.trvl-media.com/lodging/34000000/33840000/33833200/33833196/5f7cd7f9.jpg?impolicy=resizecrop&rw=455&ra=fit"
-            },
-            "subjectId": 3
-          },
-          "destinationInfo": {
-            "__typename": "PropertyDestinationInfo",
-            "distanceFromDestination": {
-              "__typename": "Distance",
-              "unit": "MILE",
-              "value": 1.92
-            },
-            "distanceFromMessaging": null,
-            "regionId": "3000002330"
-          },
-          "legalDisclaimer": null,
-          "listingFooter": null,
-          "mapMarker": {
-            "__typename": "MapMarker",
-            "label": "$124",
-            "latLong": {
-              "__typename": "Coordinates",
-              "latitude": 12.275154,
-              "longitude": 109.20198
-            }
-          },
-          "neighborhood": {
-            "__typename": "Region",
-            "name": "Vĩnh Hải"
-          },
-          "offerBadge": null,
-          "offerSummary": {
-            "__typename": "OfferSummary",
-            "messages": [
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Collect stamps",
-                "theme": null,
-                "type": "LOYALTY_EARN",
-                "mark": {
-                  "__typename": "Mark",
-                  "id": "loyalty",
-                  "token": "mark__loyalty",
-                  "description": "loyalty logo"
-                }
-              }
-            ],
-            "attributes": []
-          },
-          "pinnedDetails": null,
-          "price": {
-            "__typename": "PropertyPrice",
-            "options": [
-              {
-                "__typename": "PropertyPriceOption",
-                "strikeOut": null,
-                "disclaimer": null,
-                "formattedDisplayPrice": "$124"
-              }
-            ],
-            "priceMessaging": null,
-            "lead": {
-              "__typename": "Money",
-              "amount": 123.64,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$124"
-            },
-            "strikeOut": null,
-            "displayMessages": [
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": null,
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$124",
-                      "accessibilityLabel": "The price is $124"
-                    },
-                    "role": "LEAD"
-                  }
-                ]
-              },
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "LodgingEnrichedMessage",
-                    "accessibilityLabel": null,
-                    "mark": null,
-                    "state": null,
-                    "value": "$737 total",
-                    "badge": null
-                  }
-                ]
-              }
-            ],
-            "strikeOutType": "STANDALONE",
-            "priceMessages": [
-              {
-                "__typename": "LodgingPlainMessage",
-                "value": "per night"
-              }
-            ]
-          },
-          "priceAfterLoyaltyPointsApplied": {
-            "__typename": "PropertyPrice",
-            "options": [],
-            "lead": null
-          },
-          "propertyFees": [],
-          "reviews": {
-            "__typename": "PropertyReviewsSummary",
-            "score": 0,
-            "total": 0
-          },
-          "sponsoredListing": null,
-          "star": null,
-          "supportingMessages": null,
-          "regionId": "3000002330",
-          "priceMetadata": {
-            "__typename": "PropertyPriceMetadata",
-            "discountType": null,
-            "rateDiscount": {
-              "__typename": "RateDiscount",
-              "description": null
-            },
-            "totalDiscountPercentage": 0
-          },
-          "saveTripItem": null
-        },
-        {
-          "__typename": "Property",
-          "id": "45773013",
-          "featuredMessages": [],
-          "name": "Alma Resort Cam Ranh",
-          "availability": {
-            "__typename": "PropertyAvailability",
-            "available": true,
-            "minRoomsLeft": null
-          },
-          "propertyImage": {
-            "__typename": "PropertyImage",
-            "alt": "",
-            "fallbackImage": null,
-            "image": {
-              "__typename": "Image",
-              "description": "Primary image",
-              "url": "https://images.trvl-media.com/lodging/46000000/45780000/45773100/45773013/492e9c9a.jpg?impolicy=resizecrop&rw=455&ra=fit"
-            },
-            "subjectId": 3
-          },
-          "destinationInfo": {
-            "__typename": "PropertyDestinationInfo",
-            "distanceFromDestination": {
-              "__typename": "Distance",
-              "unit": "MILE",
-              "value": 12.23
-            },
-            "distanceFromMessaging": null,
-            "regionId": "6182839"
-          },
-          "legalDisclaimer": null,
-          "listingFooter": null,
-          "mapMarker": {
-            "__typename": "MapMarker",
-            "label": "$126",
-            "latLong": {
-              "__typename": "Coordinates",
-              "latitude": 12.072606,
-              "longitude": 109.194807
-            }
-          },
-          "neighborhood": {
-            "__typename": "Region",
-            "name": "Cam Lam"
-          },
-          "offerBadge": {
-            "__typename": "OfferBadge",
-            "primary": {
-              "__typename": "Badge",
-              "text": "Great for families",
-              "theme_temp": "FAMILY_FRIENDLY",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "family_friendly",
-                "description": "family_friendly"
-              },
-              "mark": null
-            },
-            "secondary": {
-              "__typename": "Badge",
-              "text": "20% off",
-              "theme_temp": "DEAL_GENERIC",
-              "icon_temp": null,
-              "mark": null
-            }
-          },
-          "offerSummary": {
-            "__typename": "OfferSummary",
-            "messages": [
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Collect stamps",
-                "theme": null,
-                "type": "LOYALTY_EARN",
-                "mark": {
-                  "__typename": "Mark",
-                  "id": "loyalty",
-                  "token": "mark__loyalty",
-                  "description": "loyalty logo"
-                }
-              }
-            ],
-            "attributes": []
-          },
-          "pinnedDetails": null,
-          "price": {
-            "__typename": "PropertyPrice",
-            "options": [
-              {
-                "__typename": "PropertyPriceOption",
-                "strikeOut": {
-                  "__typename": "Money",
-                  "amount": 157.09,
-                  "formatted": "$157"
-                },
-                "disclaimer": {
-                  "__typename": "LodgingPlainMessage",
-                  "value": "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                },
-                "formattedDisplayPrice": "$126"
-              }
-            ],
-            "priceMessaging": null,
-            "lead": {
-              "__typename": "Money",
-              "amount": 125.67,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$126"
-            },
-            "strikeOut": {
-              "__typename": "Money",
-              "amount": 157.09,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$157"
-            },
-            "displayMessages": [
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": {
-                      "__typename": "LodgingPlainDialog",
-                      "content": [
-                        "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                      ],
-                      "title": null
-                    },
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$157",
-                      "accessibilityLabel": "The price was $157"
-                    },
-                    "role": "STRIKEOUT"
-                  },
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": null,
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$126",
-                      "accessibilityLabel": "The price is $126"
-                    },
-                    "role": "LEAD"
-                  }
-                ]
-              },
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "LodgingEnrichedMessage",
-                    "accessibilityLabel": null,
-                    "mark": null,
-                    "state": null,
-                    "value": "$726 total",
-                    "badge": null
-                  }
-                ]
-              }
-            ],
-            "strikeOutType": "STANDALONE",
-            "priceMessages": [
-              {
-                "__typename": "LodgingPlainMessage",
-                "value": "per night"
-              }
-            ]
-          },
-          "priceAfterLoyaltyPointsApplied": {
-            "__typename": "PropertyPrice",
-            "options": [],
-            "lead": null
-          },
-          "propertyFees": [],
-          "reviews": {
-            "__typename": "PropertyReviewsSummary",
-            "score": 8.8,
-            "total": 22
-          },
-          "sponsoredListing": null,
-          "star": null,
-          "supportingMessages": null,
-          "regionId": "6182839",
-          "priceMetadata": {
-            "__typename": "PropertyPriceMetadata",
-            "discountType": "REGULAR",
-            "rateDiscount": {
-              "__typename": "RateDiscount",
-              "description": "Book early and save 20%"
-            },
-            "totalDiscountPercentage": 20
-          },
-          "saveTripItem": null
-        },
-        {
-          "__typename": "Property",
-          "id": "45982055",
-          "featuredMessages": [],
-          "name": "Alpha Bird Nha Trang",
-          "availability": {
-            "__typename": "PropertyAvailability",
-            "available": true,
-            "minRoomsLeft": 1
-          },
-          "propertyImage": {
-            "__typename": "PropertyImage",
-            "alt": "",
-            "fallbackImage": null,
-            "image": {
-              "__typename": "Image",
-              "description": "Primary image",
-              "url": "https://images.trvl-media.com/lodging/46000000/45990000/45982100/45982055/aa587adf.jpg?impolicy=resizecrop&rw=455&ra=fit"
-            },
-            "subjectId": 3
-          },
-          "destinationInfo": {
-            "__typename": "PropertyDestinationInfo",
-            "distanceFromDestination": {
-              "__typename": "Distance",
-              "unit": "MILE",
-              "value": 1.32
-            },
-            "distanceFromMessaging": null,
-            "regionId": "553248635950844810"
-          },
-          "legalDisclaimer": null,
-          "listingFooter": null,
-          "mapMarker": {
-            "__typename": "MapMarker",
-            "label": "$131",
-            "latLong": {
-              "__typename": "Coordinates",
-              "latitude": 12.231177,
-              "longitude": 109.196135
-            }
-          },
-          "neighborhood": {
-            "__typename": "Region",
-            "name": "Tran Phu Beach"
-          },
-          "offerBadge": {
-            "__typename": "OfferBadge",
-            "primary": {
-              "__typename": "Badge",
-              "text": "Member Price",
-              "theme_temp": "DEAL_MEMBER",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "mod",
-                "description": "mod"
-              },
-              "mark": null
-            },
-            "secondary": {
-              "__typename": "Badge",
-              "text": "10% off",
-              "theme_temp": "DEAL_MEMBER",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "mod",
-                "description": "mod"
-              },
-              "mark": null
-            }
-          },
-          "offerSummary": {
-            "__typename": "OfferSummary",
-            "messages": [
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Collect stamps",
-                "theme": null,
-                "type": "LOYALTY_EARN",
-                "mark": {
-                  "__typename": "Mark",
-                  "id": "loyalty",
-                  "token": "mark__loyalty",
-                  "description": "loyalty logo"
-                }
-              }
-            ],
-            "attributes": []
-          },
-          "pinnedDetails": null,
-          "price": {
-            "__typename": "PropertyPrice",
-            "options": [
-              {
-                "__typename": "PropertyPriceOption",
-                "strikeOut": {
-                  "__typename": "Money",
-                  "amount": 145.45,
-                  "formatted": "$145"
-                },
-                "disclaimer": {
-                  "__typename": "LodgingPlainMessage",
-                  "value": "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                },
-                "formattedDisplayPrice": "$131"
-              }
-            ],
-            "priceMessaging": null,
-            "lead": {
-              "__typename": "Money",
-              "amount": 130.9,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$131"
-            },
-            "strikeOut": {
-              "__typename": "Money",
-              "amount": 145.45,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$145"
-            },
-            "displayMessages": [
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": {
-                      "__typename": "LodgingPlainDialog",
-                      "content": [
-                        "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                      ],
-                      "title": null
-                    },
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$145",
-                      "accessibilityLabel": "The price was $145"
-                    },
-                    "role": "STRIKEOUT"
-                  },
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": null,
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$131",
-                      "accessibilityLabel": "The price is $131"
-                    },
-                    "role": "LEAD"
-                  }
-                ]
-              },
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "LodgingEnrichedMessage",
-                    "accessibilityLabel": null,
-                    "mark": null,
-                    "state": null,
-                    "value": "$756 total",
-                    "badge": null
-                  }
-                ]
-              }
-            ],
-            "strikeOutType": "STANDALONE",
-            "priceMessages": [
-              {
-                "__typename": "LodgingPlainMessage",
-                "value": "per night"
-              }
-            ]
-          },
-          "priceAfterLoyaltyPointsApplied": {
-            "__typename": "PropertyPrice",
-            "options": [],
-            "lead": null
-          },
-          "propertyFees": [],
-          "reviews": {
-            "__typename": "PropertyReviewsSummary",
-            "score": 0,
-            "total": 0
-          },
-          "sponsoredListing": null,
-          "star": null,
-          "supportingMessages": null,
-          "regionId": "553248635950844810",
-          "priceMetadata": {
-            "__typename": "PropertyPriceMetadata",
-            "discountType": "MEMBER_DEAL",
-            "rateDiscount": {
-              "__typename": "RateDiscount",
-              "description": "Private sale: save 10%"
-            },
-            "totalDiscountPercentage": 10
-          },
-          "saveTripItem": null
-        },
-        {
-          "__typename": "Property",
-          "id": "4757569",
-          "featuredMessages": [],
-          "name": "Whale Island Resort",
-          "availability": {
-            "__typename": "PropertyAvailability",
-            "available": true,
-            "minRoomsLeft": 2
-          },
-          "propertyImage": {
-            "__typename": "PropertyImage",
-            "alt": "",
-            "fallbackImage": null,
-            "image": {
-              "__typename": "Image",
-              "description": "Primary image",
-              "url": "https://images.trvl-media.com/lodging/5000000/4760000/4757600/4757569/fdecba1e.jpg?impolicy=resizecrop&rw=455&ra=fit"
-            },
-            "subjectId": 3
-          },
-          "destinationInfo": {
-            "__typename": "PropertyDestinationInfo",
-            "distanceFromDestination": {
-              "__typename": "Distance",
-              "unit": "MILE",
-              "value": 31.06
-            },
-            "distanceFromMessaging": null,
-            "regionId": "6165559"
-          },
-          "legalDisclaimer": null,
-          "listingFooter": null,
-          "mapMarker": {
-            "__typename": "MapMarker",
-            "label": "$133",
-            "latLong": {
-              "__typename": "Coordinates",
-              "latitude": 12.652493,
-              "longitude": 109.395062
-            }
-          },
-          "neighborhood": {
-            "__typename": "Region",
-            "name": "Van Ninh"
-          },
-          "offerBadge": null,
-          "offerSummary": {
-            "__typename": "OfferSummary",
-            "messages": [
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Collect stamps",
-                "theme": null,
-                "type": "LOYALTY_EARN",
-                "mark": {
-                  "__typename": "Mark",
-                  "id": "loyalty",
-                  "token": "mark__loyalty",
-                  "description": "loyalty logo"
-                }
-              }
-            ],
-            "attributes": []
-          },
-          "pinnedDetails": null,
-          "price": {
-            "__typename": "PropertyPrice",
-            "options": [
-              {
-                "__typename": "PropertyPriceOption",
-                "strikeOut": null,
-                "disclaimer": null,
-                "formattedDisplayPrice": "$133"
-              }
-            ],
-            "priceMessaging": null,
-            "lead": {
-              "__typename": "Money",
-              "amount": 132.94,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$133"
-            },
-            "strikeOut": null,
-            "displayMessages": [
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": null,
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$133",
-                      "accessibilityLabel": "The price is $133"
-                    },
-                    "role": "LEAD"
-                  }
-                ]
-              },
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "LodgingEnrichedMessage",
-                    "accessibilityLabel": null,
-                    "mark": null,
-                    "state": null,
-                    "value": "$768 total",
-                    "badge": null
-                  }
-                ]
-              }
-            ],
-            "strikeOutType": "STANDALONE",
-            "priceMessages": [
-              {
-                "__typename": "LodgingPlainMessage",
-                "value": "per night"
-              }
-            ]
-          },
-          "priceAfterLoyaltyPointsApplied": {
-            "__typename": "PropertyPrice",
-            "options": [],
-            "lead": null
-          },
-          "propertyFees": [],
-          "reviews": {
-            "__typename": "PropertyReviewsSummary",
-            "score": 8,
-            "total": 27
-          },
-          "sponsoredListing": null,
-          "star": null,
-          "supportingMessages": null,
-          "regionId": "6165559",
-          "priceMetadata": {
-            "__typename": "PropertyPriceMetadata",
-            "discountType": null,
-            "rateDiscount": {
-              "__typename": "RateDiscount",
-              "description": null
-            },
-            "totalDiscountPercentage": 0
-          },
-          "saveTripItem": null
-        },
-        {
-          "__typename": "Property",
-          "id": "8751594",
-          "featuredMessages": [],
-          "name": "The Costa Nha Trang Residences",
-          "availability": {
-            "__typename": "PropertyAvailability",
-            "available": true,
-            "minRoomsLeft": 4
-          },
-          "propertyImage": {
-            "__typename": "PropertyImage",
-            "alt": "",
-            "fallbackImage": null,
-            "image": {
-              "__typename": "Image",
-              "description": "Interior entrance",
-              "url": "https://images.trvl-media.com/lodging/9000000/8760000/8751600/8751594/fff35b05.jpg?impolicy=resizecrop&rw=455&ra=fit"
-            },
-            "subjectId": 10000
-          },
-          "destinationInfo": {
-            "__typename": "PropertyDestinationInfo",
-            "distanceFromDestination": {
-              "__typename": "Distance",
-              "unit": "MILE",
-              "value": 0.5
-            },
-            "distanceFromMessaging": null,
-            "regionId": "553248635950844810"
-          },
-          "legalDisclaimer": null,
-          "listingFooter": null,
-          "mapMarker": {
-            "__typename": "MapMarker",
-            "label": "$137",
-            "latLong": {
-              "__typename": "Coordinates",
-              "latitude": 12.244713,
-              "longitude": 109.196266
-            }
-          },
-          "neighborhood": {
-            "__typename": "Region",
-            "name": "Tran Phu Beach"
-          },
-          "offerBadge": {
-            "__typename": "OfferBadge",
-            "primary": {
-              "__typename": "Badge",
-              "text": "Member Price",
-              "theme_temp": "DEAL_MEMBER",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "mod",
-                "description": "mod"
-              },
-              "mark": null
-            },
-            "secondary": {
-              "__typename": "Badge",
-              "text": "20% off",
-              "theme_temp": "DEAL_MEMBER",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "mod",
-                "description": "mod"
-              },
-              "mark": null
-            }
-          },
-          "offerSummary": {
-            "__typename": "OfferSummary",
-            "messages": [
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Reserve without credit card",
-                "theme": "SUCCESS",
-                "type": "NO_CREDIT_CARD",
-                "mark": null
-              },
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Collect stamps",
-                "theme": null,
-                "type": "LOYALTY_EARN",
-                "mark": {
-                  "__typename": "Mark",
-                  "id": "loyalty",
-                  "token": "mark__loyalty",
-                  "description": "loyalty logo"
-                }
-              }
-            ],
-            "attributes": [
-              {
-                "__typename": "OfferAttribute",
-                "type": "NO_CC_REQUIRED"
-              },
-              {
-                "__typename": "OfferAttribute",
-                "type": "PAYMENT_CHOICE"
-              }
-            ]
-          },
-          "pinnedDetails": null,
-          "price": {
-            "__typename": "PropertyPrice",
-            "options": [
-              {
-                "__typename": "PropertyPriceOption",
-                "strikeOut": {
-                  "__typename": "Money",
-                  "amount": 171.41817,
-                  "formatted": "$171"
-                },
-                "disclaimer": {
-                  "__typename": "LodgingPlainMessage",
-                  "value": "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                },
-                "formattedDisplayPrice": "$137"
-              }
-            ],
-            "priceMessaging": null,
-            "lead": {
-              "__typename": "Money",
-              "amount": 137.134553,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$137"
-            },
-            "strikeOut": {
-              "__typename": "Money",
-              "amount": 171.41817,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$171"
-            },
-            "displayMessages": [
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": {
-                      "__typename": "LodgingPlainDialog",
-                      "content": [
-                        "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                      ],
-                      "title": null
-                    },
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$171",
-                      "accessibilityLabel": "The price was $171"
-                    },
-                    "role": "STRIKEOUT"
-                  },
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": null,
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$137",
-                      "accessibilityLabel": "The price is $137"
-                    },
-                    "role": "LEAD"
-                  }
-                ]
-              },
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "LodgingEnrichedMessage",
-                    "accessibilityLabel": null,
-                    "mark": null,
-                    "state": null,
-                    "value": "$792 total",
-                    "badge": null
-                  }
-                ]
-              }
-            ],
-            "strikeOutType": "STANDALONE",
-            "priceMessages": [
-              {
-                "__typename": "LodgingPlainMessage",
-                "value": "per night"
-              }
-            ]
-          },
-          "priceAfterLoyaltyPointsApplied": {
-            "__typename": "PropertyPrice",
-            "options": [],
-            "lead": null
-          },
-          "propertyFees": [],
-          "reviews": {
-            "__typename": "PropertyReviewsSummary",
-            "score": 8,
-            "total": 132
-          },
-          "sponsoredListing": null,
-          "star": null,
-          "supportingMessages": null,
-          "regionId": "553248635950844810",
-          "priceMetadata": {
-            "__typename": "PropertyPriceMetadata",
-            "discountType": "MEMBER_DEAL",
-            "rateDiscount": {
-              "__typename": "RateDiscount",
-              "description": "Member’s price: 20%"
-            },
-            "totalDiscountPercentage": 20
-          },
-          "saveTripItem": null
-        },
-        {
-          "__typename": "Property",
-          "id": "18907213",
-          "featuredMessages": [],
-          "name": "D26 Nha Trang Hotel",
-          "availability": {
-            "__typename": "PropertyAvailability",
-            "available": true,
-            "minRoomsLeft": 1
-          },
-          "propertyImage": {
-            "__typename": "PropertyImage",
-            "alt": "",
-            "fallbackImage": null,
-            "image": {
-              "__typename": "Image",
-              "description": "Primary image",
-              "url": "https://images.trvl-media.com/lodging/19000000/18910000/18907300/18907213/42d297d6.jpg?impolicy=resizecrop&rw=455&ra=fit"
-            },
-            "subjectId": 3
-          },
-          "destinationInfo": {
-            "__typename": "PropertyDestinationInfo",
-            "distanceFromDestination": {
-              "__typename": "Distance",
-              "unit": "MILE",
-              "value": 1.41
-            },
-            "distanceFromMessaging": null,
-            "regionId": "553248635950844810"
-          },
-          "legalDisclaimer": null,
-          "listingFooter": null,
-          "mapMarker": {
-            "__typename": "MapMarker",
-            "label": "$138",
-            "latLong": {
-              "__typename": "Coordinates",
-              "latitude": 12.230416,
-              "longitude": 109.197866
-            }
-          },
-          "neighborhood": {
-            "__typename": "Region",
-            "name": "Tran Phu Beach"
-          },
-          "offerBadge": null,
-          "offerSummary": {
-            "__typename": "OfferSummary",
-            "messages": [
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Collect stamps",
-                "theme": null,
-                "type": "LOYALTY_EARN",
-                "mark": {
-                  "__typename": "Mark",
-                  "id": "loyalty",
-                  "token": "mark__loyalty",
-                  "description": "loyalty logo"
-                }
-              }
-            ],
-            "attributes": []
-          },
-          "pinnedDetails": null,
-          "price": {
-            "__typename": "PropertyPrice",
-            "options": [
-              {
-                "__typename": "PropertyPriceOption",
-                "strikeOut": null,
-                "disclaimer": null,
-                "formattedDisplayPrice": "$138"
-              }
-            ],
-            "priceMessaging": null,
-            "lead": {
-              "__typename": "Money",
-              "amount": 138.18,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$138"
-            },
-            "strikeOut": null,
-            "displayMessages": [
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": null,
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$138",
-                      "accessibilityLabel": "The price is $138"
-                    },
-                    "role": "LEAD"
-                  }
-                ]
-              },
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "LodgingEnrichedMessage",
-                    "accessibilityLabel": null,
-                    "mark": null,
-                    "state": null,
-                    "value": "$897 total",
-                    "badge": null
-                  }
-                ]
-              }
-            ],
-            "strikeOutType": "STANDALONE",
-            "priceMessages": [
-              {
-                "__typename": "LodgingPlainMessage",
-                "value": "per night"
-              }
-            ]
-          },
-          "priceAfterLoyaltyPointsApplied": {
-            "__typename": "PropertyPrice",
-            "options": [],
-            "lead": null
-          },
-          "propertyFees": [],
-          "reviews": {
-            "__typename": "PropertyReviewsSummary",
-            "score": 7,
-            "total": 2
-          },
-          "sponsoredListing": null,
-          "star": null,
-          "supportingMessages": null,
-          "regionId": "553248635950844810",
-          "priceMetadata": {
-            "__typename": "PropertyPriceMetadata",
-            "discountType": null,
-            "rateDiscount": {
-              "__typename": "RateDiscount",
-              "description": null
-            },
-            "totalDiscountPercentage": 0
-          },
-          "saveTripItem": null
-        },
-        {
-          "__typename": "Property",
-          "id": "19527132",
-          "featuredMessages": [],
-          "name": "Aquatic Ocean Hotel",
-          "availability": {
-            "__typename": "PropertyAvailability",
-            "available": true,
-            "minRoomsLeft": 2
-          },
-          "propertyImage": {
-            "__typename": "PropertyImage",
-            "alt": "",
-            "fallbackImage": null,
-            "image": {
-              "__typename": "Image",
-              "description": "Primary image",
-              "url": "https://images.trvl-media.com/lodging/20000000/19530000/19527200/19527132/393a453a.jpg?impolicy=resizecrop&rw=455&ra=fit"
-            },
-            "subjectId": 3
-          },
-          "destinationInfo": {
-            "__typename": "PropertyDestinationInfo",
-            "distanceFromDestination": {
-              "__typename": "Distance",
-              "unit": "MILE",
-              "value": 1.06
-            },
-            "distanceFromMessaging": null,
-            "regionId": "553248635950844810"
-          },
-          "legalDisclaimer": null,
-          "listingFooter": null,
-          "mapMarker": {
-            "__typename": "MapMarker",
-            "label": "$145",
-            "latLong": {
-              "__typename": "Coordinates",
-              "latitude": 12.235376,
-              "longitude": 109.196656
-            }
-          },
-          "neighborhood": {
-            "__typename": "Region",
-            "name": "Tran Phu Beach"
-          },
-          "offerBadge": {
-            "__typename": "OfferBadge",
-            "primary": {
-              "__typename": "Badge",
-              "text": "Great for families",
-              "theme_temp": "FAMILY_FRIENDLY",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "family_friendly",
-                "description": "family_friendly"
-              },
-              "mark": null
-            },
-            "secondary": null
-          },
-          "offerSummary": {
-            "__typename": "OfferSummary",
-            "messages": [
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Collect stamps",
-                "theme": null,
-                "type": "LOYALTY_EARN",
-                "mark": {
-                  "__typename": "Mark",
-                  "id": "loyalty",
-                  "token": "mark__loyalty",
-                  "description": "loyalty logo"
-                }
-              }
-            ],
-            "attributes": []
-          },
-          "pinnedDetails": null,
-          "price": {
-            "__typename": "PropertyPrice",
-            "options": [
-              {
-                "__typename": "PropertyPriceOption",
-                "strikeOut": null,
-                "disclaimer": null,
-                "formattedDisplayPrice": "$145"
-              }
-            ],
-            "priceMessaging": null,
-            "lead": {
-              "__typename": "Money",
-              "amount": 145.45,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$145"
-            },
-            "strikeOut": null,
-            "displayMessages": [
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": null,
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$145",
-                      "accessibilityLabel": "The price is $145"
-                    },
-                    "role": "LEAD"
-                  }
-                ]
-              },
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "LodgingEnrichedMessage",
-                    "accessibilityLabel": null,
-                    "mark": null,
-                    "state": null,
-                    "value": "$840 total",
-                    "badge": null
-                  }
-                ]
-              }
-            ],
-            "strikeOutType": "STANDALONE",
-            "priceMessages": [
-              {
-                "__typename": "LodgingPlainMessage",
-                "value": "per night"
-              }
-            ]
-          },
-          "priceAfterLoyaltyPointsApplied": {
-            "__typename": "PropertyPrice",
-            "options": [],
-            "lead": null
-          },
-          "propertyFees": [],
-          "reviews": {
-            "__typename": "PropertyReviewsSummary",
-            "score": 7,
-            "total": 2
-          },
-          "sponsoredListing": null,
-          "star": null,
-          "supportingMessages": null,
-          "regionId": "553248635950844810",
-          "priceMetadata": {
-            "__typename": "PropertyPriceMetadata",
-            "discountType": null,
-            "rateDiscount": {
-              "__typename": "RateDiscount",
-              "description": null
-            },
-            "totalDiscountPercentage": 0
-          },
-          "saveTripItem": null
-        },
-        {
-          "__typename": "Property",
-          "id": "76386576",
-          "featuredMessages": [],
-          "name": "Wyndham Garden Cam Ranh Resort",
-          "availability": {
-            "__typename": "PropertyAvailability",
-            "available": true,
-            "minRoomsLeft": null
-          },
-          "propertyImage": {
-            "__typename": "PropertyImage",
-            "alt": "",
-            "fallbackImage": null,
-            "image": {
-              "__typename": "Image",
-              "description": "Primary image",
-              "url": "https://images.trvl-media.com/lodging/77000000/76390000/76386600/76386576/0c7b284d.jpg?impolicy=resizecrop&rw=455&ra=fit"
-            },
-            "subjectId": 3
-          },
-          "destinationInfo": {
-            "__typename": "PropertyDestinationInfo",
-            "distanceFromDestination": {
-              "__typename": "Distance",
-              "unit": "MILE",
-              "value": 15.2
-            },
-            "distanceFromMessaging": null,
-            "regionId": "6182839"
-          },
-          "legalDisclaimer": null,
-          "listingFooter": null,
-          "mapMarker": {
-            "__typename": "MapMarker",
-            "label": "$149",
-            "latLong": {
-              "__typename": "Coordinates",
-              "latitude": 12.030639,
-              "longitude": 109.213
-            }
-          },
-          "neighborhood": {
-            "__typename": "Region",
-            "name": "Cam Lam"
-          },
-          "offerBadge": {
-            "__typename": "OfferBadge",
-            "primary": {
-              "__typename": "Badge",
-              "text": "Member Price",
-              "theme_temp": "DEAL_MEMBER",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "mod",
-                "description": "mod"
-              },
-              "mark": null
-            },
-            "secondary": {
-              "__typename": "Badge",
-              "text": "24% off",
-              "theme_temp": "DEAL_MEMBER",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "mod",
-                "description": "mod"
-              },
-              "mark": null
-            }
-          },
-          "offerSummary": {
-            "__typename": "OfferSummary",
-            "messages": [
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Reserve now, pay later",
-                "theme": "SUCCESS",
-                "type": "PAY_LATER",
-                "mark": null
-              },
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Collect stamps",
-                "theme": null,
-                "type": "LOYALTY_EARN",
-                "mark": {
-                  "__typename": "Mark",
-                  "id": "loyalty",
-                  "token": "mark__loyalty",
-                  "description": "loyalty logo"
-                }
-              }
-            ],
-            "attributes": [
-              {
-                "__typename": "OfferAttribute",
-                "type": "PAYMENT_CHOICE"
-              }
-            ]
-          },
-          "pinnedDetails": null,
-          "price": {
-            "__typename": "PropertyPrice",
-            "options": [
-              {
-                "__typename": "PropertyPriceOption",
-                "strikeOut": {
-                  "__typename": "Money",
-                  "amount": 194.55,
-                  "formatted": "$195"
-                },
-                "disclaimer": {
-                  "__typename": "LodgingPlainMessage",
-                  "value": "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                },
-                "formattedDisplayPrice": "$149"
-              }
-            ],
-            "priceMessaging": null,
-            "lead": {
-              "__typename": "Money",
-              "amount": 148.83,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$149"
-            },
-            "strikeOut": {
-              "__typename": "Money",
-              "amount": 194.55,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$195"
-            },
-            "displayMessages": [
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": {
-                      "__typename": "LodgingPlainDialog",
-                      "content": [
-                        "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                      ],
-                      "title": null
-                    },
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$195",
-                      "accessibilityLabel": "The price was $195"
-                    },
-                    "role": "STRIKEOUT"
-                  },
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": null,
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$149",
-                      "accessibilityLabel": "The price is $149"
-                    },
-                    "role": "LEAD"
-                  }
-                ]
-              },
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "LodgingEnrichedMessage",
-                    "accessibilityLabel": null,
-                    "mark": null,
-                    "state": null,
-                    "value": "$859 total",
-                    "badge": null
-                  }
-                ]
-              }
-            ],
-            "strikeOutType": "STANDALONE",
-            "priceMessages": [
-              {
-                "__typename": "LodgingPlainMessage",
-                "value": "per night"
-              }
-            ]
-          },
-          "priceAfterLoyaltyPointsApplied": {
-            "__typename": "PropertyPrice",
-            "options": [],
-            "lead": null
-          },
-          "propertyFees": [],
-          "reviews": {
-            "__typename": "PropertyReviewsSummary",
-            "score": 9,
-            "total": 2
-          },
-          "sponsoredListing": null,
-          "star": null,
-          "supportingMessages": null,
-          "regionId": "6182839",
-          "priceMetadata": {
-            "__typename": "PropertyPriceMetadata",
-            "discountType": "MEMBER_DEAL",
-            "rateDiscount": {
-              "__typename": "RateDiscount",
-              "description": "Member’s price: 24%"
-            },
-            "totalDiscountPercentage": 24
-          },
-          "saveTripItem": null
-        }
       ],
-      "propertySearchListings": [
-        {
-          "__typename": "LodgingCard"
-        },
-        {
-          "__typename": "LodgingCard"
-        },
-        {
-          "__typename": "LodgingCard"
-        },
-        {
-          "__typename": "LodgingCard"
-        },
-        {
-          "__typename": "LodgingCard"
-        },
-        {
-          "__typename": "LodgingCard"
-        },
-        {
-          "__typename": "LodgingCard"
-        },
-        {
-          "__typename": "LodgingCard"
-        },
-        {
-          "__typename": "LodgingCard"
-        },
-        {
-          "__typename": "LodgingCard"
-        },
-        {
-          "__typename": "LodgingCard"
-        },
-        {
-          "__typename": "LodgingCard"
-        },
-        {
-          "__typename": "LodgingCard"
-        },
-        {
-          "__typename": "Property",
-          "id": "44128751",
-          "featuredMessages": [],
-          "name": "Selectum Noa Resort Cam Ranh",
-          "availability": {
-            "__typename": "PropertyAvailability",
-            "available": true,
-            "minRoomsLeft": null
-          },
-          "propertyImage": {
-            "__typename": "PropertyImage",
-            "alt": "",
-            "fallbackImage": null,
-            "image": {
-              "__typename": "Image",
-              "description": "Primary image",
-              "url": "https://images.trvl-media.com/lodging/45000000/44130000/44128800/44128751/98ca719d.jpg?impolicy=resizecrop&rw=455&ra=fit"
-            },
-            "subjectId": 3
-          },
-          "destinationInfo": {
-            "__typename": "PropertyDestinationInfo",
-            "distanceFromDestination": {
-              "__typename": "Distance",
-              "unit": "MILE",
-              "value": 11.35
-            },
-            "distanceFromMessaging": null,
-            "regionId": "6182839"
-          },
-          "legalDisclaimer": null,
-          "listingFooter": null,
-          "mapMarker": {
-            "__typename": "MapMarker",
-            "label": "$101",
-            "latLong": {
-              "__typename": "Coordinates",
-              "latitude": 12.085271,
-              "longitude": 109.190839
-            }
-          },
-          "neighborhood": {
-            "__typename": "Region",
-            "name": "Cam Lam"
-          },
-          "offerBadge": {
-            "__typename": "OfferBadge",
-            "primary": {
-              "__typename": "Badge",
-              "text": "Member Price",
-              "theme_temp": "DEAL_MEMBER",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "mod",
-                "description": "mod"
-              },
-              "mark": null
-            },
-            "secondary": {
-              "__typename": "Badge",
-              "text": "29% off",
-              "theme_temp": "DEAL_MEMBER",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "mod",
-                "description": "mod"
-              },
-              "mark": null
-            }
-          },
-          "offerSummary": {
-            "__typename": "OfferSummary",
-            "messages": [
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Collect stamps",
-                "theme": null,
-                "type": "LOYALTY_EARN",
-                "mark": {
-                  "__typename": "Mark",
-                  "id": "loyalty",
-                  "token": "mark__loyalty",
-                  "description": "loyalty logo"
-                }
-              }
-            ],
-            "attributes": []
-          },
-          "pinnedDetails": null,
-          "price": {
-            "__typename": "PropertyPrice",
-            "options": [
-              {
-                "__typename": "PropertyPriceOption",
-                "strikeOut": {
-                  "__typename": "Money",
-                  "amount": 141.82,
-                  "formatted": "$142"
-                },
-                "disclaimer": {
-                  "__typename": "LodgingPlainMessage",
-                  "value": "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                },
-                "formattedDisplayPrice": "$101"
-              }
-            ],
-            "priceMessaging": null,
-            "lead": {
-              "__typename": "Money",
-              "amount": 100.69,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$101"
-            },
-            "strikeOut": {
-              "__typename": "Money",
-              "amount": 141.82,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$142"
-            },
-            "displayMessages": [
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": {
-                      "__typename": "LodgingPlainDialog",
-                      "content": [
-                        "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                      ],
-                      "title": null
-                    },
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$142",
-                      "accessibilityLabel": "The price was $142"
-                    },
-                    "role": "STRIKEOUT"
-                  },
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": null,
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$101",
-                      "accessibilityLabel": "The price is $101"
-                    },
-                    "role": "LEAD"
-                  }
-                ]
-              },
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "LodgingEnrichedMessage",
-                    "accessibilityLabel": null,
-                    "mark": null,
-                    "state": null,
-                    "value": "$812 total",
-                    "badge": null
-                  }
-                ]
-              }
-            ],
-            "strikeOutType": "STANDALONE",
-            "priceMessages": [
-              {
-                "__typename": "LodgingPlainMessage",
-                "value": "per night"
-              }
-            ]
-          },
-          "priceAfterLoyaltyPointsApplied": {
-            "__typename": "PropertyPrice",
-            "options": [],
-            "lead": null
-          },
-          "propertyFees": [],
-          "reviews": {
-            "__typename": "PropertyReviewsSummary",
-            "score": 8,
-            "total": 1
-          },
-          "sponsoredListing": null,
-          "star": null,
-          "supportingMessages": null,
-          "regionId": "6182839",
-          "priceMetadata": {
-            "__typename": "PropertyPriceMetadata",
-            "discountType": "MEMBER_DEAL",
-            "rateDiscount": {
-              "__typename": "RateDiscount",
-              "description": "Member’s price: 23%"
-            },
-            "totalDiscountPercentage": 29
-          },
-          "saveTripItem": null
-        },
-        {
-          "__typename": "Property",
-          "id": "27514918",
-          "featuredMessages": [],
-          "name": "Ta'or Seaview Homestay",
-          "availability": {
-            "__typename": "PropertyAvailability",
-            "available": true,
-            "minRoomsLeft": 1
-          },
-          "propertyImage": {
-            "__typename": "PropertyImage",
-            "alt": "",
-            "fallbackImage": null,
-            "image": {
-              "__typename": "Image",
-              "description": "Primary image",
-              "url": "https://images.trvl-media.com/lodging/28000000/27520000/27515000/27514918/87cc6cf2.jpg?impolicy=resizecrop&rw=455&ra=fit"
-            },
-            "subjectId": 3
-          },
-          "destinationInfo": {
-            "__typename": "PropertyDestinationInfo",
-            "distanceFromDestination": {
-              "__typename": "Distance",
-              "unit": "MILE",
-              "value": 1.79
-            },
-            "distanceFromMessaging": null,
-            "regionId": "553248635934140183"
-          },
-          "legalDisclaimer": null,
-          "listingFooter": null,
-          "mapMarker": {
-            "__typename": "MapMarker",
-            "label": "$105",
-            "latLong": {
-              "__typename": "Coordinates",
-              "latitude": 12.271866,
-              "longitude": 109.20411
-            }
-          },
-          "neighborhood": {
-            "__typename": "Region",
-            "name": "Vinh Phuoc"
-          },
-          "offerBadge": null,
-          "offerSummary": {
-            "__typename": "OfferSummary",
-            "messages": [
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Collect stamps",
-                "theme": null,
-                "type": "LOYALTY_EARN",
-                "mark": {
-                  "__typename": "Mark",
-                  "id": "loyalty",
-                  "token": "mark__loyalty",
-                  "description": "loyalty logo"
-                }
-              }
-            ],
-            "attributes": []
-          },
-          "pinnedDetails": null,
-          "price": {
-            "__typename": "PropertyPrice",
-            "options": [
-              {
-                "__typename": "PropertyPriceOption",
-                "strikeOut": null,
-                "disclaimer": null,
-                "formattedDisplayPrice": "$105"
-              }
-            ],
-            "priceMessaging": null,
-            "lead": {
-              "__typename": "Money",
-              "amount": 105.45,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$105"
-            },
-            "strikeOut": null,
-            "displayMessages": [
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": null,
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$105",
-                      "accessibilityLabel": "The price is $105"
-                    },
-                    "role": "LEAD"
-                  }
-                ]
-              },
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "LodgingEnrichedMessage",
-                    "accessibilityLabel": null,
-                    "mark": null,
-                    "state": null,
-                    "value": "$609 total",
-                    "badge": null
-                  }
-                ]
-              }
-            ],
-            "strikeOutType": "STANDALONE",
-            "priceMessages": [
-              {
-                "__typename": "LodgingPlainMessage",
-                "value": "per night"
-              }
-            ]
-          },
-          "priceAfterLoyaltyPointsApplied": {
-            "__typename": "PropertyPrice",
-            "options": [],
-            "lead": null
-          },
-          "propertyFees": [],
-          "reviews": {
-            "__typename": "PropertyReviewsSummary",
-            "score": 0,
-            "total": 0
-          },
-          "sponsoredListing": null,
-          "star": null,
-          "supportingMessages": null,
-          "regionId": "553248635934140183",
-          "priceMetadata": {
-            "__typename": "PropertyPriceMetadata",
-            "discountType": null,
-            "rateDiscount": {
-              "__typename": "RateDiscount",
-              "description": null
-            },
-            "totalDiscountPercentage": 0
-          },
-          "saveTripItem": null
-        },
-        {
-          "__typename": "Property",
-          "id": "2540761",
-          "featuredMessages": [],
-          "name": "MerPerle Hon Tam Resort",
-          "availability": {
-            "__typename": "PropertyAvailability",
-            "available": true,
-            "minRoomsLeft": 1
-          },
-          "propertyImage": {
-            "__typename": "PropertyImage",
-            "alt": "",
-            "fallbackImage": null,
-            "image": {
-              "__typename": "Image",
-              "description": "Primary image",
-              "url": "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/7481b1b9.jpg?impolicy=resizecrop&rw=455&ra=fit"
-            },
-            "subjectId": 3
-          },
-          "destinationInfo": {
-            "__typename": "PropertyDestinationInfo",
-            "distanceFromDestination": {
-              "__typename": "Distance",
-              "unit": "MILE",
-              "value": 5.87
-            },
-            "distanceFromMessaging": null,
-            "regionId": "6054439"
-          },
-          "legalDisclaimer": null,
-          "listingFooter": null,
-          "mapMarker": {
-            "__typename": "MapMarker",
-            "label": "$113",
-            "latLong": {
-              "__typename": "Coordinates",
-              "latitude": 12.178097,
-              "longitude": 109.237653
-            }
-          },
-          "neighborhood": {
-            "__typename": "Region",
-            "name": "Nha Trang"
-          },
-          "offerBadge": {
-            "__typename": "OfferBadge",
-            "primary": {
-              "__typename": "Badge",
-              "text": "Member Price",
-              "theme_temp": "DEAL_MEMBER",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "mod",
-                "description": "mod"
-              },
-              "mark": null
-            },
-            "secondary": {
-              "__typename": "Badge",
-              "text": "68% off",
-              "theme_temp": "DEAL_MEMBER",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "mod",
-                "description": "mod"
-              },
-              "mark": null
-            }
-          },
-          "offerSummary": {
-            "__typename": "OfferSummary",
-            "messages": [
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Collect stamps",
-                "theme": null,
-                "type": "LOYALTY_EARN",
-                "mark": {
-                  "__typename": "Mark",
-                  "id": "loyalty",
-                  "token": "mark__loyalty",
-                  "description": "loyalty logo"
-                }
-              }
-            ],
-            "attributes": []
-          },
-          "pinnedDetails": null,
-          "price": {
-            "__typename": "PropertyPrice",
-            "options": [
-              {
-                "__typename": "PropertyPriceOption",
-                "strikeOut": {
-                  "__typename": "Money",
-                  "amount": 352.69,
-                  "formatted": "$353"
-                },
-                "disclaimer": {
-                  "__typename": "LodgingPlainMessage",
-                  "value": "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                },
-                "formattedDisplayPrice": "$113"
-              }
-            ],
-            "priceMessaging": null,
-            "lead": {
-              "__typename": "Money",
-              "amount": 112.86,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$113"
-            },
-            "strikeOut": {
-              "__typename": "Money",
-              "amount": 352.69,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$353"
-            },
-            "displayMessages": [
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": {
-                      "__typename": "LodgingPlainDialog",
-                      "content": [
-                        "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                      ],
-                      "title": null
-                    },
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$353",
-                      "accessibilityLabel": "The price was $353"
-                    },
-                    "role": "STRIKEOUT"
-                  },
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": null,
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$113",
-                      "accessibilityLabel": "The price is $113"
-                    },
-                    "role": "LEAD"
-                  }
-                ]
-              },
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "LodgingEnrichedMessage",
-                    "accessibilityLabel": null,
-                    "mark": null,
-                    "state": null,
-                    "value": "$652 total",
-                    "badge": null
-                  }
-                ]
-              }
-            ],
-            "strikeOutType": "STANDALONE",
-            "priceMessages": [
-              {
-                "__typename": "LodgingPlainMessage",
-                "value": "per night"
-              }
-            ]
-          },
-          "priceAfterLoyaltyPointsApplied": {
-            "__typename": "PropertyPrice",
-            "options": [],
-            "lead": null
-          },
-          "propertyFees": [],
-          "reviews": {
-            "__typename": "PropertyReviewsSummary",
-            "score": 8.2,
-            "total": 168
-          },
-          "sponsoredListing": null,
-          "star": null,
-          "supportingMessages": null,
-          "regionId": "6054439",
-          "priceMetadata": {
-            "__typename": "PropertyPriceMetadata",
-            "discountType": "MEMBER_DEAL",
-            "rateDiscount": {
-              "__typename": "RateDiscount",
-              "description": "Member’s price: 68%"
-            },
-            "totalDiscountPercentage": 68
-          },
-          "saveTripItem": null
-        },
-        {
-          "__typename": "Property",
-          "id": "33331379",
-          "featuredMessages": [],
-          "name": "Vesna Hotel",
-          "availability": {
-            "__typename": "PropertyAvailability",
-            "available": true,
-            "minRoomsLeft": 1
-          },
-          "propertyImage": {
-            "__typename": "PropertyImage",
-            "alt": "",
-            "fallbackImage": null,
-            "image": {
-              "__typename": "Image",
-              "description": "Lobby",
-              "url": "https://images.trvl-media.com/lodging/34000000/33340000/33331400/33331379/1f9a2925.jpg?impolicy=resizecrop&rw=455&ra=fit"
-            },
-            "subjectId": 10001
-          },
-          "destinationInfo": {
-            "__typename": "PropertyDestinationInfo",
-            "distanceFromDestination": {
-              "__typename": "Distance",
-              "unit": "MILE",
-              "value": 1.75
-            },
-            "distanceFromMessaging": null,
-            "regionId": "6054439"
-          },
-          "legalDisclaimer": null,
-          "listingFooter": null,
-          "mapMarker": {
-            "__typename": "MapMarker",
-            "label": "$118",
-            "latLong": {
-              "__typename": "Coordinates",
-              "latitude": 12.226066,
-              "longitude": 109.20044
-            }
-          },
-          "neighborhood": {
-            "__typename": "Region",
-            "name": "Tran Phu Beach"
-          },
-          "offerBadge": {
-            "__typename": "OfferBadge",
-            "primary": {
-              "__typename": "Badge",
-              "text": "Member Price",
-              "theme_temp": "DEAL_MEMBER",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "mod",
-                "description": "mod"
-              },
-              "mark": null
-            },
-            "secondary": {
-              "__typename": "Badge",
-              "text": "50% off",
-              "theme_temp": "DEAL_MEMBER",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "mod",
-                "description": "mod"
-              },
-              "mark": null
-            }
-          },
-          "offerSummary": {
-            "__typename": "OfferSummary",
-            "messages": [
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Collect stamps",
-                "theme": null,
-                "type": "LOYALTY_EARN",
-                "mark": {
-                  "__typename": "Mark",
-                  "id": "loyalty",
-                  "token": "mark__loyalty",
-                  "description": "loyalty logo"
-                }
-              }
-            ],
-            "attributes": []
-          },
-          "pinnedDetails": null,
-          "price": {
-            "__typename": "PropertyPrice",
-            "options": [
-              {
-                "__typename": "PropertyPriceOption",
-                "strikeOut": {
-                  "__typename": "Money",
-                  "amount": 236.36,
-                  "formatted": "$236"
-                },
-                "disclaimer": {
-                  "__typename": "LodgingPlainMessage",
-                  "value": "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                },
-                "formattedDisplayPrice": "$118"
-              }
-            ],
-            "priceMessaging": null,
-            "lead": {
-              "__typename": "Money",
-              "amount": 118.18,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$118"
-            },
-            "strikeOut": {
-              "__typename": "Money",
-              "amount": 236.36,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$236"
-            },
-            "displayMessages": [
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": {
-                      "__typename": "LodgingPlainDialog",
-                      "content": [
-                        "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                      ],
-                      "title": null
-                    },
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$236",
-                      "accessibilityLabel": "The price was $236"
-                    },
-                    "role": "STRIKEOUT"
-                  },
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": null,
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$118",
-                      "accessibilityLabel": "The price is $118"
-                    },
-                    "role": "LEAD"
-                  }
-                ]
-              },
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "LodgingEnrichedMessage",
-                    "accessibilityLabel": null,
-                    "mark": null,
-                    "state": null,
-                    "value": "$683 total",
-                    "badge": null
-                  }
-                ]
-              }
-            ],
-            "strikeOutType": "STANDALONE",
-            "priceMessages": [
-              {
-                "__typename": "LodgingPlainMessage",
-                "value": "per night"
-              }
-            ]
-          },
-          "priceAfterLoyaltyPointsApplied": {
-            "__typename": "PropertyPrice",
-            "options": [],
-            "lead": null
-          },
-          "propertyFees": [],
-          "reviews": {
-            "__typename": "PropertyReviewsSummary",
-            "score": 6.8,
-            "total": 5
-          },
-          "sponsoredListing": null,
-          "star": null,
-          "supportingMessages": null,
-          "regionId": "6054439",
-          "priceMetadata": {
-            "__typename": "PropertyPriceMetadata",
-            "discountType": "MEMBER_DEAL",
-            "rateDiscount": {
-              "__typename": "RateDiscount",
-              "description": "Member’s price: 50%"
-            },
-            "totalDiscountPercentage": 50
-          },
-          "saveTripItem": null
-        },
-        {
-          "__typename": "Property",
-          "id": "22991728",
-          "featuredMessages": [],
-          "name": "Boton Blue Hotel & Spa",
-          "availability": {
-            "__typename": "PropertyAvailability",
-            "available": true,
-            "minRoomsLeft": 1
-          },
-          "propertyImage": {
-            "__typename": "PropertyImage",
-            "alt": "",
-            "fallbackImage": null,
-            "image": {
-              "__typename": "Image",
-              "description": "Lobby",
-              "url": "https://images.trvl-media.com/lodging/23000000/23000000/22991800/22991728/3d623bd1.jpg?impolicy=resizecrop&rw=455&ra=fit"
-            },
-            "subjectId": 10001
-          },
-          "destinationInfo": {
-            "__typename": "PropertyDestinationInfo",
-            "distanceFromDestination": {
-              "__typename": "Distance",
-              "unit": "MILE",
-              "value": 2.56
-            },
-            "distanceFromMessaging": null,
-            "regionId": "6054439"
-          },
-          "legalDisclaimer": null,
-          "listingFooter": null,
-          "mapMarker": {
-            "__typename": "MapMarker",
-            "label": "$120",
-            "latLong": {
-              "__typename": "Coordinates",
-              "latitude": 12.2844,
-              "longitude": 109.20371
-            }
-          },
-          "neighborhood": {
-            "__typename": "Region",
-            "name": "Nha Trang"
-          },
-          "offerBadge": {
-            "__typename": "OfferBadge",
-            "primary": {
-              "__typename": "Badge",
-              "text": "VIP Access",
-              "theme_temp": "VIP",
-              "icon_temp": null,
-              "mark": null
-            },
-            "secondary": {
-              "__typename": "Badge",
-              "text": "70% off",
-              "theme_temp": "DEAL_MEMBER",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "mod",
-                "description": "mod"
-              },
-              "mark": null
-            }
-          },
-          "offerSummary": {
-            "__typename": "OfferSummary",
-            "messages": [
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Reserve without credit card",
-                "theme": "SUCCESS",
-                "type": "NO_CREDIT_CARD",
-                "mark": null
-              },
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Collect stamps",
-                "theme": null,
-                "type": "LOYALTY_EARN",
-                "mark": {
-                  "__typename": "Mark",
-                  "id": "loyalty",
-                  "token": "mark__loyalty",
-                  "description": "loyalty logo"
-                }
-              }
-            ],
-            "attributes": [
-              {
-                "__typename": "OfferAttribute",
-                "type": "NO_CC_REQUIRED"
-              },
-              {
-                "__typename": "OfferAttribute",
-                "type": "VIP"
-              },
-              {
-                "__typename": "OfferAttribute",
-                "type": "PAYMENT_CHOICE"
-              }
-            ]
-          },
-          "pinnedDetails": null,
-          "price": {
-            "__typename": "PropertyPrice",
-            "options": [
-              {
-                "__typename": "PropertyPriceOption",
-                "strikeOut": {
-                  "__typename": "Money",
-                  "amount": 400.00002,
-                  "formatted": "$400"
-                },
-                "disclaimer": {
-                  "__typename": "LodgingPlainMessage",
-                  "value": "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                },
-                "formattedDisplayPrice": "$120"
-              }
-            ],
-            "priceMessaging": null,
-            "lead": {
-              "__typename": "Money",
-              "amount": 120.000006,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$120"
-            },
-            "strikeOut": {
-              "__typename": "Money",
-              "amount": 400.00002,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$400"
-            },
-            "displayMessages": [
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": {
-                      "__typename": "LodgingPlainDialog",
-                      "content": [
-                        "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                      ],
-                      "title": null
-                    },
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$400",
-                      "accessibilityLabel": "The price was $400"
-                    },
-                    "role": "STRIKEOUT"
-                  },
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": null,
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$120",
-                      "accessibilityLabel": "The price is $120"
-                    },
-                    "role": "LEAD"
-                  }
-                ]
-              },
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "LodgingEnrichedMessage",
-                    "accessibilityLabel": null,
-                    "mark": null,
-                    "state": null,
-                    "value": "$693 total",
-                    "badge": null
-                  }
-                ]
-              }
-            ],
-            "strikeOutType": "STANDALONE",
-            "priceMessages": [
-              {
-                "__typename": "LodgingPlainMessage",
-                "value": "per night"
-              }
-            ]
-          },
-          "priceAfterLoyaltyPointsApplied": {
-            "__typename": "PropertyPrice",
-            "options": [],
-            "lead": null
-          },
-          "propertyFees": [],
-          "reviews": {
-            "__typename": "PropertyReviewsSummary",
-            "score": 8.6,
-            "total": 235
-          },
-          "sponsoredListing": null,
-          "star": null,
-          "supportingMessages": null,
-          "regionId": "6054439",
-          "priceMetadata": {
-            "__typename": "PropertyPriceMetadata",
-            "discountType": "MEMBER_DEAL",
-            "rateDiscount": {
-              "__typename": "RateDiscount",
-              "description": "Member’s price: 70%"
-            },
-            "totalDiscountPercentage": 70
-          },
-          "saveTripItem": null
-        },
-        {
-          "__typename": "Property",
-          "id": "33833196",
-          "featuredMessages": [],
-          "name": "Truong Hotel",
-          "availability": {
-            "__typename": "PropertyAvailability",
-            "available": true,
-            "minRoomsLeft": 1
-          },
-          "propertyImage": {
-            "__typename": "PropertyImage",
-            "alt": "",
-            "fallbackImage": null,
-            "image": {
-              "__typename": "Image",
-              "description": "Primary image",
-              "url": "https://images.trvl-media.com/lodging/34000000/33840000/33833200/33833196/5f7cd7f9.jpg?impolicy=resizecrop&rw=455&ra=fit"
-            },
-            "subjectId": 3
-          },
-          "destinationInfo": {
-            "__typename": "PropertyDestinationInfo",
-            "distanceFromDestination": {
-              "__typename": "Distance",
-              "unit": "MILE",
-              "value": 1.92
-            },
-            "distanceFromMessaging": null,
-            "regionId": "3000002330"
-          },
-          "legalDisclaimer": null,
-          "listingFooter": null,
-          "mapMarker": {
-            "__typename": "MapMarker",
-            "label": "$124",
-            "latLong": {
-              "__typename": "Coordinates",
-              "latitude": 12.275154,
-              "longitude": 109.20198
-            }
-          },
-          "neighborhood": {
-            "__typename": "Region",
-            "name": "Vĩnh Hải"
-          },
-          "offerBadge": null,
-          "offerSummary": {
-            "__typename": "OfferSummary",
-            "messages": [
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Collect stamps",
-                "theme": null,
-                "type": "LOYALTY_EARN",
-                "mark": {
-                  "__typename": "Mark",
-                  "id": "loyalty",
-                  "token": "mark__loyalty",
-                  "description": "loyalty logo"
-                }
-              }
-            ],
-            "attributes": []
-          },
-          "pinnedDetails": null,
-          "price": {
-            "__typename": "PropertyPrice",
-            "options": [
-              {
-                "__typename": "PropertyPriceOption",
-                "strikeOut": null,
-                "disclaimer": null,
-                "formattedDisplayPrice": "$124"
-              }
-            ],
-            "priceMessaging": null,
-            "lead": {
-              "__typename": "Money",
-              "amount": 123.64,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$124"
-            },
-            "strikeOut": null,
-            "displayMessages": [
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": null,
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$124",
-                      "accessibilityLabel": "The price is $124"
-                    },
-                    "role": "LEAD"
-                  }
-                ]
-              },
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "LodgingEnrichedMessage",
-                    "accessibilityLabel": null,
-                    "mark": null,
-                    "state": null,
-                    "value": "$737 total",
-                    "badge": null
-                  }
-                ]
-              }
-            ],
-            "strikeOutType": "STANDALONE",
-            "priceMessages": [
-              {
-                "__typename": "LodgingPlainMessage",
-                "value": "per night"
-              }
-            ]
-          },
-          "priceAfterLoyaltyPointsApplied": {
-            "__typename": "PropertyPrice",
-            "options": [],
-            "lead": null
-          },
-          "propertyFees": [],
-          "reviews": {
-            "__typename": "PropertyReviewsSummary",
-            "score": 0,
-            "total": 0
-          },
-          "sponsoredListing": null,
-          "star": null,
-          "supportingMessages": null,
-          "regionId": "3000002330",
-          "priceMetadata": {
-            "__typename": "PropertyPriceMetadata",
-            "discountType": null,
-            "rateDiscount": {
-              "__typename": "RateDiscount",
-              "description": null
-            },
-            "totalDiscountPercentage": 0
-          },
-          "saveTripItem": null
-        },
-        {
-          "__typename": "Property",
-          "id": "45773013",
-          "featuredMessages": [],
-          "name": "Alma Resort Cam Ranh",
-          "availability": {
-            "__typename": "PropertyAvailability",
-            "available": true,
-            "minRoomsLeft": null
-          },
-          "propertyImage": {
-            "__typename": "PropertyImage",
-            "alt": "",
-            "fallbackImage": null,
-            "image": {
-              "__typename": "Image",
-              "description": "Primary image",
-              "url": "https://images.trvl-media.com/lodging/46000000/45780000/45773100/45773013/492e9c9a.jpg?impolicy=resizecrop&rw=455&ra=fit"
-            },
-            "subjectId": 3
-          },
-          "destinationInfo": {
-            "__typename": "PropertyDestinationInfo",
-            "distanceFromDestination": {
-              "__typename": "Distance",
-              "unit": "MILE",
-              "value": 12.23
-            },
-            "distanceFromMessaging": null,
-            "regionId": "6182839"
-          },
-          "legalDisclaimer": null,
-          "listingFooter": null,
-          "mapMarker": {
-            "__typename": "MapMarker",
-            "label": "$126",
-            "latLong": {
-              "__typename": "Coordinates",
-              "latitude": 12.072606,
-              "longitude": 109.194807
-            }
-          },
-          "neighborhood": {
-            "__typename": "Region",
-            "name": "Cam Lam"
-          },
-          "offerBadge": {
-            "__typename": "OfferBadge",
-            "primary": {
-              "__typename": "Badge",
-              "text": "Great for families",
-              "theme_temp": "FAMILY_FRIENDLY",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "family_friendly",
-                "description": "family_friendly"
-              },
-              "mark": null
-            },
-            "secondary": {
-              "__typename": "Badge",
-              "text": "20% off",
-              "theme_temp": "DEAL_GENERIC",
-              "icon_temp": null,
-              "mark": null
-            }
-          },
-          "offerSummary": {
-            "__typename": "OfferSummary",
-            "messages": [
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Collect stamps",
-                "theme": null,
-                "type": "LOYALTY_EARN",
-                "mark": {
-                  "__typename": "Mark",
-                  "id": "loyalty",
-                  "token": "mark__loyalty",
-                  "description": "loyalty logo"
-                }
-              }
-            ],
-            "attributes": []
-          },
-          "pinnedDetails": null,
-          "price": {
-            "__typename": "PropertyPrice",
-            "options": [
-              {
-                "__typename": "PropertyPriceOption",
-                "strikeOut": {
-                  "__typename": "Money",
-                  "amount": 157.09,
-                  "formatted": "$157"
-                },
-                "disclaimer": {
-                  "__typename": "LodgingPlainMessage",
-                  "value": "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                },
-                "formattedDisplayPrice": "$126"
-              }
-            ],
-            "priceMessaging": null,
-            "lead": {
-              "__typename": "Money",
-              "amount": 125.67,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$126"
-            },
-            "strikeOut": {
-              "__typename": "Money",
-              "amount": 157.09,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$157"
-            },
-            "displayMessages": [
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": {
-                      "__typename": "LodgingPlainDialog",
-                      "content": [
-                        "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                      ],
-                      "title": null
-                    },
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$157",
-                      "accessibilityLabel": "The price was $157"
-                    },
-                    "role": "STRIKEOUT"
-                  },
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": null,
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$126",
-                      "accessibilityLabel": "The price is $126"
-                    },
-                    "role": "LEAD"
-                  }
-                ]
-              },
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "LodgingEnrichedMessage",
-                    "accessibilityLabel": null,
-                    "mark": null,
-                    "state": null,
-                    "value": "$726 total",
-                    "badge": null
-                  }
-                ]
-              }
-            ],
-            "strikeOutType": "STANDALONE",
-            "priceMessages": [
-              {
-                "__typename": "LodgingPlainMessage",
-                "value": "per night"
-              }
-            ]
-          },
-          "priceAfterLoyaltyPointsApplied": {
-            "__typename": "PropertyPrice",
-            "options": [],
-            "lead": null
-          },
-          "propertyFees": [],
-          "reviews": {
-            "__typename": "PropertyReviewsSummary",
-            "score": 8.8,
-            "total": 22
-          },
-          "sponsoredListing": null,
-          "star": null,
-          "supportingMessages": null,
-          "regionId": "6182839",
-          "priceMetadata": {
-            "__typename": "PropertyPriceMetadata",
-            "discountType": "REGULAR",
-            "rateDiscount": {
-              "__typename": "RateDiscount",
-              "description": "Book early and save 20%"
-            },
-            "totalDiscountPercentage": 20
-          },
-          "saveTripItem": null
-        },
-        {
-          "__typename": "Property",
-          "id": "45982055",
-          "featuredMessages": [],
-          "name": "Alpha Bird Nha Trang",
-          "availability": {
-            "__typename": "PropertyAvailability",
-            "available": true,
-            "minRoomsLeft": 1
-          },
-          "propertyImage": {
-            "__typename": "PropertyImage",
-            "alt": "",
-            "fallbackImage": null,
-            "image": {
-              "__typename": "Image",
-              "description": "Primary image",
-              "url": "https://images.trvl-media.com/lodging/46000000/45990000/45982100/45982055/aa587adf.jpg?impolicy=resizecrop&rw=455&ra=fit"
-            },
-            "subjectId": 3
-          },
-          "destinationInfo": {
-            "__typename": "PropertyDestinationInfo",
-            "distanceFromDestination": {
-              "__typename": "Distance",
-              "unit": "MILE",
-              "value": 1.32
-            },
-            "distanceFromMessaging": null,
-            "regionId": "553248635950844810"
-          },
-          "legalDisclaimer": null,
-          "listingFooter": null,
-          "mapMarker": {
-            "__typename": "MapMarker",
-            "label": "$131",
-            "latLong": {
-              "__typename": "Coordinates",
-              "latitude": 12.231177,
-              "longitude": 109.196135
-            }
-          },
-          "neighborhood": {
-            "__typename": "Region",
-            "name": "Tran Phu Beach"
-          },
-          "offerBadge": {
-            "__typename": "OfferBadge",
-            "primary": {
-              "__typename": "Badge",
-              "text": "Member Price",
-              "theme_temp": "DEAL_MEMBER",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "mod",
-                "description": "mod"
-              },
-              "mark": null
-            },
-            "secondary": {
-              "__typename": "Badge",
-              "text": "10% off",
-              "theme_temp": "DEAL_MEMBER",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "mod",
-                "description": "mod"
-              },
-              "mark": null
-            }
-          },
-          "offerSummary": {
-            "__typename": "OfferSummary",
-            "messages": [
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Collect stamps",
-                "theme": null,
-                "type": "LOYALTY_EARN",
-                "mark": {
-                  "__typename": "Mark",
-                  "id": "loyalty",
-                  "token": "mark__loyalty",
-                  "description": "loyalty logo"
-                }
-              }
-            ],
-            "attributes": []
-          },
-          "pinnedDetails": null,
-          "price": {
-            "__typename": "PropertyPrice",
-            "options": [
-              {
-                "__typename": "PropertyPriceOption",
-                "strikeOut": {
-                  "__typename": "Money",
-                  "amount": 145.45,
-                  "formatted": "$145"
-                },
-                "disclaimer": {
-                  "__typename": "LodgingPlainMessage",
-                  "value": "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                },
-                "formattedDisplayPrice": "$131"
-              }
-            ],
-            "priceMessaging": null,
-            "lead": {
-              "__typename": "Money",
-              "amount": 130.9,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$131"
-            },
-            "strikeOut": {
-              "__typename": "Money",
-              "amount": 145.45,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$145"
-            },
-            "displayMessages": [
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": {
-                      "__typename": "LodgingPlainDialog",
-                      "content": [
-                        "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                      ],
-                      "title": null
-                    },
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$145",
-                      "accessibilityLabel": "The price was $145"
-                    },
-                    "role": "STRIKEOUT"
-                  },
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": null,
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$131",
-                      "accessibilityLabel": "The price is $131"
-                    },
-                    "role": "LEAD"
-                  }
-                ]
-              },
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "LodgingEnrichedMessage",
-                    "accessibilityLabel": null,
-                    "mark": null,
-                    "state": null,
-                    "value": "$756 total",
-                    "badge": null
-                  }
-                ]
-              }
-            ],
-            "strikeOutType": "STANDALONE",
-            "priceMessages": [
-              {
-                "__typename": "LodgingPlainMessage",
-                "value": "per night"
-              }
-            ]
-          },
-          "priceAfterLoyaltyPointsApplied": {
-            "__typename": "PropertyPrice",
-            "options": [],
-            "lead": null
-          },
-          "propertyFees": [],
-          "reviews": {
-            "__typename": "PropertyReviewsSummary",
-            "score": 0,
-            "total": 0
-          },
-          "sponsoredListing": null,
-          "star": null,
-          "supportingMessages": null,
-          "regionId": "553248635950844810",
-          "priceMetadata": {
-            "__typename": "PropertyPriceMetadata",
-            "discountType": "MEMBER_DEAL",
-            "rateDiscount": {
-              "__typename": "RateDiscount",
-              "description": "Private sale: save 10%"
-            },
-            "totalDiscountPercentage": 10
-          },
-          "saveTripItem": null
-        },
-        {
-          "__typename": "Property",
-          "id": "4757569",
-          "featuredMessages": [],
-          "name": "Whale Island Resort",
-          "availability": {
-            "__typename": "PropertyAvailability",
-            "available": true,
-            "minRoomsLeft": 2
-          },
-          "propertyImage": {
-            "__typename": "PropertyImage",
-            "alt": "",
-            "fallbackImage": null,
-            "image": {
-              "__typename": "Image",
-              "description": "Primary image",
-              "url": "https://images.trvl-media.com/lodging/5000000/4760000/4757600/4757569/fdecba1e.jpg?impolicy=resizecrop&rw=455&ra=fit"
-            },
-            "subjectId": 3
-          },
-          "destinationInfo": {
-            "__typename": "PropertyDestinationInfo",
-            "distanceFromDestination": {
-              "__typename": "Distance",
-              "unit": "MILE",
-              "value": 31.06
-            },
-            "distanceFromMessaging": null,
-            "regionId": "6165559"
-          },
-          "legalDisclaimer": null,
-          "listingFooter": null,
-          "mapMarker": {
-            "__typename": "MapMarker",
-            "label": "$133",
-            "latLong": {
-              "__typename": "Coordinates",
-              "latitude": 12.652493,
-              "longitude": 109.395062
-            }
-          },
-          "neighborhood": {
-            "__typename": "Region",
-            "name": "Van Ninh"
-          },
-          "offerBadge": null,
-          "offerSummary": {
-            "__typename": "OfferSummary",
-            "messages": [
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Collect stamps",
-                "theme": null,
-                "type": "LOYALTY_EARN",
-                "mark": {
-                  "__typename": "Mark",
-                  "id": "loyalty",
-                  "token": "mark__loyalty",
-                  "description": "loyalty logo"
-                }
-              }
-            ],
-            "attributes": []
-          },
-          "pinnedDetails": null,
-          "price": {
-            "__typename": "PropertyPrice",
-            "options": [
-              {
-                "__typename": "PropertyPriceOption",
-                "strikeOut": null,
-                "disclaimer": null,
-                "formattedDisplayPrice": "$133"
-              }
-            ],
-            "priceMessaging": null,
-            "lead": {
-              "__typename": "Money",
-              "amount": 132.94,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$133"
-            },
-            "strikeOut": null,
-            "displayMessages": [
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": null,
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$133",
-                      "accessibilityLabel": "The price is $133"
-                    },
-                    "role": "LEAD"
-                  }
-                ]
-              },
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "LodgingEnrichedMessage",
-                    "accessibilityLabel": null,
-                    "mark": null,
-                    "state": null,
-                    "value": "$768 total",
-                    "badge": null
-                  }
-                ]
-              }
-            ],
-            "strikeOutType": "STANDALONE",
-            "priceMessages": [
-              {
-                "__typename": "LodgingPlainMessage",
-                "value": "per night"
-              }
-            ]
-          },
-          "priceAfterLoyaltyPointsApplied": {
-            "__typename": "PropertyPrice",
-            "options": [],
-            "lead": null
-          },
-          "propertyFees": [],
-          "reviews": {
-            "__typename": "PropertyReviewsSummary",
-            "score": 8,
-            "total": 27
-          },
-          "sponsoredListing": null,
-          "star": null,
-          "supportingMessages": null,
-          "regionId": "6165559",
-          "priceMetadata": {
-            "__typename": "PropertyPriceMetadata",
-            "discountType": null,
-            "rateDiscount": {
-              "__typename": "RateDiscount",
-              "description": null
-            },
-            "totalDiscountPercentage": 0
-          },
-          "saveTripItem": null
-        },
-        {
-          "__typename": "Property",
-          "id": "8751594",
-          "featuredMessages": [],
-          "name": "The Costa Nha Trang Residences",
-          "availability": {
-            "__typename": "PropertyAvailability",
-            "available": true,
-            "minRoomsLeft": 4
-          },
-          "propertyImage": {
-            "__typename": "PropertyImage",
-            "alt": "",
-            "fallbackImage": null,
-            "image": {
-              "__typename": "Image",
-              "description": "Interior entrance",
-              "url": "https://images.trvl-media.com/lodging/9000000/8760000/8751600/8751594/fff35b05.jpg?impolicy=resizecrop&rw=455&ra=fit"
-            },
-            "subjectId": 10000
-          },
-          "destinationInfo": {
-            "__typename": "PropertyDestinationInfo",
-            "distanceFromDestination": {
-              "__typename": "Distance",
-              "unit": "MILE",
-              "value": 0.5
-            },
-            "distanceFromMessaging": null,
-            "regionId": "553248635950844810"
-          },
-          "legalDisclaimer": null,
-          "listingFooter": null,
-          "mapMarker": {
-            "__typename": "MapMarker",
-            "label": "$137",
-            "latLong": {
-              "__typename": "Coordinates",
-              "latitude": 12.244713,
-              "longitude": 109.196266
-            }
-          },
-          "neighborhood": {
-            "__typename": "Region",
-            "name": "Tran Phu Beach"
-          },
-          "offerBadge": {
-            "__typename": "OfferBadge",
-            "primary": {
-              "__typename": "Badge",
-              "text": "Member Price",
-              "theme_temp": "DEAL_MEMBER",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "mod",
-                "description": "mod"
-              },
-              "mark": null
-            },
-            "secondary": {
-              "__typename": "Badge",
-              "text": "20% off",
-              "theme_temp": "DEAL_MEMBER",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "mod",
-                "description": "mod"
-              },
-              "mark": null
-            }
-          },
-          "offerSummary": {
-            "__typename": "OfferSummary",
-            "messages": [
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Reserve without credit card",
-                "theme": "SUCCESS",
-                "type": "NO_CREDIT_CARD",
-                "mark": null
-              },
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Collect stamps",
-                "theme": null,
-                "type": "LOYALTY_EARN",
-                "mark": {
-                  "__typename": "Mark",
-                  "id": "loyalty",
-                  "token": "mark__loyalty",
-                  "description": "loyalty logo"
-                }
-              }
-            ],
-            "attributes": [
-              {
-                "__typename": "OfferAttribute",
-                "type": "NO_CC_REQUIRED"
-              },
-              {
-                "__typename": "OfferAttribute",
-                "type": "PAYMENT_CHOICE"
-              }
-            ]
-          },
-          "pinnedDetails": null,
-          "price": {
-            "__typename": "PropertyPrice",
-            "options": [
-              {
-                "__typename": "PropertyPriceOption",
-                "strikeOut": {
-                  "__typename": "Money",
-                  "amount": 171.41817,
-                  "formatted": "$171"
-                },
-                "disclaimer": {
-                  "__typename": "LodgingPlainMessage",
-                  "value": "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                },
-                "formattedDisplayPrice": "$137"
-              }
-            ],
-            "priceMessaging": null,
-            "lead": {
-              "__typename": "Money",
-              "amount": 137.134553,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$137"
-            },
-            "strikeOut": {
-              "__typename": "Money",
-              "amount": 171.41817,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$171"
-            },
-            "displayMessages": [
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": {
-                      "__typename": "LodgingPlainDialog",
-                      "content": [
-                        "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                      ],
-                      "title": null
-                    },
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$171",
-                      "accessibilityLabel": "The price was $171"
-                    },
-                    "role": "STRIKEOUT"
-                  },
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": null,
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$137",
-                      "accessibilityLabel": "The price is $137"
-                    },
-                    "role": "LEAD"
-                  }
-                ]
-              },
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "LodgingEnrichedMessage",
-                    "accessibilityLabel": null,
-                    "mark": null,
-                    "state": null,
-                    "value": "$792 total",
-                    "badge": null
-                  }
-                ]
-              }
-            ],
-            "strikeOutType": "STANDALONE",
-            "priceMessages": [
-              {
-                "__typename": "LodgingPlainMessage",
-                "value": "per night"
-              }
-            ]
-          },
-          "priceAfterLoyaltyPointsApplied": {
-            "__typename": "PropertyPrice",
-            "options": [],
-            "lead": null
-          },
-          "propertyFees": [],
-          "reviews": {
-            "__typename": "PropertyReviewsSummary",
-            "score": 8,
-            "total": 132
-          },
-          "sponsoredListing": null,
-          "star": null,
-          "supportingMessages": null,
-          "regionId": "553248635950844810",
-          "priceMetadata": {
-            "__typename": "PropertyPriceMetadata",
-            "discountType": "MEMBER_DEAL",
-            "rateDiscount": {
-              "__typename": "RateDiscount",
-              "description": "Member’s price: 20%"
-            },
-            "totalDiscountPercentage": 20
-          },
-          "saveTripItem": null
-        },
-        {
-          "__typename": "Property",
-          "id": "18907213",
-          "featuredMessages": [],
-          "name": "D26 Nha Trang Hotel",
-          "availability": {
-            "__typename": "PropertyAvailability",
-            "available": true,
-            "minRoomsLeft": 1
-          },
-          "propertyImage": {
-            "__typename": "PropertyImage",
-            "alt": "",
-            "fallbackImage": null,
-            "image": {
-              "__typename": "Image",
-              "description": "Primary image",
-              "url": "https://images.trvl-media.com/lodging/19000000/18910000/18907300/18907213/42d297d6.jpg?impolicy=resizecrop&rw=455&ra=fit"
-            },
-            "subjectId": 3
-          },
-          "destinationInfo": {
-            "__typename": "PropertyDestinationInfo",
-            "distanceFromDestination": {
-              "__typename": "Distance",
-              "unit": "MILE",
-              "value": 1.41
-            },
-            "distanceFromMessaging": null,
-            "regionId": "553248635950844810"
-          },
-          "legalDisclaimer": null,
-          "listingFooter": null,
-          "mapMarker": {
-            "__typename": "MapMarker",
-            "label": "$138",
-            "latLong": {
-              "__typename": "Coordinates",
-              "latitude": 12.230416,
-              "longitude": 109.197866
-            }
-          },
-          "neighborhood": {
-            "__typename": "Region",
-            "name": "Tran Phu Beach"
-          },
-          "offerBadge": null,
-          "offerSummary": {
-            "__typename": "OfferSummary",
-            "messages": [
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Collect stamps",
-                "theme": null,
-                "type": "LOYALTY_EARN",
-                "mark": {
-                  "__typename": "Mark",
-                  "id": "loyalty",
-                  "token": "mark__loyalty",
-                  "description": "loyalty logo"
-                }
-              }
-            ],
-            "attributes": []
-          },
-          "pinnedDetails": null,
-          "price": {
-            "__typename": "PropertyPrice",
-            "options": [
-              {
-                "__typename": "PropertyPriceOption",
-                "strikeOut": null,
-                "disclaimer": null,
-                "formattedDisplayPrice": "$138"
-              }
-            ],
-            "priceMessaging": null,
-            "lead": {
-              "__typename": "Money",
-              "amount": 138.18,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$138"
-            },
-            "strikeOut": null,
-            "displayMessages": [
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": null,
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$138",
-                      "accessibilityLabel": "The price is $138"
-                    },
-                    "role": "LEAD"
-                  }
-                ]
-              },
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "LodgingEnrichedMessage",
-                    "accessibilityLabel": null,
-                    "mark": null,
-                    "state": null,
-                    "value": "$897 total",
-                    "badge": null
-                  }
-                ]
-              }
-            ],
-            "strikeOutType": "STANDALONE",
-            "priceMessages": [
-              {
-                "__typename": "LodgingPlainMessage",
-                "value": "per night"
-              }
-            ]
-          },
-          "priceAfterLoyaltyPointsApplied": {
-            "__typename": "PropertyPrice",
-            "options": [],
-            "lead": null
-          },
-          "propertyFees": [],
-          "reviews": {
-            "__typename": "PropertyReviewsSummary",
-            "score": 7,
-            "total": 2
-          },
-          "sponsoredListing": null,
-          "star": null,
-          "supportingMessages": null,
-          "regionId": "553248635950844810",
-          "priceMetadata": {
-            "__typename": "PropertyPriceMetadata",
-            "discountType": null,
-            "rateDiscount": {
-              "__typename": "RateDiscount",
-              "description": null
-            },
-            "totalDiscountPercentage": 0
-          },
-          "saveTripItem": null
-        },
-        {
-          "__typename": "Property",
-          "id": "19527132",
-          "featuredMessages": [],
-          "name": "Aquatic Ocean Hotel",
-          "availability": {
-            "__typename": "PropertyAvailability",
-            "available": true,
-            "minRoomsLeft": 2
-          },
-          "propertyImage": {
-            "__typename": "PropertyImage",
-            "alt": "",
-            "fallbackImage": null,
-            "image": {
-              "__typename": "Image",
-              "description": "Primary image",
-              "url": "https://images.trvl-media.com/lodging/20000000/19530000/19527200/19527132/393a453a.jpg?impolicy=resizecrop&rw=455&ra=fit"
-            },
-            "subjectId": 3
-          },
-          "destinationInfo": {
-            "__typename": "PropertyDestinationInfo",
-            "distanceFromDestination": {
-              "__typename": "Distance",
-              "unit": "MILE",
-              "value": 1.06
-            },
-            "distanceFromMessaging": null,
-            "regionId": "553248635950844810"
-          },
-          "legalDisclaimer": null,
-          "listingFooter": null,
-          "mapMarker": {
-            "__typename": "MapMarker",
-            "label": "$145",
-            "latLong": {
-              "__typename": "Coordinates",
-              "latitude": 12.235376,
-              "longitude": 109.196656
-            }
-          },
-          "neighborhood": {
-            "__typename": "Region",
-            "name": "Tran Phu Beach"
-          },
-          "offerBadge": {
-            "__typename": "OfferBadge",
-            "primary": {
-              "__typename": "Badge",
-              "text": "Great for families",
-              "theme_temp": "FAMILY_FRIENDLY",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "family_friendly",
-                "description": "family_friendly"
-              },
-              "mark": null
-            },
-            "secondary": null
-          },
-          "offerSummary": {
-            "__typename": "OfferSummary",
-            "messages": [
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Collect stamps",
-                "theme": null,
-                "type": "LOYALTY_EARN",
-                "mark": {
-                  "__typename": "Mark",
-                  "id": "loyalty",
-                  "token": "mark__loyalty",
-                  "description": "loyalty logo"
-                }
-              }
-            ],
-            "attributes": []
-          },
-          "pinnedDetails": null,
-          "price": {
-            "__typename": "PropertyPrice",
-            "options": [
-              {
-                "__typename": "PropertyPriceOption",
-                "strikeOut": null,
-                "disclaimer": null,
-                "formattedDisplayPrice": "$145"
-              }
-            ],
-            "priceMessaging": null,
-            "lead": {
-              "__typename": "Money",
-              "amount": 145.45,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$145"
-            },
-            "strikeOut": null,
-            "displayMessages": [
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": null,
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$145",
-                      "accessibilityLabel": "The price is $145"
-                    },
-                    "role": "LEAD"
-                  }
-                ]
-              },
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "LodgingEnrichedMessage",
-                    "accessibilityLabel": null,
-                    "mark": null,
-                    "state": null,
-                    "value": "$840 total",
-                    "badge": null
-                  }
-                ]
-              }
-            ],
-            "strikeOutType": "STANDALONE",
-            "priceMessages": [
-              {
-                "__typename": "LodgingPlainMessage",
-                "value": "per night"
-              }
-            ]
-          },
-          "priceAfterLoyaltyPointsApplied": {
-            "__typename": "PropertyPrice",
-            "options": [],
-            "lead": null
-          },
-          "propertyFees": [],
-          "reviews": {
-            "__typename": "PropertyReviewsSummary",
-            "score": 7,
-            "total": 2
-          },
-          "sponsoredListing": null,
-          "star": null,
-          "supportingMessages": null,
-          "regionId": "553248635950844810",
-          "priceMetadata": {
-            "__typename": "PropertyPriceMetadata",
-            "discountType": null,
-            "rateDiscount": {
-              "__typename": "RateDiscount",
-              "description": null
-            },
-            "totalDiscountPercentage": 0
-          },
-          "saveTripItem": null
-        },
-        {
-          "__typename": "Property",
-          "id": "76386576",
-          "featuredMessages": [],
-          "name": "Wyndham Garden Cam Ranh Resort",
-          "availability": {
-            "__typename": "PropertyAvailability",
-            "available": true,
-            "minRoomsLeft": null
-          },
-          "propertyImage": {
-            "__typename": "PropertyImage",
-            "alt": "",
-            "fallbackImage": null,
-            "image": {
-              "__typename": "Image",
-              "description": "Primary image",
-              "url": "https://images.trvl-media.com/lodging/77000000/76390000/76386600/76386576/0c7b284d.jpg?impolicy=resizecrop&rw=455&ra=fit"
-            },
-            "subjectId": 3
-          },
-          "destinationInfo": {
-            "__typename": "PropertyDestinationInfo",
-            "distanceFromDestination": {
-              "__typename": "Distance",
-              "unit": "MILE",
-              "value": 15.2
-            },
-            "distanceFromMessaging": null,
-            "regionId": "6182839"
-          },
-          "legalDisclaimer": null,
-          "listingFooter": null,
-          "mapMarker": {
-            "__typename": "MapMarker",
-            "label": "$149",
-            "latLong": {
-              "__typename": "Coordinates",
-              "latitude": 12.030639,
-              "longitude": 109.213
-            }
-          },
-          "neighborhood": {
-            "__typename": "Region",
-            "name": "Cam Lam"
-          },
-          "offerBadge": {
-            "__typename": "OfferBadge",
-            "primary": {
-              "__typename": "Badge",
-              "text": "Member Price",
-              "theme_temp": "DEAL_MEMBER",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "mod",
-                "description": "mod"
-              },
-              "mark": null
-            },
-            "secondary": {
-              "__typename": "Badge",
-              "text": "24% off",
-              "theme_temp": "DEAL_MEMBER",
-              "icon_temp": {
-                "__typename": "Icon",
-                "id": "mod",
-                "description": "mod"
-              },
-              "mark": null
-            }
-          },
-          "offerSummary": {
-            "__typename": "OfferSummary",
-            "messages": [
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Reserve now, pay later",
-                "theme": "SUCCESS",
-                "type": "PAY_LATER",
-                "mark": null
-              },
-              {
-                "__typename": "OfferSummaryMessage",
-                "message": "Collect stamps",
-                "theme": null,
-                "type": "LOYALTY_EARN",
-                "mark": {
-                  "__typename": "Mark",
-                  "id": "loyalty",
-                  "token": "mark__loyalty",
-                  "description": "loyalty logo"
-                }
-              }
-            ],
-            "attributes": [
-              {
-                "__typename": "OfferAttribute",
-                "type": "PAYMENT_CHOICE"
-              }
-            ]
-          },
-          "pinnedDetails": null,
-          "price": {
-            "__typename": "PropertyPrice",
-            "options": [
-              {
-                "__typename": "PropertyPriceOption",
-                "strikeOut": {
-                  "__typename": "Money",
-                  "amount": 194.55,
-                  "formatted": "$195"
-                },
-                "disclaimer": {
-                  "__typename": "LodgingPlainMessage",
-                  "value": "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                },
-                "formattedDisplayPrice": "$149"
-              }
-            ],
-            "priceMessaging": null,
-            "lead": {
-              "__typename": "Money",
-              "amount": 148.83,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$149"
-            },
-            "strikeOut": {
-              "__typename": "Money",
-              "amount": 194.55,
-              "currencyInfo": {
-                "__typename": "Currency",
-                "code": "USD",
-                "symbol": "$"
-              },
-              "formatted": "$195"
-            },
-            "displayMessages": [
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": {
-                      "__typename": "LodgingPlainDialog",
-                      "content": [
-                        "Standard rate on our site, provided by the property and based on your search, before all discounts and rewards applied."
-                      ],
-                      "title": null
-                    },
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$195",
-                      "accessibilityLabel": "The price was $195"
-                    },
-                    "role": "STRIKEOUT"
-                  },
-                  {
-                    "__typename": "DisplayPrice",
-                    "disclaimer": null,
-                    "price": {
-                      "__typename": "FormattedMoney",
-                      "formatted": "$149",
-                      "accessibilityLabel": "The price is $149"
-                    },
-                    "role": "LEAD"
-                  }
-                ]
-              },
-              {
-                "__typename": "PriceDisplayMessage",
-                "lineItems": [
-                  {
-                    "__typename": "LodgingEnrichedMessage",
-                    "accessibilityLabel": null,
-                    "mark": null,
-                    "state": null,
-                    "value": "$859 total",
-                    "badge": null
-                  }
-                ]
-              }
-            ],
-            "strikeOutType": "STANDALONE",
-            "priceMessages": [
-              {
-                "__typename": "LodgingPlainMessage",
-                "value": "per night"
-              }
-            ]
-          },
-          "priceAfterLoyaltyPointsApplied": {
-            "__typename": "PropertyPrice",
-            "options": [],
-            "lead": null
-          },
-          "propertyFees": [],
-          "reviews": {
-            "__typename": "PropertyReviewsSummary",
-            "score": 9,
-            "total": 2
-          },
-          "sponsoredListing": null,
-          "star": null,
-          "supportingMessages": null,
-          "regionId": "6182839",
-          "priceMetadata": {
-            "__typename": "PropertyPriceMetadata",
-            "discountType": "MEMBER_DEAL",
-            "rateDiscount": {
-              "__typename": "RateDiscount",
-              "description": "Member’s price: 24%"
-            },
-            "totalDiscountPercentage": 24
-          },
-          "saveTripItem": null
-        }
+    },
+    policies: {
+      __typename: "PropertyPolicies",
+      checkinEnd: null,
+      checkinInstructions: [
+        "Guests must transfer via Boat to the property; guests must contact the property at least 72 hours before travel, using the contact information on the confirmation received after booking",
+        "This property offers transfers from the airport and train station (surcharges may apply); guests must contact the property with arrival details before travel, using the contact information on the booking confirmation",
+        "Front desk staff will greet guests on arrival",
+        "This property is on Hon Tam island which is accessible only by boat, and the schedule is subject to change without notice.",
       ],
-      "summary": {
-        "__typename": "PropertyResultsSummary",
-        "matchedPropertiesSize": 883,
-        "pricingScheme": {
-          "__typename": "PricingScheme",
-          "type": "DAILY_RATE"
+      checkinMinAge: null,
+      checkinStart: null,
+      checkoutTime: null,
+      childAndBed: {
+        __typename: "PropertyInfoSubSection",
+        body: [
+          " One child (10 years old and younger) stays free when occupying the parent or guardian's room, using existing bedding ",
+          "Babysitting*",
+        ],
+        descriptions: [],
+        title: null,
+      },
+      needToKnow: {
+        __typename: "PropertyInfoSubSection",
+        body: [
+          "<p>Only registered guests are allowed in the guestrooms. </p> <p>This property does not have elevators. </p><p>Guests can rest easy knowing there's a fire extinguisher, a smoke detector, a security system, and a first aid kit on site. </p><p>Please note that cultural norms and guest policies may differ by country and by property. The policies listed are provided by the property. </p><p>The name on the credit card used at check-in to pay for incidentals must be the primary name on the guestroom reservation. </p><p>This property accepts credit cards and cash.</p>",
+        ],
+        descriptions: [],
+        title: "You need to know",
+      },
+      paymentOptions: [],
+      pets: {
+        __typename: "PropertyInfoSubSection",
+        body: ["Pets not allowed"],
+        descriptions: [],
+        title: "Pets",
+      },
+      shouldMention: {
+        __typename: "PropertyInfoSubSection",
+        body: [
+          "This property does not have elevators",
+          "Local laws may restrict unmarried guests from sharing rooms; guests are responsible for providing proof of marriage, if requested by the property",
+          "Couples wishing to share a room must provide proof of marriage",
+          "Pool access available from 8:00 AM to 4:00 PM",
+          "Reservations are required for massage services and spa treatments; reservations can be made by contacting the property prior to arrival, using the contact information on the booking confirmation",
+          "Only registered guests are allowed in the guestrooms",
+        ],
+        descriptions: [],
+        title: "We should mention",
+      },
+    },
+    telesalesPhoneNumber: "",
+    bannerMessage: null,
+    latinAlphabetName: "",
+    tagline: "Nha Trang beachfront resort with 3 restaurants and spa  \n",
+    starRatingIcon: {
+      __typename: "Icon",
+      token: "STAR",
+    },
+    overview: {
+      __typename: "PropertyOverview",
+      vipMessaging: null,
+      inventoryType: null,
+      accessibilityLabel: "Overview of MerPerle Hon Tam Resort",
+      label: null,
+      propertyRating: {
+        __typename: "EGDSIconRating",
+        rating: 5,
+        accessibility: "5.0 star property",
+        icon: {
+          __typename: "Icon",
+          id: "star",
+          description: "star rating",
+          size: null,
+          token: "icon__star",
+          theme: null,
         },
-        "regionCompression": null,
-        "loyaltyInfo": {
-          "__typename": "PropertyLoyaltyDiscount",
-          "saveWithPointsMessage": null,
-          "saveWithPointsActionMessage": null
-        },
-        "resultsTitleModel": {
-          "__typename": "ResultTitleModel",
-          "header": "883 properties"
-        },
-        "resultsSummary": [
-          {
-            "__typename": "LodgingPlainMessage"
+      },
+    },
+    featuredMessages: null,
+    spaceOverview: null,
+    amenities: {
+      __typename: "PropertyAmenities",
+      amenities: [
+        {
+          __typename: "PropertyInfoSection",
+          title: "At a glance",
+          sections: [],
+          header: {
+            __typename: "LodgingHeader",
+            icon: null,
+            text: "At a glance",
+            subText: null,
           },
-          {
-            "__typename": "LodgingLinkMessage",
-            "accessibilityLabel": "Opens in a new window",
-            "value": "What we are paid impacts our sort order",
-            "link": {
-              "__typename": "LodgingLink",
-              "clientSideAnalytics": {
-                "__typename": "ClientSideAnalytics",
-                "linkName": "Sort disclaimer",
-                "referrerId": "HOT.HSR.RecommendedSort.FAQlink"
+          contents: [
+            {
+              __typename: "PropertyInfoContent",
+              header: {
+                __typename: "LodgingHeader",
+                text: "Hotel size",
+                subText: null,
+                mark: null,
               },
-              "uri": {
-                "__typename": "HttpURI",
-                "value": "https://service.hotels.com/en-us/#/article/19645"
-              }
-            }
-          }
-        ]
-      },
-      "searchCriteria": {
-        "__typename": "SearchCriteria",
-        "resolvedDateRange": {
-          "__typename": "PropertyDateRange",
-          "checkInDate": {
-            "__typename": "Date",
-            "day": 13,
-            "month": 2,
-            "year": 2023
+              icon: {
+                __typename: "Icon",
+                id: "done",
+                description: "",
+                size: null,
+                token: "done",
+                theme: null,
+              },
+              jumpLink: null,
+              items: [
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "49 units",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+              ],
+            },
+            {
+              __typename: "PropertyInfoContent",
+              header: {
+                __typename: "LodgingHeader",
+                text: "Arriving/Leaving",
+                subText: null,
+                mark: null,
+              },
+              icon: {
+                __typename: "Icon",
+                id: "done",
+                description: "",
+                size: null,
+                token: "done",
+                theme: null,
+              },
+              jumpLink: null,
+              items: [
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Check-in time from 2:00 PM - 1:30 PM",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Early check-in subject to availability",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Late check-in subject to availability",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Minimum check-in age - 18 ",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Check-out time is noon",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Late check-out subject to availability",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+              ],
+            },
+            {
+              __typename: "PropertyInfoContent",
+              header: {
+                __typename: "LodgingHeader",
+                text: "Restrictions related to your trip",
+                subText: null,
+                mark: null,
+              },
+              icon: {
+                __typename: "Icon",
+                id: "done",
+                description: "",
+                size: null,
+                token: "done",
+                theme: null,
+              },
+              jumpLink: null,
+              items: [
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Check COVID-19 restrictions.",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+              ],
+            },
+            {
+              __typename: "PropertyInfoContent",
+              header: {
+                __typename: "LodgingHeader",
+                text: "Special check-in instructions",
+                subText: null,
+                mark: null,
+              },
+              icon: {
+                __typename: "Icon",
+                id: "done",
+                description: "",
+                size: null,
+                token: "done",
+                theme: null,
+              },
+              jumpLink: null,
+              items: [
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Guests must transfer via Boat to the property; guests must contact the property at least 72 hours before travel, using the contact information on the confirmation received after booking",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "This property offers transfers from the airport and train station (surcharges may apply); guests must contact the property with arrival details before travel, using the contact information on the booking confirmation",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Front desk staff will greet guests on arrival",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "This property is on Hon Tam island which is accessible only by boat, and the schedule is subject to change without notice.",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+              ],
+            },
+            {
+              __typename: "PropertyInfoContent",
+              header: {
+                __typename: "LodgingHeader",
+                text: "Required at check-in",
+                subText: null,
+                mark: null,
+              },
+              icon: {
+                __typename: "Icon",
+                id: "done",
+                description: "",
+                size: null,
+                token: "done",
+                theme: null,
+              },
+              jumpLink: null,
+              items: [
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Credit card, debit card, or cash deposit required for incidental charges",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Government-issued photo ID may be required",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Minimum check-in age is 18 ",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Couples wishing to share a room must provide proof of marriage",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+              ],
+            },
+            {
+              __typename: "PropertyInfoContent",
+              header: {
+                __typename: "LodgingHeader",
+                text: "Children",
+                subText: null,
+                mark: null,
+              },
+              icon: {
+                __typename: "Icon",
+                id: "done",
+                description: "",
+                size: null,
+                token: "done",
+                theme: null,
+              },
+              jumpLink: null,
+              items: [
+                {
+                  __typename: "PropertyInfoItem",
+                  text: " One child (10 years old and younger) stays free when occupying the parent or guardian's room, using existing bedding ",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Babysitting*",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+              ],
+            },
+            {
+              __typename: "PropertyInfoContent",
+              header: {
+                __typename: "LodgingHeader",
+                text: "Pets",
+                subText: null,
+                mark: null,
+              },
+              icon: {
+                __typename: "Icon",
+                id: "done",
+                description: "",
+                size: null,
+                token: "done",
+                theme: null,
+              },
+              jumpLink: null,
+              items: [
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Pets not allowed",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+              ],
+            },
+            {
+              __typename: "PropertyInfoContent",
+              header: {
+                __typename: "LodgingHeader",
+                text: "Internet",
+                subText: null,
+                mark: null,
+              },
+              icon: {
+                __typename: "Icon",
+                id: "wifi",
+                description: "",
+                size: null,
+                token: "wifi",
+                theme: null,
+              },
+              jumpLink: null,
+              items: [
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Free WiFi in public areas",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Free WiFi in rooms",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+              ],
+            },
+            {
+              __typename: "PropertyInfoContent",
+              header: {
+                __typename: "LodgingHeader",
+                text: "Parking",
+                subText: null,
+                mark: null,
+              },
+              icon: {
+                __typename: "Icon",
+                id: "local_parking",
+                description: "",
+                size: null,
+                token: "local_parking",
+                theme: null,
+              },
+              jumpLink: null,
+              items: [
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Free onsite self parking",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Free onsite valet parking",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Free offsite parking nearby",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+              ],
+            },
+            {
+              __typename: "PropertyInfoContent",
+              header: {
+                __typename: "LodgingHeader",
+                text: "Transfers",
+                subText: null,
+                mark: null,
+              },
+              icon: {
+                __typename: "Icon",
+                id: "done",
+                description: "",
+                size: null,
+                token: "done",
+                theme: null,
+              },
+              jumpLink: null,
+              items: [
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Airport shuttle on request (available 24 hours)* ",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Train station pick-up*",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+              ],
+            },
+            {
+              __typename: "PropertyInfoContent",
+              header: {
+                __typename: "LodgingHeader",
+                text: "Other information",
+                subText: null,
+                mark: null,
+              },
+              icon: {
+                __typename: "Icon",
+                id: "done",
+                description: "",
+                size: null,
+                token: "done",
+                theme: null,
+              },
+              jumpLink: null,
+              items: [
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Designated smoking areas",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          __typename: "PropertyInfoSection",
+          title: "Property amenities",
+          sections: [],
+          header: {
+            __typename: "LodgingHeader",
+            icon: null,
+            text: "Property amenities",
+            subText: null,
           },
-          "checkOutDate": {
-            "__typename": "Date",
-            "day": 18,
-            "month": 2,
-            "year": 2023
-          }
-        }
+          contents: [
+            {
+              __typename: "PropertyInfoContent",
+              header: {
+                __typename: "LodgingHeader",
+                text: "Food and drink",
+                subText: null,
+                mark: null,
+              },
+              icon: {
+                __typename: "Icon",
+                id: "local_dining",
+                description: "",
+                size: null,
+                token: "local_dining",
+                theme: null,
+              },
+              jumpLink: null,
+              items: [
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "3 restaurants",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "2 bars/lounges",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Poolside bar",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Coffee shop",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Barbecue grills",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Room service (limited hours)",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Snack bar/deli",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+              ],
+            },
+            {
+              __typename: "PropertyInfoContent",
+              header: {
+                __typename: "LodgingHeader",
+                text: "Traveling with children",
+                subText: null,
+                mark: null,
+              },
+              icon: {
+                __typename: "Icon",
+                id: "family_friendly",
+                description: "",
+                size: null,
+                token: "family_friendly",
+                theme: null,
+              },
+              jumpLink: null,
+              items: [
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Children stay free (see details)",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Children's pool",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Babysitting (surcharge)",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Children's menu",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+              ],
+            },
+            {
+              __typename: "PropertyInfoContent",
+              header: {
+                __typename: "LodgingHeader",
+                text: "What to do",
+                subText: null,
+                mark: null,
+              },
+              icon: {
+                __typename: "Icon",
+                id: "lob_activities",
+                description: "",
+                size: null,
+                token: "lob_activities",
+                theme: null,
+              },
+              jumpLink: null,
+              items: [
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "On a private beach",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Beach yoga",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Beach volleyball",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Racquetball/squash",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Ecotours",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Kayaking",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Boat tours",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Scuba diving",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Snorkeling",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Shopping",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Free use of nearby fitness center",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+              ],
+            },
+            {
+              __typename: "PropertyInfoContent",
+              header: {
+                __typename: "LodgingHeader",
+                text: "Working away",
+                subText: null,
+                mark: null,
+              },
+              icon: {
+                __typename: "Icon",
+                id: "business_center",
+                description: "",
+                size: null,
+                token: "business_center",
+                theme: null,
+              },
+              jumpLink: null,
+              items: [
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "24-hour business center",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Meeting room",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+              ],
+            },
+            {
+              __typename: "PropertyInfoContent",
+              header: {
+                __typename: "LodgingHeader",
+                text: "Services",
+                subText: null,
+                mark: null,
+              },
+              icon: {
+                __typename: "Icon",
+                id: "room_service",
+                description: "",
+                size: null,
+                token: "room_service",
+                theme: null,
+              },
+              jumpLink: null,
+              items: [
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "24-hour front desk",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Concierge services",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Tour/ticket assistance",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Limo or town car service",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "On-site car rental",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Dry cleaning/laundry services",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Free newspapers in lobby",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Luggage storage",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Wedding services",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Multilingual staff",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Umbrellas",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Beach sun loungers",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Beach towels",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Beach umbrellas",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Pool loungers",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+              ],
+            },
+            {
+              __typename: "PropertyInfoContent",
+              header: {
+                __typename: "LodgingHeader",
+                text: "Facilities",
+                subText: null,
+                mark: null,
+              },
+              icon: {
+                __typename: "Icon",
+                id: "done",
+                description: "",
+                size: null,
+                token: "done",
+                theme: null,
+              },
+              jumpLink: null,
+              items: [
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Built in 2008",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Safe-deposit box at front desk",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Garden",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Picnic area",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Library",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Health club",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "2 outdoor pools",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Full-service spa",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Sauna",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Steam room",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+              ],
+            },
+            {
+              __typename: "PropertyInfoContent",
+              header: {
+                __typename: "LodgingHeader",
+                text: "Languages",
+                subText: null,
+                mark: null,
+              },
+              icon: {
+                __typename: "Icon",
+                id: "done",
+                description: "",
+                size: null,
+                token: "done",
+                theme: null,
+              },
+              jumpLink: null,
+              items: [
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Chinese (Mandarin)",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "English",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Russian",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Vietnamese",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          __typename: "PropertyInfoSection",
+          title: "Room amenities",
+          sections: [],
+          header: {
+            __typename: "LodgingHeader",
+            icon: null,
+            text: "Room amenities",
+            subText: null,
+          },
+          contents: [
+            {
+              __typename: "PropertyInfoContent",
+              header: {
+                __typename: "LodgingHeader",
+                text: "Be entertained",
+                subText: null,
+                mark: null,
+              },
+              icon: {
+                __typename: "Icon",
+                id: "done",
+                description: "",
+                size: null,
+                token: "done",
+                theme: null,
+              },
+              jumpLink: null,
+              items: [
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "32-inch LCD TV",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Cable TV channels",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+              ],
+            },
+            {
+              __typename: "PropertyInfoContent",
+              header: {
+                __typename: "LodgingHeader",
+                text: "Home comfort",
+                subText: null,
+                mark: null,
+              },
+              icon: {
+                __typename: "Icon",
+                id: "done",
+                description: "",
+                size: null,
+                token: "done",
+                theme: null,
+              },
+              jumpLink: null,
+              items: [
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Air conditioning",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Minibar",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Electric kettle",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Bathrobes and slippers",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Iron/ironing board (on request)",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+              ],
+            },
+            {
+              __typename: "PropertyInfoContent",
+              header: {
+                __typename: "LodgingHeader",
+                text: "Sleep well",
+                subText: null,
+                mark: null,
+              },
+              icon: {
+                __typename: "Icon",
+                id: "done",
+                description: "",
+                size: null,
+                token: "done",
+                theme: null,
+              },
+              jumpLink: null,
+              items: [
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Premium bedding",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+              ],
+            },
+            {
+              __typename: "PropertyInfoContent",
+              header: {
+                __typename: "LodgingHeader",
+                text: "What to enjoy",
+                subText: null,
+                mark: null,
+              },
+              icon: {
+                __typename: "Icon",
+                id: "done",
+                description: "",
+                size: null,
+                token: "done",
+                theme: null,
+              },
+              jumpLink: null,
+              items: [
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Separate sitting area",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+              ],
+            },
+            {
+              __typename: "PropertyInfoContent",
+              header: {
+                __typename: "LodgingHeader",
+                text: "Freshen up",
+                subText: null,
+                mark: null,
+              },
+              icon: {
+                __typename: "Icon",
+                id: "done",
+                description: "",
+                size: null,
+                token: "done",
+                theme: null,
+              },
+              jumpLink: null,
+              items: [
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Separate bathtub and shower",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Free toiletries",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Hair dryer",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Towels",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Toilet paper",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+              ],
+            },
+            {
+              __typename: "PropertyInfoContent",
+              header: {
+                __typename: "LodgingHeader",
+                text: "Stay connected",
+                subText: null,
+                mark: null,
+              },
+              icon: {
+                __typename: "Icon",
+                id: "done",
+                description: "",
+                size: null,
+                token: "done",
+                theme: null,
+              },
+              jumpLink: null,
+              items: [
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Desk",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Free WiFi",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Free international and long-distance calls",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+              ],
+            },
+            {
+              __typename: "PropertyInfoContent",
+              header: {
+                __typename: "LodgingHeader",
+                text: "Food and drink",
+                subText: null,
+                mark: null,
+              },
+              icon: {
+                __typename: "Icon",
+                id: "local_dining",
+                description: "",
+                size: null,
+                token: "local_dining",
+                theme: null,
+              },
+              jumpLink: null,
+              items: [
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Free bottled water",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Free tea bags/instant coffee",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+              ],
+            },
+            {
+              __typename: "PropertyInfoContent",
+              header: {
+                __typename: "LodgingHeader",
+                text: "More",
+                subText: null,
+                mark: null,
+              },
+              icon: {
+                __typename: "Icon",
+                id: "done",
+                description: "",
+                size: null,
+                token: "done",
+                theme: null,
+              },
+              jumpLink: null,
+              items: [
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Daily housekeeping",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "In-room safe",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+                {
+                  __typename: "PropertyInfoItem",
+                  text: "Restaurant dining guide",
+                  state: null,
+                  moreInfo: null,
+                  icon: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      topAmenities: {
+        __typename: "PropertyInfoContent",
+        header: {
+          __typename: "LodgingHeader",
+          text: "Property highlights",
+          subText: null,
+          mark: null,
+        },
+        icon: null,
+        jumpLink: null,
+        items: [
+          {
+            __typename: "PropertyInfoItem",
+            text: "Free parking",
+            state: null,
+            moreInfo: null,
+            icon: {
+              __typename: "Icon",
+              id: "local_parking",
+              description: "",
+              size: null,
+              token: "local_parking",
+              theme: null,
+            },
+          },
+          {
+            __typename: "PropertyInfoItem",
+            text: "Pool",
+            state: null,
+            moreInfo: null,
+            icon: {
+              __typename: "Icon",
+              id: "pool",
+              description: "",
+              size: null,
+              token: "pool",
+              theme: null,
+            },
+          },
+          {
+            __typename: "PropertyInfoItem",
+            text: "Free WiFi",
+            state: null,
+            moreInfo: null,
+            icon: {
+              __typename: "Icon",
+              id: "wifi",
+              description: "",
+              size: null,
+              token: "wifi",
+              theme: null,
+            },
+          },
+          {
+            __typename: "PropertyInfoItem",
+            text: "Airport transfer",
+            state: null,
+            moreInfo: null,
+            icon: {
+              __typename: "Icon",
+              id: "airport_shuttle",
+              description: "",
+              size: null,
+              token: "airport_shuttle",
+              theme: null,
+            },
+          },
+          {
+            __typename: "PropertyInfoItem",
+            text: "Gym",
+            state: null,
+            moreInfo: null,
+            icon: {
+              __typename: "Icon",
+              id: "fitness_center",
+              description: "",
+              size: null,
+              token: "fitness_center",
+              theme: null,
+            },
+          },
+          {
+            __typename: "PropertyInfoItem",
+            text: "Air conditioning",
+            state: null,
+            moreInfo: null,
+            icon: {
+              __typename: "Icon",
+              id: "ac_unit",
+              description: "",
+              size: null,
+              token: "ac_unit",
+              theme: null,
+            },
+          },
+        ],
       },
-      "shoppingContext": {
-        "__typename": "ShoppingContext",
-        "multiItem": null
+      propertyContentPreferences: null,
+      amenitiesDialog: {
+        __typename: "LodgingAmenitiesDialog",
+        trigger: {
+          __typename: "LodgingDialogTriggerMessage",
+          value: "See all",
+          icon: {
+            __typename: "Icon",
+            id: "chevron_right",
+            description: "View all amenities",
+            size: null,
+            token: "icon__chevron_right",
+            theme: null,
+          },
+          clientSideAnalytics: {
+            __typename: "ClientSideAnalytics",
+            linkName: "View all amenities",
+            referrerId: "HOT.HIS.ViewAllAmenities",
+          },
+        },
+        toolbar: {
+          __typename: "LodgingDialogToolbar",
+          title: "Property amenities",
+        },
       },
-      "map": {
-        "__typename": "PropertySearchMap",
-        "subtitle": null
+      takeover: {
+        __typename: "PropertyTakeoverAmenities",
+        amenityClosures: null,
+        highlight: [
+          {
+            __typename: "PropertyInfoContent",
+            header: {
+              __typename: "LodgingHeader",
+              text: "",
+              subText: null,
+              mark: null,
+            },
+            icon: null,
+            jumpLink: null,
+            items: [
+              {
+                __typename: "PropertyInfoItem",
+                text: "Free parking",
+                state: null,
+                moreInfo: null,
+                icon: {
+                  __typename: "Icon",
+                  id: "local_parking",
+                  description: "",
+                  size: null,
+                  token: "local_parking",
+                  theme: null,
+                },
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Pool",
+                state: null,
+                moreInfo: null,
+                icon: {
+                  __typename: "Icon",
+                  id: "pool",
+                  description: "",
+                  size: null,
+                  token: "pool",
+                  theme: null,
+                },
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Free WiFi",
+                state: null,
+                moreInfo: null,
+                icon: {
+                  __typename: "Icon",
+                  id: "wifi",
+                  description: "",
+                  size: null,
+                  token: "wifi",
+                  theme: null,
+                },
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Airport transfer",
+                state: null,
+                moreInfo: null,
+                icon: {
+                  __typename: "Icon",
+                  id: "airport_shuttle",
+                  description: "",
+                  size: null,
+                  token: "airport_shuttle",
+                  theme: null,
+                },
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Gym",
+                state: null,
+                moreInfo: null,
+                icon: {
+                  __typename: "Icon",
+                  id: "fitness_center",
+                  description: "",
+                  size: null,
+                  token: "fitness_center",
+                  theme: null,
+                },
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Air conditioning",
+                state: null,
+                moreInfo: null,
+                icon: {
+                  __typename: "Icon",
+                  id: "ac_unit",
+                  description: "",
+                  size: null,
+                  token: "ac_unit",
+                  theme: null,
+                },
+              },
+            ],
+          },
+        ],
+        property: [
+          {
+            __typename: "PropertyInfoContent",
+            header: {
+              __typename: "LodgingHeader",
+              text: "Food and drink",
+              subText: null,
+              mark: null,
+            },
+            icon: {
+              __typename: "Icon",
+              id: "local_dining",
+              description: "",
+              size: null,
+              token: "local_dining",
+              theme: null,
+            },
+            jumpLink: null,
+            items: [
+              {
+                __typename: "PropertyInfoItem",
+                text: "3 restaurants",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "2 bars/lounges",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Poolside bar",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Coffee shop",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Barbecue grills",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Room service (limited hours)",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Snack bar/deli",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+            ],
+          },
+          {
+            __typename: "PropertyInfoContent",
+            header: {
+              __typename: "LodgingHeader",
+              text: "Traveling with children",
+              subText: null,
+              mark: null,
+            },
+            icon: {
+              __typename: "Icon",
+              id: "family_friendly",
+              description: "",
+              size: null,
+              token: "family_friendly",
+              theme: null,
+            },
+            jumpLink: null,
+            items: [
+              {
+                __typename: "PropertyInfoItem",
+                text: "Children stay free (see details)",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Children's pool",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Babysitting (surcharge)",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Children's menu",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+            ],
+          },
+          {
+            __typename: "PropertyInfoContent",
+            header: {
+              __typename: "LodgingHeader",
+              text: "What to do",
+              subText: null,
+              mark: null,
+            },
+            icon: {
+              __typename: "Icon",
+              id: "lob_activities",
+              description: "",
+              size: null,
+              token: "lob_activities",
+              theme: null,
+            },
+            jumpLink: null,
+            items: [
+              {
+                __typename: "PropertyInfoItem",
+                text: "On a private beach",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Beach yoga",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Beach volleyball",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Racquetball/squash",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Ecotours",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Kayaking",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Boat tours",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Scuba diving",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Snorkeling",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Shopping",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Free use of nearby fitness center",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+            ],
+          },
+          {
+            __typename: "PropertyInfoContent",
+            header: {
+              __typename: "LodgingHeader",
+              text: "Working away",
+              subText: null,
+              mark: null,
+            },
+            icon: {
+              __typename: "Icon",
+              id: "business_center",
+              description: "",
+              size: null,
+              token: "business_center",
+              theme: null,
+            },
+            jumpLink: null,
+            items: [
+              {
+                __typename: "PropertyInfoItem",
+                text: "24-hour business center",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Meeting room",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+            ],
+          },
+          {
+            __typename: "PropertyInfoContent",
+            header: {
+              __typename: "LodgingHeader",
+              text: "Services",
+              subText: null,
+              mark: null,
+            },
+            icon: {
+              __typename: "Icon",
+              id: "room_service",
+              description: "",
+              size: null,
+              token: "room_service",
+              theme: null,
+            },
+            jumpLink: null,
+            items: [
+              {
+                __typename: "PropertyInfoItem",
+                text: "24-hour front desk",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Concierge services",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Tour/ticket assistance",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Limo or town car service",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "On-site car rental",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Dry cleaning/laundry services",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Free newspapers in lobby",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Luggage storage",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Wedding services",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Multilingual staff",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Umbrellas",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Beach sun loungers",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Beach towels",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Beach umbrellas",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Pool loungers",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+            ],
+          },
+          {
+            __typename: "PropertyInfoContent",
+            header: {
+              __typename: "LodgingHeader",
+              text: "Facilities",
+              subText: null,
+              mark: null,
+            },
+            icon: {
+              __typename: "Icon",
+              id: "done",
+              description: "",
+              size: null,
+              token: "done",
+              theme: null,
+            },
+            jumpLink: null,
+            items: [
+              {
+                __typename: "PropertyInfoItem",
+                text: "Built in 2008",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Safe-deposit box at front desk",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Garden",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Picnic area",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Library",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Health club",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "2 outdoor pools",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Full-service spa",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Sauna",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Steam room",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+            ],
+          },
+          {
+            __typename: "PropertyInfoContent",
+            header: {
+              __typename: "LodgingHeader",
+              text: "Languages",
+              subText: null,
+              mark: null,
+            },
+            icon: {
+              __typename: "Icon",
+              id: "done",
+              description: "",
+              size: null,
+              token: "done",
+              theme: null,
+            },
+            jumpLink: null,
+            items: [
+              {
+                __typename: "PropertyInfoItem",
+                text: "Chinese (Mandarin)",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "English",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Russian",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+              {
+                __typename: "PropertyInfoItem",
+                text: "Vietnamese",
+                state: null,
+                moreInfo: null,
+                icon: null,
+              },
+            ],
+          },
+        ],
       },
-      "clickstream": {
-        "__typename": "SearchClickstreamEvents",
-        "searchResultsViewed": null
-      }
-    }
-  }
-}
+    },
+    cleaningAndSafety: null,
+    location: {
+      __typename: "PropertyLocation",
+      address: {
+        __typename: "PropertyAddress",
+        addressLine:
+          "Hon Tam (Silk Worm) Island, Vinh Nguyen, Nha Trang, Khanh Hoa, 57000",
+        city: "Nha Trang",
+        province: "Khanh Hoa",
+        countryCode: "VNM",
+        firstAddressLine: "Hon Tam (Silk Worm) Island",
+        secondAddressLine: "Vinh Nguyen",
+      },
+      coordinates: {
+        __typename: "Coordinates",
+        latitude: 12.178097,
+        longitude: 109.237653,
+      },
+      multiCityRegion: {
+        __typename: "Region",
+        id: "null",
+      },
+      whatsAround: {
+        __typename: "PropertyWhatsAround",
+        editorial: {
+          __typename: "PropertyEditorial",
+          title: "Nha Trang",
+          content: [
+            "Located in Nha Trang, MerPerle Hon Tam Resort is on a private beach. Alexandre Yersin Museum and Po Nagar Cham Towers are local landmarks, and the area's natural beauty can be seen at Hon Mieu Island and Vinpearl Beach. Take an opportunity to explore the area for water adventures such as swimming. ",
+          ],
+        },
+      },
+      mapDialog: {
+        __typename: "LodgingMapDialog",
+        trigger: {
+          __typename: "LodgingDialogTriggerMessage",
+          value: "View in a map",
+          icon: {
+            __typename: "Icon",
+            id: "chevron_right",
+            description: "",
+            size: null,
+            token: "icon__chevron_right",
+            theme: null,
+          },
+          clientSideAnalytics: null,
+        },
+        toolbar: null,
+      },
+      staticImage: {
+        __typename: "Image",
+        description: "Map",
+        url: "https://maps.googleapis.com/maps/api/staticmap?channel=expedia-HotelInformation&maptype=roadmap&format=jpg&zoom=13&scale=&size=600x120&markers=icon:https://a.travel-assets.com/shopping-pwa/images/his-preview-marker.png%7C12.178097,109.237653&key=AIzaSyCYjQus5kCufOpSj932jFoR_AJiL9yiwOw&signature=iJHo8h4-bfnpXjva9ySkYYD7C9g=",
+        aspectRatio: null,
+      },
+    },
+    nearbyPOIs: null,
+    lodgingChatbot: null,
+  },
+  propertyGallery: {
+    __typename: "PropertyImageGallery",
+    imagesGrouped: null,
+    images: [
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Private beach, white sand, sun loungers, beach umbrellas, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/7481b1b9.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Private beach, white sand, sun loungers, beach umbrellas",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Private beach, white sand, sun loungers, beach umbrellas, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/67a360e3.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Private beach, white sand, sun loungers, beach umbrellas",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Private beach, white sand, sun loungers, beach umbrellas, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/010520bf.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Private beach, white sand, sun loungers, beach umbrellas",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Private beach, white sand, sun loungers, beach umbrellas, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/7a02f0a3.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Private beach, white sand, sun loungers, beach umbrellas",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/c3ef1739.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/602b1536.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/773b0cc0.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Premier Family (1 Double + 1 Single) | Terrace/patio, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/b5f97e81.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Premier Family (1 Double + 1 Single) | Terrace/patio",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "View from room, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/f2c3d86e.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "View from room",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/b240df6e.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Forestal Deluxe Twin | Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/fbfc64d6.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Forestal Deluxe Twin | Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/f32dfcf3.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Tropical Deluxe Twin | Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/d3a713e4.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Tropical Deluxe Twin | Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Separate tub and shower, free toiletries, hair dryer, bathrobes, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/9990bc42.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Separate tub and shower, free toiletries, hair dryer, bathrobes",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Family Suite, 4 Bedrooms | Bathroom | Separate tub and shower, free toiletries, hair dryer, bathrobes, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/06e774fd.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Family Suite, 4 Bedrooms | Bathroom | Separate tub and shower, free toiletries, hair dryer, bathrobes",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Exterior, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/78e84a85.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Exterior",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Exterior, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/63e76769.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Exterior",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Exterior, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/03c52d79.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Exterior",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "2 bars/lounges, pub, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/96fa0b17.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "2 bars/lounges, pub",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "2 bars/lounges, pub, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/7c22af33.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "2 bars/lounges, pub",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "3 restaurants, breakfast served, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/0dc47295.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "3 restaurants, breakfast served",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "3 restaurants, breakfast served, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/612c234f.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "3 restaurants, breakfast served",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "3 restaurants, breakfast served, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/e36f5261.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "3 restaurants, breakfast served",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Sauna, hot springs, body treatments, beach massages, body wraps, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/b606d046.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Sauna, hot springs, body treatments, beach massages, body wraps",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Sauna, hot springs, body treatments, beach massages, body wraps, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/62e6166f.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Sauna, hot springs, body treatments, beach massages, body wraps",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Sauna, hot springs, body treatments, beach massages, body wraps, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/1e57d06a.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Sauna, hot springs, body treatments, beach massages, body wraps",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Lobby sitting area, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/d145114e.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Lobby sitting area",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Day care, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/16112820.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Day care",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Boating, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/42fd5eb8.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Boating",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Boating, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/2a507cca.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Boating",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Sports facility, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/56d2e40e.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Sports facility",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Yoga, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/8bfbc1b1.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Yoga",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Meeting facility, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/9557f8c5.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Meeting facility",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Meeting facility, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/ee6514f4.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Meeting facility",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Meeting facility, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/f9358155.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Meeting facility",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "View from property, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/f8da6e51.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "View from property",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Aerial view, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/41b615e9.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Aerial view",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "View from property, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/78adea25.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "View from property",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Property amenity, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/acf762f4.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Property amenity",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Billiards, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/2252b07d.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Billiards",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Private beach, white sand, sun loungers, beach umbrellas, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/42a595ba.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Private beach, white sand, sun loungers, beach umbrellas",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Private beach, white sand, sun loungers, beach umbrellas, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/d0a79d18.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Private beach, white sand, sun loungers, beach umbrellas",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Private beach, white sand, sun loungers, beach umbrellas, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/1e38451a.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Private beach, white sand, sun loungers, beach umbrellas",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/0bd6b3b6.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/b702cbef.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/e9de84ea.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/bc7287cb.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Deluxe Double Room, Garden View | View from room, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/4de7fb28.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Deluxe Double Room, Garden View | View from room",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Executive Suite (Queen) | Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/c0e72d33.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Executive Suite (Queen) | Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/c4deee21.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Deluxe Double Room, Garden View | Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/c5c86866.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Deluxe Double Room, Garden View | Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Separate tub and shower, free toiletries, hair dryer, bathrobes, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/e4e5dcd2.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Separate tub and shower, free toiletries, hair dryer, bathrobes",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Forestal Deluxe Twin | Bathroom | Separate tub and shower, free toiletries, hair dryer, bathrobes, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/53dce2bd.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Forestal Deluxe Twin | Bathroom | Separate tub and shower, free toiletries, hair dryer, bathrobes",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Exterior, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/de421aae.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Exterior",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Lake, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/f5723990.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Lake",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Exterior, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/5704b0f9.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Exterior",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Poolside bar, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/371a3885.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Poolside bar",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "3 restaurants, breakfast served, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/ddaa33c3.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "3 restaurants, breakfast served",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "3 restaurants, breakfast served, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/92030261.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "3 restaurants, breakfast served",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "3 restaurants, breakfast served, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/ea18dbb3.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "3 restaurants, breakfast served",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Sauna, hot springs, body treatments, beach massages, body wraps, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/fbf1527b.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Sauna, hot springs, body treatments, beach massages, body wraps",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Sauna, hot springs, body treatments, beach massages, body wraps, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/52070978.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Sauna, hot springs, body treatments, beach massages, body wraps",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Sauna, hot springs, body treatments, beach massages, body wraps, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/8ea85fdf.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Sauna, hot springs, body treatments, beach massages, body wraps",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Boating, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/8474f738.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Boating",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Boating, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/be419e4e.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Boating",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Sports facility, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/9875065c.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Sports facility",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Meeting facility, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/ecf02456.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Meeting facility",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Business center, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/5564507d.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Business center",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "View from property, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/664c9419.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "View from property",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "View from property, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/aec4f021.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "View from property",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "View from property, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/e17281b6.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "View from property",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/63a1991f.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/ca03d869.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/02205eb3.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Family Suite, 4 Bedrooms | Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/c88ec5ee.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Family Suite, 4 Bedrooms | Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Premier Family (1 Double + 1 Single) | Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/85adc9b6.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Premier Family (1 Double + 1 Single) | Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Premium Bungalow, 1 Queen Bed | Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/1914c70b.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Premium Bungalow, 1 Queen Bed | Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/04491a29.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Executive Suite (Queen) | Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/852281dd.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Executive Suite (Queen) | Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Tropical Deluxe Twin, Garden View | Bathroom | Separate tub and shower, free toiletries, hair dryer, bathrobes, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/970aed4a.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Tropical Deluxe Twin, Garden View | Bathroom | Separate tub and shower, free toiletries, hair dryer, bathrobes",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Tropical Deluxe Twin | Bathroom | Separate tub and shower, free toiletries, hair dryer, bathrobes, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/4494c0e5.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Tropical Deluxe Twin | Bathroom | Separate tub and shower, free toiletries, hair dryer, bathrobes",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Exterior, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/e177275b.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Exterior",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Dock, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/5a943685.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Dock",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Exterior, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/4e17b8e6.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Exterior",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "3 restaurants, breakfast served, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/1d6eda7a.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "3 restaurants, breakfast served",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "3 restaurants, breakfast served, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/11442b87.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "3 restaurants, breakfast served",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Buffet, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/55d0a42a.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Buffet",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Sports facility, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/9043f0c3.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Sports facility",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "View from property, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/67200f95.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "View from property",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Beach/ocean view, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/a03b773b.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Beach/ocean view",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "View from property, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/830e2bab.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "View from property",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/6af4fcee.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/d5030c5e.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/7069a19d.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Deluxe Quadruple Room, Garden View | Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/a09f3eaf.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Deluxe Quadruple Room, Garden View | Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "View from room, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/a38b3a0f.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "View from room",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/132eca4a.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Tropical Deluxe Double | Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/31ad26eb.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Tropical Deluxe Double | Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Premier Family (1 Double + 1 Single) | Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/07187131.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Premier Family (1 Double + 1 Single) | Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Bathroom sink, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/303a00b8.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Bathroom sink",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Separate tub and shower, free toiletries, hair dryer, bathrobes, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/387b8b88.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Separate tub and shower, free toiletries, hair dryer, bathrobes",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Exterior, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/b7f30803.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Exterior",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "3 restaurants, breakfast served, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/4ee5c410.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "3 restaurants, breakfast served",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Exterior, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/129ee37e.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Exterior",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Food and drink, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/d1fef81d.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Food and drink",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Breakfast area, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/3278f35c.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Breakfast area",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "3 restaurants, breakfast served, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/97b7c351.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "3 restaurants, breakfast served",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "View from property, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/751aea7c.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "View from property",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "View from property, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/35a8cf27.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "View from property",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/f14cd77c.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/37eaac21.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Waterslide, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/58aa1631.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Waterslide",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Family Suite, 3 Bedrooms | Living area | 32-inch LCD TV with cable channels, TV, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/a3eddedd.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Family Suite, 3 Bedrooms | Living area | 32-inch LCD TV with cable channels, TV",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Deluxe Double Room, Garden View | Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/43c92ad5.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Deluxe Double Room, Garden View | Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "32-inch LCD TV with cable channels, TV, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/67b0a351.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "32-inch LCD TV with cable channels, TV",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Forestal Deluxe Twin | Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/b96ddfd8.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Forestal Deluxe Twin | Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Forestal Deluxe Twin | Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/9549884f.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Forestal Deluxe Twin | Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Garden, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/dda81a10.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Garden",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Property grounds, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/807ad349.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Property grounds",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Garden, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/de05fbc8.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Garden",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "3 restaurants, breakfast served, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/7646ae95.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "3 restaurants, breakfast served",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "3 restaurants, breakfast served, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/74d363ba.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "3 restaurants, breakfast served",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "3 restaurants, breakfast served, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/0916892d.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "3 restaurants, breakfast served",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/b465fe9e.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "2 outdoor pools, open 8:00 AM to 4:00 PM, sun loungers",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Waterslide, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/08b922c1.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Waterslide",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Family Suite, 4 Bedrooms | Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/3b392eb1.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Family Suite, 4 Bedrooms | Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Executive Suite (Queen) | Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/ebbf01df.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Executive Suite (Queen) | Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Premier Family (1 Double + 1 Single) | Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/7abac7c5.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Premier Family (1 Double + 1 Single) | Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Tropical Deluxe Twin | Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/73b99bc8.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Tropical Deluxe Twin | Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Premier Family, Garden View | Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/56aa27a9.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Premier Family, Garden View | Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "3 restaurants, breakfast served, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/405d2a58.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "3 restaurants, breakfast served",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Dock, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/99faea71.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Dock",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Exterior, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/c624f24a.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Exterior",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "3 restaurants, breakfast served, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/6df873cf.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "3 restaurants, breakfast served",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "32-inch LCD TV with cable channels, TV, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/6f3e923e.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "32-inch LCD TV with cable channels, TV",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Family Suite, 3 Bedrooms | Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/ea9b26b6.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Family Suite, 3 Bedrooms | Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/d2ac0282.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Deluxe Quadruple Room, Garden View | Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/062b858c.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Deluxe Quadruple Room, Garden View | Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/aedb6310.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Exterior, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/cb9775fe.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Exterior",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Front of property, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/702a0ce3.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Front of property",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Garden, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/9a9cbbb9.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Garden",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Day Use Room With Mudbath (8h00-16h30) - Extra Charge for Overnight | Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/d3ea6f6a.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Day Use Room With Mudbath (8h00-16h30) - Extra Charge for Overnight | Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/da5fcf9d.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/9ffe4e56.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Deluxe Quadruple Room, Garden View | Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/7e766705.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Deluxe Quadruple Room, Garden View | Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Deluxe Quadruple Room, Garden View | Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/17f60945.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Deluxe Quadruple Room, Garden View | Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Garden, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/bff41651.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Garden",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "City shuttle, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/ae06cd77.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "City shuttle",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Garden, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/9762de55.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Garden",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Deluxe Quadruple Room, Garden View | View from room, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/b3b677a0.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Deluxe Quadruple Room, Garden View | View from room",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Deluxe Quadruple Room, Garden View | Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/436d7ebc.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Deluxe Quadruple Room, Garden View | Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Executive Suite (Queen) | View from room, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/edce9bb5.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Executive Suite (Queen) | View from room",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Tropical Deluxe Twin, Garden View | Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/483aed1d.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Tropical Deluxe Twin, Garden View | Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Tropical Deluxe Double, Garden View | Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/4031d3b5.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description:
+            "Tropical Deluxe Double, Garden View | Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Garden, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/a6d3ee01.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Garden",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Garden, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/db0d6804.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Garden",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Garden, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/70f677fd.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Garden",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText:
+          "Premium bedding, minibar, in-room safe, desk, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/a9ea1d9b.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Premium bedding, minibar, in-room safe, desk",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Room amenity, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/5fcfb5ec.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Room amenity",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Garden, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/3c906f65.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Garden",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Garden, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/ec27c3c9.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Garden",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Garden, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/5f4baeb5.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Garden",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/56756b76.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/70b021aa.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/54ab04d3.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/ecdca9d1.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/a88ad4df.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/fd823d15.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/fe94f795.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/792279ae.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/759bf42b.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/e686101d.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/14d73054.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/db0cb561.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/706c60ba.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Ferry terminal shuttle, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/2c1f2e73.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Ferry terminal shuttle",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/3438cfd9.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/543f4fba.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/21491408.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/e2020946.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/aabadded.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/f4e03d81.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/d651be89.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/ebe19b36.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/308ba485.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/780d17d4.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Ecotours, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/c6d51613.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Ecotours",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/d5e7ceba.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/373c6c5b.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/a6924cd0.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/839ae45d.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/babacf12.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/75079d1f.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/0d186c84.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/3e6da1e2.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/6eaf6391.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/12415b45.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/341e6740.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/30b5ea06.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/fb426c24.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/0d3ef08c.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/f7079a40.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/c8c61ad6.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/4e3eaef7.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/d1db3d68.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/fe799f75.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/6242f369.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/539ec15f.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/4ad1881c.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/2274c4ad.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/7195b210.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/e9735939.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/a19203a8.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/606862e1.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/b4e0ce7d.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/049b4db7.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/e9d6020e.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/bd3ad8e4.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/7c5c4eda.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/a3ffeeaa.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/44cb2111.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/c26cd68a.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/4d03821c.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+      {
+        __typename: "PropertyImage",
+        accessibilityText: "Hot springs, image",
+        imageId: null,
+        image: {
+          __typename: "Image",
+          url: "https://images.trvl-media.com/lodging/3000000/2550000/2540800/2540761/80d40439.jpg?impolicy=resizecrop&rw=500&ra=fit",
+          description: "Hot springs",
+        },
+      },
+    ],
+    accessibilityLabel: "Photo gallery for MerPerle Hon Tam Resort",
+    thumbnailGalleryDialog: {
+      __typename: "LodgingGalleryDialog",
+      trigger: {
+        __typename: "LodgingDialogTriggerMessage",
+        value: "224+",
+        icon: {
+          __typename: "Icon",
+          id: "photo_library",
+          description: "",
+          size: null,
+          token: "icon__photo_library",
+          theme: null,
+        },
+        clientSideAnalytics: null,
+      },
+      toolbar: {
+        __typename: "LodgingDialogToolbar",
+        title: "MerPerle Hon Tam Resort",
+        icon: {
+          __typename: "Icon",
+          id: "arrow_back",
+          description: "Cancel, go back to property details",
+          size: null,
+          token: "icon__arrow_back",
+          theme: null,
+        },
+        clientSideAnalytics: null,
+      },
+    },
+    mediaGalleryDialog: {
+      __typename: "LodgingGalleryDialog",
+      trigger: {
+        __typename: "LodgingDialogTriggerMessage",
+        value: "224+",
+        icon: null,
+        clientSideAnalytics: null,
+      },
+      toolbar: {
+        __typename: "LodgingDialogToolbar",
+        title: "MerPerle Hon Tam Resort",
+        icon: {
+          __typename: "Icon",
+          id: "close",
+          description: "Cancel, go back to property details",
+          size: null,
+          token: "icon__close",
+          theme: null,
+        },
+        clientSideAnalytics: null,
+      },
+    },
+  },
+  reviewInfo: {
+    __typename: "PropertyReviews",
+    summary: {
+      __typename: "PropertyReviewSummary",
+      overallScoreWithDescriptionA11y: {
+        __typename: "LodgingEnrichedMessage",
+        value: "8.2/10 Very Good",
+      },
+      propertyReviewCountDetails: {
+        __typename: "PropertyReviewCountDetails",
+        shortDescription: "See all 168 reviews",
+      },
+      highlightMessage: {
+        __typename: "MessageResult",
+        subtitle: {
+          __typename: "MessagingResultTitle",
+          text: "168 verified Hotels.com guest reviews",
+        },
+      },
+      seeAllAction: {
+        __typename: "PropertyFilteredReviewsDialog",
+        trigger: {
+          __typename: "LodgingDialogTriggerMessage",
+          clientSideAnalytics: {
+            __typename: "ClientSideAnalytics",
+            linkName: "Open property reviews dialog",
+            referrerId: "PropertyReviews.Open",
+          },
+        },
+      },
+    },
+  },
+  propertyContentSectionGroups: {
+    __typename: "PropertyContentSectionGroups",
+    cleanliness: {
+      __typename: "PropertyContentSectionGroup",
+      sectionName: "cleaningAndSafetyPractices",
+      sections: [
+        {
+          __typename: "PropertyContentSection",
+          sectionName: "cleaningAndSafetyPractices",
+          header: {
+            __typename: "LodgingHeader",
+            icon: null,
+            text: "Cleaning and safety practices",
+            subText: null,
+          },
+          bodySubSections: [
+            {
+              __typename: "PropertyContentSubSection",
+              elements: [
+                {
+                  __typename: "PropertyContent",
+                  header: {
+                    __typename: "LodgingHeader",
+                    text: "Enhanced cleanliness measures",
+                    subText: null,
+                    icon: {
+                      __typename: "Icon",
+                      id: "cleanliness",
+                      description: "",
+                      size: null,
+                      token: "icon__cleanliness",
+                      theme: null,
+                    },
+                    headerImage: null,
+                  },
+                  items: [
+                    {
+                      __typename: "PropertyContentItemTexts",
+                      contents: [
+                        {
+                          __typename: "PropertyContentText",
+                          primary: {
+                            __typename: "LodgingEnrichedMessage",
+                            value: "Disinfectant is used to clean the property",
+                            accessibilityLabel: null,
+                            icon: null,
+                          },
+                          secondary: null,
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+              expando: null,
+              maxColumns: 1,
+            },
+            {
+              __typename: "PropertyContentSubSection",
+              elements: [
+                {
+                  __typename: "PropertyContent",
+                  header: {
+                    __typename: "LodgingHeader",
+                    text: "Social distancing",
+                    subText: null,
+                    icon: {
+                      __typename: "Icon",
+                      id: "social_distance",
+                      description: "",
+                      size: null,
+                      token: "icon__social_distance",
+                      theme: null,
+                    },
+                    headerImage: null,
+                  },
+                  items: [
+                    {
+                      __typename: "PropertyContentItemTexts",
+                      contents: [
+                        {
+                          __typename: "PropertyContentText",
+                          primary: {
+                            __typename: "LodgingEnrichedMessage",
+                            value: "Social distancing measures in place",
+                            accessibilityLabel: null,
+                            icon: null,
+                          },
+                          secondary: null,
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+              expando: null,
+              maxColumns: 1,
+            },
+            {
+              __typename: "PropertyContentSubSection",
+              elements: [
+                {
+                  __typename: "PropertyContent",
+                  header: {
+                    __typename: "LodgingHeader",
+                    text: "Safety measures",
+                    subText: null,
+                    icon: {
+                      __typename: "Icon",
+                      id: "done",
+                      description: "",
+                      size: null,
+                      token: "icon__done",
+                      theme: null,
+                    },
+                    headerImage: null,
+                  },
+                  items: [
+                    {
+                      __typename: "PropertyContentItemTexts",
+                      contents: [
+                        {
+                          __typename: "PropertyContentText",
+                          primary: {
+                            __typename: "LodgingEnrichedMessage",
+                            value:
+                              "Personal protective equipment worn by staff",
+                            accessibilityLabel: null,
+                            icon: null,
+                          },
+                          secondary: null,
+                        },
+                        {
+                          __typename: "PropertyContentText",
+                          primary: {
+                            __typename: "LodgingEnrichedMessage",
+                            value: "Hand sanitizer provided",
+                            accessibilityLabel: null,
+                            icon: null,
+                          },
+                          secondary: null,
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+              expando: null,
+              maxColumns: 1,
+            },
+            {
+              __typename: "PropertyContentSubSection",
+              elements: [
+                {
+                  __typename: "PropertyContent",
+                  header: {
+                    __typename: "LodgingHeader",
+                    text: null,
+                    subText: null,
+                    icon: null,
+                    headerImage: null,
+                  },
+                  items: [
+                    {
+                      __typename: "PropertyContentItemText",
+                      content: {
+                        __typename: "PropertyContentText",
+                        primary: {
+                          __typename: "LodgingEnrichedMessage",
+                          value:
+                            "This information is provided by our partners.",
+                          accessibilityLabel: null,
+                          icon: null,
+                        },
+                        secondary: null,
+                      },
+                    },
+                  ],
+                },
+              ],
+              expando: null,
+              maxColumns: 1,
+            },
+          ],
+          action: null,
+        },
+      ],
+    },
+    aboutThisProperty: {
+      __typename: "PropertyContentSectionGroup",
+      sectionName: null,
+      sections: [
+        {
+          __typename: "PropertyContentSection",
+          sectionName: null,
+          header: {
+            __typename: "LodgingHeader",
+            icon: null,
+            text: "About this property",
+            subText: null,
+          },
+          bodySubSections: [
+            {
+              __typename: "PropertyContentSubSection",
+              elements: [
+                {
+                  __typename: "PropertyContent",
+                  header: {
+                    __typename: "LodgingHeader",
+                    text: "MerPerle Hon Tam Resort",
+                    subText: null,
+                    icon: null,
+                    headerImage: null,
+                  },
+                  items: [
+                    {
+                      __typename: "PropertyContentItemMarkup",
+                      content: {
+                        __typename: "MarkupText",
+                        text: "MerPerle Hon Tam Resort offers a private beach where you can enjoy beach umbrellas, beach massages, and yoga, plus you'll have access to onsite scuba diving, snorkeling, and parasailing. 2 outdoor pools provide fun for everyone, while guests in the mood for pampering can visit the spa to indulge in massages, body wraps, and facials. Sea Breeze, one of 3 restaurants, offers ocean views and serves breakfast, lunch, and dinner. Other highlights at this luxurious resort include 2 bars/lounges, a poolside bar, and a health club. The pool and helpful staff get good marks from fellow travelers. ",
+                        markupType: "HTML",
+                      },
+                    },
+                  ],
+                },
+              ],
+              expando: null,
+              maxColumns: 1,
+            },
+            {
+              __typename: "PropertyContentSubSection",
+              elements: [
+                {
+                  __typename: "PropertyContent",
+                  header: {
+                    __typename: "LodgingHeader",
+                    text: "Languages",
+                    subText: null,
+                    icon: null,
+                    headerImage: null,
+                  },
+                  items: [
+                    {
+                      __typename: "PropertyContentItemText",
+                      content: {
+                        __typename: "PropertyContentText",
+                        primary: {
+                          __typename: "LodgingEnrichedMessage",
+                          value:
+                            "Chinese (Mandarin), English, Russian, Vietnamese",
+                          accessibilityLabel: null,
+                          icon: null,
+                        },
+                        secondary: null,
+                      },
+                    },
+                  ],
+                },
+              ],
+              expando: null,
+              maxColumns: 1,
+            },
+          ],
+          action: null,
+        },
+        {
+          __typename: "PropertyContentSection",
+          sectionName: "cleaningAndSafetyPractices",
+          header: {
+            __typename: "LodgingHeader",
+            icon: null,
+            text: "Cleaning and safety practices",
+            subText: null,
+          },
+          bodySubSections: [
+            {
+              __typename: "PropertyContentSubSection",
+              elements: [
+                {
+                  __typename: "PropertyContent",
+                  header: {
+                    __typename: "LodgingHeader",
+                    text: "Enhanced cleanliness measures",
+                    subText: null,
+                    icon: {
+                      __typename: "Icon",
+                      id: "cleanliness",
+                      description: "",
+                      size: null,
+                      token: "icon__cleanliness",
+                      theme: null,
+                    },
+                    headerImage: null,
+                  },
+                  items: [
+                    {
+                      __typename: "PropertyContentItemTexts",
+                      contents: [
+                        {
+                          __typename: "PropertyContentText",
+                          primary: {
+                            __typename: "LodgingEnrichedMessage",
+                            value: "Disinfectant is used to clean the property",
+                            accessibilityLabel: null,
+                            icon: null,
+                          },
+                          secondary: null,
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+              expando: null,
+              maxColumns: 1,
+            },
+            {
+              __typename: "PropertyContentSubSection",
+              elements: [
+                {
+                  __typename: "PropertyContent",
+                  header: {
+                    __typename: "LodgingHeader",
+                    text: "Social distancing",
+                    subText: null,
+                    icon: {
+                      __typename: "Icon",
+                      id: "social_distance",
+                      description: "",
+                      size: null,
+                      token: "icon__social_distance",
+                      theme: null,
+                    },
+                    headerImage: null,
+                  },
+                  items: [
+                    {
+                      __typename: "PropertyContentItemTexts",
+                      contents: [
+                        {
+                          __typename: "PropertyContentText",
+                          primary: {
+                            __typename: "LodgingEnrichedMessage",
+                            value: "Social distancing measures in place",
+                            accessibilityLabel: null,
+                            icon: null,
+                          },
+                          secondary: null,
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+              expando: null,
+              maxColumns: 1,
+            },
+            {
+              __typename: "PropertyContentSubSection",
+              elements: [
+                {
+                  __typename: "PropertyContent",
+                  header: {
+                    __typename: "LodgingHeader",
+                    text: "Safety measures",
+                    subText: null,
+                    icon: {
+                      __typename: "Icon",
+                      id: "done",
+                      description: "",
+                      size: null,
+                      token: "icon__done",
+                      theme: null,
+                    },
+                    headerImage: null,
+                  },
+                  items: [
+                    {
+                      __typename: "PropertyContentItemTexts",
+                      contents: [
+                        {
+                          __typename: "PropertyContentText",
+                          primary: {
+                            __typename: "LodgingEnrichedMessage",
+                            value:
+                              "Personal protective equipment worn by staff",
+                            accessibilityLabel: null,
+                            icon: null,
+                          },
+                          secondary: null,
+                        },
+                        {
+                          __typename: "PropertyContentText",
+                          primary: {
+                            __typename: "LodgingEnrichedMessage",
+                            value: "Hand sanitizer provided",
+                            accessibilityLabel: null,
+                            icon: null,
+                          },
+                          secondary: null,
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+              expando: null,
+              maxColumns: 1,
+            },
+            {
+              __typename: "PropertyContentSubSection",
+              elements: [
+                {
+                  __typename: "PropertyContent",
+                  header: {
+                    __typename: "LodgingHeader",
+                    text: null,
+                    subText: null,
+                    icon: null,
+                    headerImage: null,
+                  },
+                  items: [
+                    {
+                      __typename: "PropertyContentItemText",
+                      content: {
+                        __typename: "PropertyContentText",
+                        primary: {
+                          __typename: "LodgingEnrichedMessage",
+                          value:
+                            "This information is provided by our partners.",
+                          accessibilityLabel: null,
+                          icon: null,
+                        },
+                        secondary: null,
+                      },
+                    },
+                  ],
+                },
+              ],
+              expando: null,
+              maxColumns: 1,
+            },
+          ],
+          action: null,
+        },
+      ],
+    },
+    policies: {
+      __typename: "PropertyContentSectionGroup",
+      sectionName: "Policies",
+      sections: [
+        {
+          __typename: "PropertyContentSection",
+          sectionName: null,
+          header: {
+            __typename: "LodgingHeader",
+            icon: null,
+            text: "Fees & policies",
+            subText: null,
+          },
+          bodySubSections: [
+            {
+              __typename: "PropertyContentSubSection",
+              elements: [
+                {
+                  __typename: "PropertyContent",
+                  header: {
+                    __typename: "LodgingHeader",
+                    text: "Optional extras",
+                    subText: null,
+                    icon: null,
+                    headerImage: null,
+                  },
+                  items: [
+                    {
+                      __typename: "PropertyContentItemMarkup",
+                      content: {
+                        __typename: "MarkupText",
+                        text: "<ul><li><strong>Airport shuttle</strong> service is offered for an extra charge of USD 25 per vehicle (one-way, maximum occupancy 4)</li><li><strong>Train station pick-up</strong> service is offered for an extra charge</li><li><strong>Early check-in</strong> can be arranged for an extra charge (subject to availability)</li><li><strong>Late check-out</strong> can be arranged for an extra charge (subject to availability)</li> </ul>",
+                        markupType: "HTML",
+                      },
+                    },
+                  ],
+                },
+              ],
+              expando: null,
+              maxColumns: 1,
+            },
+            {
+              __typename: "PropertyContentSubSection",
+              elements: [
+                {
+                  __typename: "PropertyContent",
+                  header: {
+                    __typename: "LodgingHeader",
+                    text: "Children & extra beds",
+                    subText: null,
+                    icon: null,
+                    headerImage: null,
+                  },
+                  items: [
+                    {
+                      __typename: "PropertyContentItemMarkup",
+                      content: {
+                        __typename: "MarkupText",
+                        text: "<ul><li>Babysitting is available for an extra charge</li><li>Rollaway beds are available for USD 1412000.0 per day</li></ul>",
+                        markupType: "HTML",
+                      },
+                    },
+                  ],
+                },
+              ],
+              expando: null,
+              maxColumns: 1,
+            },
+            {
+              __typename: "PropertyContentSubSection",
+              elements: [
+                {
+                  __typename: "PropertyContent",
+                  header: {
+                    __typename: "LodgingHeader",
+                    text: "Pool, spa, & gym (if applicable)",
+                    subText: null,
+                    icon: null,
+                    headerImage: null,
+                  },
+                  items: [
+                    {
+                      __typename: "PropertyContentItemMarkup",
+                      content: {
+                        __typename: "MarkupText",
+                        text: "<ul><li>Pool access available from 8:00 AM to 4:00 PM</li><li>Reservations are required for massage services and spa treatments and can be made by contacting the property before arrival at the number on the booking confirmation</li></ul>",
+                        markupType: "HTML",
+                      },
+                    },
+                  ],
+                },
+              ],
+              expando: null,
+              maxColumns: 1,
+            },
+            {
+              __typename: "PropertyContentSubSection",
+              elements: [
+                {
+                  __typename: "PropertyContent",
+                  header: {
+                    __typename: "LodgingHeader",
+                    text: "Hygiene & cleanliness",
+                    subText: null,
+                    icon: null,
+                    headerImage: null,
+                  },
+                  items: [
+                    {
+                      __typename: "PropertyContentItemMarkup",
+                      content: {
+                        __typename: "MarkupText",
+                        text: "<p>This property advises that enhanced cleaning and guest safety measures are currently in place.</p><p>Disinfectant is used to clean the property.</p><p>Social distancing measures are in place; staff at the property wear personal protective equipment; guests are provided with hand sanitizer.</p>",
+                        markupType: "HTML",
+                      },
+                    },
+                  ],
+                },
+              ],
+              expando: null,
+              maxColumns: 1,
+            },
+            {
+              __typename: "PropertyContentSubSection",
+              elements: [
+                {
+                  __typename: "PropertyContent",
+                  header: {
+                    __typename: "LodgingHeader",
+                    text: "Policies",
+                    subText: null,
+                    icon: null,
+                    headerImage: null,
+                  },
+                  items: [
+                    {
+                      __typename: "PropertyContentItemTexts",
+                      contents: [
+                        {
+                          __typename: "PropertyContentText",
+                          primary: {
+                            __typename: "LodgingEnrichedMessage",
+                            value:
+                              "<p>Only registered guests are allowed in the guestrooms. </p> <p>This property does not have elevators. </p><p>Guests can rest easy knowing there's a fire extinguisher, a smoke detector, a security system, and a first aid kit on site. </p><p>Please note that cultural norms and guest policies may differ by country and by property. The policies listed are provided by the property. </p><p>The name on the credit card used at check-in to pay for incidentals must be the primary name on the guestroom reservation. </p><p>This property accepts credit cards and cash.</p>",
+                            accessibilityLabel: null,
+                            icon: null,
+                          },
+                          secondary: null,
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+              expando: null,
+              maxColumns: 1,
+            },
+            {
+              __typename: "PropertyContentSubSection",
+              elements: [
+                {
+                  __typename: "PropertyContent",
+                  header: {
+                    __typename: "LodgingHeader",
+                    text: "Also known as",
+                    subText: null,
+                    icon: null,
+                    headerImage: null,
+                  },
+                  items: [
+                    {
+                      __typename: "PropertyContentItemText",
+                      content: {
+                        __typename: "PropertyContentText",
+                        primary: {
+                          __typename: "LodgingEnrichedMessage",
+                          value: "Hon Tam Resort",
+                          accessibilityLabel: null,
+                          icon: null,
+                        },
+                        secondary: null,
+                      },
+                    },
+                    {
+                      __typename: "PropertyContentItemText",
+                      content: {
+                        __typename: "PropertyContentText",
+                        primary: {
+                          __typename: "LodgingEnrichedMessage",
+                          value: "MerPerle",
+                          accessibilityLabel: null,
+                          icon: null,
+                        },
+                        secondary: null,
+                      },
+                    },
+                    {
+                      __typename: "PropertyContentItemText",
+                      content: {
+                        __typename: "PropertyContentText",
+                        primary: {
+                          __typename: "LodgingEnrichedMessage",
+                          value: "MerPerle Hon Tam",
+                          accessibilityLabel: null,
+                          icon: null,
+                        },
+                        secondary: null,
+                      },
+                    },
+                    {
+                      __typename: "PropertyContentItemText",
+                      content: {
+                        __typename: "PropertyContentText",
+                        primary: {
+                          __typename: "LodgingEnrichedMessage",
+                          value: "MerPerle Hon Tam Resort",
+                          accessibilityLabel: null,
+                          icon: null,
+                        },
+                        secondary: null,
+                      },
+                    },
+                    {
+                      __typename: "PropertyContentItemText",
+                      content: {
+                        __typename: "PropertyContentText",
+                        primary: {
+                          __typename: "LodgingEnrichedMessage",
+                          value: "MerPerle Resort",
+                          accessibilityLabel: null,
+                          icon: null,
+                        },
+                        secondary: null,
+                      },
+                    },
+                    {
+                      __typename: "PropertyContentItemText",
+                      content: {
+                        __typename: "PropertyContentText",
+                        primary: {
+                          __typename: "LodgingEnrichedMessage",
+                          value: "Resort Hon Tam",
+                          accessibilityLabel: null,
+                          icon: null,
+                        },
+                        secondary: null,
+                      },
+                    },
+                    {
+                      __typename: "PropertyContentItemText",
+                      content: {
+                        __typename: "PropertyContentText",
+                        primary: {
+                          __typename: "LodgingEnrichedMessage",
+                          value: "Hon Tam Hotel Nha Trang",
+                          accessibilityLabel: null,
+                          icon: null,
+                        },
+                        secondary: null,
+                      },
+                    },
+                    {
+                      __typename: "PropertyContentItemText",
+                      content: {
+                        __typename: "PropertyContentText",
+                        primary: {
+                          __typename: "LodgingEnrichedMessage",
+                          value: "MerPerle Hon Tam Resort Nha Trang",
+                          accessibilityLabel: null,
+                          icon: null,
+                        },
+                        secondary: null,
+                      },
+                    },
+                    {
+                      __typename: "PropertyContentItemText",
+                      content: {
+                        __typename: "PropertyContentText",
+                        primary: {
+                          __typename: "LodgingEnrichedMessage",
+                          value: "MerPerle Hon Tam Nha Trang",
+                          accessibilityLabel: null,
+                          icon: null,
+                        },
+                        secondary: null,
+                      },
+                    },
+                    {
+                      __typename: "PropertyContentItemText",
+                      content: {
+                        __typename: "PropertyContentText",
+                        primary: {
+                          __typename: "LodgingEnrichedMessage",
+                          value: "MerPerle Hon Tam Resort Resort",
+                          accessibilityLabel: null,
+                          icon: null,
+                        },
+                        secondary: null,
+                      },
+                    },
+                    {
+                      __typename: "PropertyContentItemText",
+                      content: {
+                        __typename: "PropertyContentText",
+                        primary: {
+                          __typename: "LodgingEnrichedMessage",
+                          value: "MerPerle Hon Tam Resort Nha Trang",
+                          accessibilityLabel: null,
+                          icon: null,
+                        },
+                        secondary: null,
+                      },
+                    },
+                    {
+                      __typename: "PropertyContentItemText",
+                      content: {
+                        __typename: "PropertyContentText",
+                        primary: {
+                          __typename: "LodgingEnrichedMessage",
+                          value: "MerPerle Hon Tam Resort Resort Nha Trang",
+                          accessibilityLabel: null,
+                          icon: null,
+                        },
+                        secondary: null,
+                      },
+                    },
+                  ],
+                },
+              ],
+              expando: null,
+              maxColumns: 1,
+            },
+          ],
+          action: null,
+        },
+      ],
+    },
+    importantInfo: null,
+  },
+  saveTripItem: null,
+};
+
+property.summary.location.address.addressLine;
