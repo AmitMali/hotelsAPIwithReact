@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Footer from "../components/Footer";
 import MainLayout from "../components/layoutes/MainLayout";
 import Forms from "../pages/Forms";
+import Formsapi from "../pages/Formsapi";
 import Home from "../pages/Home";
 import PropertyDetail from "../pages/PropertyDetail";
 import Test from "../pages/Test";
@@ -14,10 +15,11 @@ function App() {
           <Route path="/property">
             <Route path=":property_id" element={<PropertyDetail />}></Route>
           </Route>
-          <Route path="/test">
-            <Route index element={<Test />} />
-            <Route path="forms" element={<Forms />} />
-          </Route>
+        </Route>
+        <Route path="/test">
+          <Route index element={<Test />} />
+          <Route path="forms" element={<Forms />} />
+          <Route path="forms/userapi" element={<Formsapi />} />
         </Route>
       </Routes>
     </>
